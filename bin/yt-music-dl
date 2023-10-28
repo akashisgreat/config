@@ -1,3 +1,0 @@
-#!/bin/bash
-
-youtube-dl --skip-download -g -x --audio-format wav --yes-playlist "ytsearch:$*"
