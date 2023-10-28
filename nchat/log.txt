@@ -1,0 +1,3 @@
+2023-10-14 16:16:32.461 | INFO  | starting nchat v3.64  (main.cpp:215)
+2023-10-14 16:17:35.183 | WARN  | state not connected 1  (gowm.go:1419)
+2023-10-14 16:17:35.183 | INFO  | entering ui loop  (ui.cpp:74)

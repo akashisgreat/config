@@ -1,0 +1,17 @@
+#!/bin/bash
+#value=5
+
+if [[ -z $2 ]]; then  
+  value=5
+else
+  value=$2
+fi
+
+
+if [[ $1 == "+" ]]; then
+  light -A $value
+else
+  light -U $value
+fi
+curr_vol=$(light -G)
+#notify-send -r 2 -h int:value:$curr_vol "Brightness $curr_vol"

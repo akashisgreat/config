@@ -1,0 +1,14 @@
+{
+  "menu": [
+   {
+      "name": "Notifyer",
+      "method": "shell",
+      "cmd": "notify-send 'Hello man'"
+    },
+    {
+      "name": "Notifyer 2",
+      "method": "shell",
+      "cmd": "notify-send 'Great Work Second Time'"
+    }
+  ]
+}

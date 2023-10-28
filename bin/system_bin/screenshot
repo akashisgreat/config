@@ -1,0 +1,22 @@
+#!/bin/bash
+ss_path='/home/akash/pic/ss'
+file_name="$(date +'%Y%m%d_%H%M%S.png')"
+timeout=5000
+
+
+
+
+
+
+if [[ $1 == '-c' ]]; then
+  if [[ $2 == '--copy-only' ]]; then
+    grim  -g "$(slurp -w 0 -b '#62f7644f' -d)" -t png - | wl-copy  
+    notify-send -t $timeout -r 1 "🔗 🖼️ Screenshot Copied" 
+    exit
+  fi
+  grim  -g "$(slurp -w 0 -b '#62f7644f' -d)" -t png "$ss_path/$file_name" && notify-send -t $timeout -r 1 "🖼️ Screenshot [Croped]" "$file_name"
+  wl-copy < "$ss_path/$file_name"
+  exit
+fi
+grim -t png "$ss_path/$file_name" && notify-send -t $timeout -r 1 "🖼️ Screenshot" "$file_name"
+wl-copy < "$ss_path/$file_name"

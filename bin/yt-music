@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+mpv $(youtube-dl --skip-download -g -x --audio-format wav "ytsearch:$*" | head -n 1)

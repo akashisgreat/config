@@ -1,0 +1,2 @@
+2023-07-26 19:52:32.057 | INFO  | starting nchat v3.64  (main.cpp:215)
+2023-07-26 19:52:32.066 | INFO  | exiting nchat  (main.cpp:343)

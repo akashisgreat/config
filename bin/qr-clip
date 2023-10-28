@@ -1,0 +1,3 @@
+#!/bin/bash
+echo $$ > /tmp/qr-id
+qrencode -t PNG -s 8 -o /tmp/qr-clip.png "$(wl-paste)"; sxiv /tmp/qr-clip.png

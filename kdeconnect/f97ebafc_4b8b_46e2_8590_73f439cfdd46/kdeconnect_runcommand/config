@@ -1,0 +1,2 @@
+[General]
+commands="@ByteArray({\"_02e46edd_67b2_487f_9dd0_9d3c13ee852f_\":{\"command\":\"swaylock\",\"name\":\"swaylocak\"},\"_4d8b12db_7816_4dc2_b79a_92b14a0a50be_\":{\"command\":\"notify-send \\\"Hello\\\"\",\"name\":\"notification\"}})"

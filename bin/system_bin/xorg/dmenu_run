@@ -1,0 +1,31 @@
+#!/bin/sh
+# end a command with ; to run in a terminal
+## dmenu_run:
+##
+
+
+cache="$HOME/.cache/dmenu_path"
+
+touch "$cache"
+
+# cleaning
+while read cmd
+do
+    command -v ${cmd%;} &>/dev/null || sed -i "/$cmd/d" $cache
+done < <(sort -u $cache)
+
+most_used=$(awk '!x[$0]++' "$cache")
+run=$((echo "$most_used"; dmenu_path | grep -vxF "$most_used") | dmenu -l 20 -bw 3 -c "$@")
+
+
+[ -z "$run" ] && exit 1
+
+
+(echo "$run"; head -n 99 "$cache") > "$cache.$$"
+mv "$cache.$$" "$cache"
+
+case "$run" in
+    *\;) st -e /bin/sh -c "${run%;}" & ;;
+    *)   /bin/sh -c "$run" & ;;
+esac
+

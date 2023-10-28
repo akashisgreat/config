@@ -1,0 +1,155 @@
+{
+    "position": "top",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        // "custom/info",
+        "network",
+        "bluetooth",
+        "pulseaudio",
+        "battery",
+        "clock"
+    ],
+    "hyprland/window": {
+        "format": "{}",
+        "on-click-middle": "killall wofi || wofi"
+
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "🖿",
+            "4": "🖹",
+            "5": "",
+            "default": ""
+        }
+
+    },
+    "clock": {
+        "format": " {:%I:%M %p   %d/%m}",
+        "format-alt": "{:%A, %d/%B/%Y}",
+        "interval": 1,
+        "on-click-middle": "killall wofi || wofi --show drun"
+    },
+    "battery": {
+        "states": {
+            "high": 98,
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "min-length": 6,
+        "on-scroll-up": "brightnessctl set 1%+",
+        "on-scroll-down": "brightnessctl set 1%-",
+        "on-click-middle": "killall wlogout || ~/.config/system_bin/wlogout --protocol layer-shell "
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "tooltip": false,
+        "format-muted": " Muted",
+        "on-click": "pamixer -t",
+        "on-click-middle": "killall pulsemixer || kitty -e pulsemixer",
+        "on-scroll-up": "pamixer -i 5",
+        "on-scroll-down": "pamixer -d 5",
+        "scroll-step": 5,
+        "min-length": 6,
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        }
+    },
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": " Muted",
+        "on-click": "pamixer --default-source -t",
+        "on-scroll-up": "pamixer --default-source -i 5",
+        "on-scroll-down": "pamixer --default-source -d 5",
+        "scroll-step": 5
+    },
+    "network": {
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{essid} - {ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        //"format-alt": "{ifname}:{essid} {ipaddr}/{cidr}",
+        "format-alt": "{essid} {ipaddr}",
+        "on-click-middle": "killall nmtui-connect || kitty -e nmtui-connect"
+    },
+    "bluetooth": {
+        "format": " {status}",
+        //"on-click": "~/.config/system_bin/bluetooth_connect_toggle",
+        "on-click-middle": "killall blueman-manager || blueman-manager",
+        "format-connected": " {num_connections} ",
+        "tooltip-format": "{device_alias}",
+        "tooltip-format-connected": " {device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}",
+        "format-alt": " {device_alias}"
+    },
+    "custom/info": {
+        "exec": "~/.local/bin/show-additional-info",
+        "interval": 86,
+        "format": "{}"
+    },
+    "custom/other": {
+        "exec": "echo '     🖿    🖹   '",
+        "interval": 86,
+        "format": "{}"
+    }
+}
+//"modules-center": ["hyprland/window"],
+// "persistent_workspaces": {
+//     "1": [], 
+//     "2": [], 
+//     "3": [], 
+//     "4": [], 
+//     "5": []
+// },
+// "format-icons": {
+//"1": "",
+//"2": "",
+// "3": "🖿",
+// "4": "",
+//"5": "🖹",
+//"6": "",
+// "default": ""
+//},

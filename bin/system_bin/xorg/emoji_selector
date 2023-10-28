@@ -1,0 +1,5 @@
+#!/bin/zsh 
+#emoji=$(cat /usr/local/share/emoji  | cut -d' ' -f1 | dmenu -p "👉 ")
+emoji=$(cat ~/.local/share/emojis  | dmenu -p "👉 " -l 15 | cut -d' ' -f1)
+xdotool type $emoji;
+echo -n $emoji | xclip -selection clipboard 

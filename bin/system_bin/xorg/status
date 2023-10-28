@@ -1,0 +1,4 @@
+#!/bin/sh
+echo ""
+# Check if a USB drive is connected
+if [ $(lsusb | wc -l) -gt 7 ]; then echo "🖴";fi

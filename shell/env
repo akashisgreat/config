@@ -1,0 +1,3 @@
+EDITOR=nvim
+export WALLPAPER='/home/akash/dl/img.jpg'
+export TEMP_FILE=/tmp/.deleted

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+qrencode "$*" -o /tmp/qr; sxiv /tmp/qr -s f

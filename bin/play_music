@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ffmpeg -y -f alsa -i default -acodec pcm_s16le -ac 1 -ar 44100 -t 5 -f wav /tmp/myvoice.wav
+
+vosk-transcriber -m "/home/akash/ass-music/vosk-model-hi-0.22" -i /tmp/myvoice.wav -o /tmp/data.txt
+
+google_speech "Ok, Playing $(cat /tmp/data.txt)" &
+
+query="$(cat /tmp/data.txt)"
+
+url=$(yt-dlp  -f bestaudio "ytsearch2:$query" --get-url  | head -n 1)
+
+mpv "$url"

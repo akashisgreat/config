@@ -1,0 +1,6 @@
+while true
+ do
+ xsetroot -name "$(internet) | $(volume) | $(battery) | $(clock)" 
+sleep 5
+done
+

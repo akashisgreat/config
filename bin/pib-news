@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+url="https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+
+curl -s $url | xq | jq '.rss.channel.item[] | .title + "\n" + .link + "\n"'  -r # show tile and link 
+
+#links=$(curl -s "$url" | xq | jq '.rss.channel.item[].link' -r)
+
+
+#for link in $links
+#do
+#  curl -s "$link" | pup 'h2 text{}' | awk 'NF' | sed 's/^[[:space:]]*//' | sed 's/$/&\n/'
+#done

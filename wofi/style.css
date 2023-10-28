@@ -1,0 +1,140 @@
+/* window {
+    margin: 0px;
+    border: 5px solid #1e1e2e;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+#input {
+    padding: 4px;
+    margin: 4px;
+    padding-left: 20px;
+    border: none;
+    color: #cdd6f4;
+    font-weight: bold;
+    background-color: #55555f;
+   	outline: none;
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+#input:focus {
+    border: 0px solid #72728e;
+    margin-bottom: 0px;
+}
+
+#inner-box {
+    margin: 4px;
+    border: 10px solid #1e1e2e;
+    color: #cdd6f4;
+    font-weight: bold;
+    background-color: #2f2f35;
+    border-radius: 15px;
+}
+
+#outer-box {
+    margin: 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5b5b62;
+}
+
+#scroll {
+    margin-top: 5px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+#img:selected {
+    background-color: #89b4fa;
+    border-radius: 15px;
+}
+
+#text:selected {
+    color: #cdd6f4;
+    margin: 0px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: #89b4fa;
+}
+
+
+
+*/
+/* ::root{ */
+/*     --accent: #5291e2; */
+/*     --dark: #383C4A; */
+/*     --light: #7C818C; */
+/*     --ld: #404552; */
+/*     --dl: #4B5162 */
+/*     --white: white; */
+/* } */
+
+*{
+    font-family: monospace;
+}
+
+window {
+    background-color: #7C818C;
+    border-radius: 15px;
+}
+
+#input {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #4e525f;
+    color: white;
+    border-radius: 10px;
+}
+
+#inner-box {
+    background-color: #383C4A;
+    border-radius: 15px;
+    
+}
+
+#outer-box {
+    margin: 5px;
+    padding:20px;
+    background-color: #383C4A;
+    border-radius: 15px;
+}
+
+#scroll {
+   
+}
+
+#text {
+padding: 5px;
+color: white;
+}
+
+#entry:nth-child(even){
+    background-color: #404552;
+}
+
+#entry:selected {
+    background-color: #5291e2;
+}
+
+#text:selected {
+    color: #000;
+}
+
+
+#entry {
+    margin: 0px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#entry:selected {
+    margin: 0px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: #89b4fa;
+    background-color: #7294d8;
+} 

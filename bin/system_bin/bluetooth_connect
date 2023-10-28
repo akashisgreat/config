@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+MAC="FC:58:FA:8B:98:9D"
+
+output=$(bluetoothctl info | grep Name)
+
+if [ -z "$output" ]; then
+    bluetoothctl connect $MAC
+    exit
+else
+    bluetoothctl disconnect $MAC
+    exit
+fi
+
