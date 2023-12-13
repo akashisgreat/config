@@ -1,7 +1,0 @@
-- hibernate/halt
-- suspend/sleep
-- reboot
-- shutdown
-- if not used the automatically suspend > then hibernate. after re booting the sesion should be resumed.
-
-

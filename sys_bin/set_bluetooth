@@ -1,0 +1,19 @@
+#!/bin/bash
+bluetoolh_setting="blueman-manager"
+#headphone_MAC="FC:58:FA:8B:98:9D"
+headphone_MAC="8C:FD:15:81:93:16"
+
+if [[ $1 == "-s" ]]; then
+  killall $bluetoolh_setting || $bluetoolh_setting
+  exit
+
+elif [[ $1 == "-d" ]]; then
+  output=$(bluetoothctl info | grep Name)
+  if [ -z "$output" ]; then
+    bluetoothctl connect $headphone_MAC
+    exit
+  else
+    bluetoothctl disconnect $headphone_MAC
+    exit
+  fi
+fi

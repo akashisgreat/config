@@ -1,0 +1,25 @@
+#!/bin/bash
+
+timeout_sec=3
+
+if [[ $1 == "-o" ]]; then
+  qrencode -t PNG -s 8 -o /tmp/qr.png "$(wl-paste)"
+  killall imv-wayland|| timeout $(($timesec + 7)) imv /tmp/qr.png
+  exit
+fi
+
+
+qr_result=$(timeout $timeout_sec zbarcam -1 --nodisplay | sed 's/QR-Code://' 2>/dev/null)
+
+if [ -n "$qr_result" ]; then
+  wl-copy "$qr_result"
+  notify-send "$qr_result"
+    exo-open "$qr_result"
+ # canOpen="$(echo  -e "Open\nNo" | xmenu)"
+  if [[ $canOpen == "Open"  ]]; then
+    exo-open "$qr_result"
+  fi
+else
+  echo "QR code scan failed or timed out"
+fi
+

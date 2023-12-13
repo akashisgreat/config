@@ -1,3 +1,0 @@
-#!/bin/sh
-note=$(printf "" | dmenu -p "➜" )
-[[ ! -z "$note" ]] && echo $note >> ~/.note

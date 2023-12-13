@@ -6,6 +6,7 @@ kdeconnect_findmyphoneEnabled=false
 kdeconnect_findthisdeviceEnabled=false
 kdeconnect_lockdeviceEnabled=true
 kdeconnect_mmtelephonyEnabled=false
+kdeconnect_mpriscontrolEnabled=false
 kdeconnect_notificationsEnabled=false
 kdeconnect_pausemusicEnabled=false
 kdeconnect_sendnotificationsEnabled=false

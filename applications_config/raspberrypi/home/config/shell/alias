@@ -1,0 +1,30 @@
+alias ls='ls -v --color=auto'
+alias remove="awk 'NF' | sed 's/^[[:space:]]*//'"
+alias ll='ls -tlah'
+alias grep='grep --color -i'
+alias open='xdg-open'
+
+alias gc='git clone'
+alias ga='git add -A'
+alias gl='git log'
+alias gb='git branch'
+alias gch='git checkout'
+
+alias sps='sudo apt install -y '
+alias spr='sudo apt remove '
+alias smi='sudo make install'
+alias cf=". cf"
+
+alias e="echo"
+alias c='cat'
+alias b='bat -Pp'
+alias m='make'
+alias g='grep'
+alias cl='clear'
+alias n='nvim'
+alias z='fzf'
+alias ser='python3 -m http.server'
+alias hz="history +1 | cut -c 8- | fzf | tr -d '\n'"
+alias nz='nvim $(find . | fzf)'
+alias bz='bat $(find . | fzf)'
+alias cz='cd $(find . -type d 2>/dev/null | fzf)'

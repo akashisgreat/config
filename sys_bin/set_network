@@ -1,0 +1,15 @@
+#!/bin/bash
+wifi_setting="nm-connection-editor"
+wifi_setting="nmtui-connect"
+
+if [[ $1 == "-s" ]]; then
+  if [[ $wifi_setting == "nmtui"* ]]; then
+
+  killall $wifi_setting || kitty -e  $wifi_setting
+else  
+  killall $wifi_setting || $wifi_setting
+  
+  fi
+  exit
+fi
+

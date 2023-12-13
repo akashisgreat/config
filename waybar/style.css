@@ -58,7 +58,7 @@ window#waybar {
 }
 
 /* __TOOLS__ */
-#custom-info,
+#custom-other,
 #window,
 #clock,
 #battery,
@@ -78,7 +78,7 @@ window#waybar {
     margin: 0px 50px;
 } 
 
-#custom-info {
+#custom-other{
     margin-right: 3px;
     border-radius: 10px;
     color: white;

@@ -10,7 +10,7 @@
         "hyprland/window"
     ],
     "modules-right": [
-        // "custom/info",
+        "custom/other",
         "network",
         "bluetooth",
         "pulseaudio",
@@ -38,10 +38,10 @@
 
     },
     "clock": {
-        "format": " {:%I:%M %p   %d/%m}",
+        //"format": " {:%I:%M %p   %d/%m}",
+        "format": " {:%d/%m  %I:%M%p}",
         "format-alt": "{:%A, %d/%B/%Y}",
-        "interval": 1,
-        "on-click-middle": "killall wofi || wofi --show drun"
+        "interval": 1
     },
     "battery": {
         "states": {
@@ -55,31 +55,31 @@
         "format-plugged": " {capacity}%",
         "format-alt": "{time} {icon}",
         "format-icons": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
         ],
-        "min-length": 6,
+        "min-length": 5,
         "on-scroll-up": "brightnessctl set 1%+",
         "on-scroll-down": "brightnessctl set 1%-",
-        "on-click-middle": "killall wlogout || ~/.config/system_bin/wlogout --protocol layer-shell "
+        "on-click-middle": "killall wlogout || ~/.config/sys_bin/wlogout --protocol layer-shell "
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "tooltip": false,
         "format-muted": " Muted",
         "on-click": "pamixer -t",
-        "on-click-middle": "killall pulsemixer || kitty -e pulsemixer",
-        "on-scroll-up": "pamixer -i 5",
-        "on-scroll-down": "pamixer -d 5",
+        //"on-click-middle": "killall pulsemixer || kitty -e pulsemixer",
+        "on-click-middle": "~/.config/sys_bin/set_volume -s",
+        "on-scroll-up": "~/.config/sys_bin/set_volume +",
+        "on-scroll-down": "~/.config/sys_bin/set_volume -",
         "scroll-step": 5,
         "min-length": 6,
         "format-icons": {
@@ -113,28 +113,23 @@
         "format-disconnected": "Disconnected ⚠",
         //"format-alt": "{ifname}:{essid} {ipaddr}/{cidr}",
         "format-alt": "{essid} {ipaddr}",
-        "on-click-middle": "killall nmtui-connect || kitty -e nmtui-connect"
+        "on-click-middle": "~/.config/sys_bin/set_network -s "
     },
     "bluetooth": {
         "format": " {status}",
-        //"on-click": "~/.config/system_bin/bluetooth_connect_toggle",
-        "on-click-middle": "killall blueman-manager || blueman-manager",
+        "on-click-middle": "~/.config/sys_bin/set_bluetooth -s",
         "format-connected": " {num_connections} ",
         "tooltip-format": "{device_alias}",
         "tooltip-format-connected": " {device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}",
         "format-alt": " {device_alias}"
     },
-    "custom/info": {
-        "exec": "~/.local/bin/show-additional-info",
-        "interval": 86,
-        "format": "{}"
-    },
     "custom/other": {
-        "exec": "echo '     🖿    🖹   '",
-        "interval": 86,
+        "exec": "cat ~/.cache/s",
+        "interval": 1,
         "format": "{}"
     }
+    
 }
 //"modules-center": ["hyprland/window"],
 // "persistent_workspaces": {

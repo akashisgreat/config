@@ -1,0 +1,152 @@
+#!/bin/bash
+
+# Specify the folder path
+folder_path="$PWD"
+workingdir="$PWD"
+readme="README.md"
+
+help() {
+    cat <<-EOF
+Usage: $(basename "$0") [OPTIONS] [FOLDER_PATH]
+Convert a folder's files to a markdown document.
+
+Options:
+<no option>     print the markdown format.
+  -ls           make markdown from list of folders
+  -w            Save the output to README.md file
+  -h            Show this help
+EOF
+}
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+    -h)
+        help
+        exit
+        ;;
+    -w)
+        option_w=true
+        ;;
+    -ls)
+        option_ls=true
+        ;;
+    *)
+        folder_path="$1"
+        ;;
+    esac
+    shift
+done
+
+cd "$folder_path" || exit 1
+
+printmd() {
+    echo "# ${PWD##*/}"
+    files=$(find . -not -path '*/.*' -type f | sed "/$readme/d")
+
+    # Separate files based on extension
+    image_files=()
+    code_files=()
+    csv_files=()
+    other_files=()
+    text_files=()
+
+    # for each file
+    if [ -n "$files" ]; then
+        while IFS= read -r file; do
+            case "$file" in
+            *.png | *.jpg | *.jpeg | *.gif)
+                image_files+=("$file")
+                ;;
+            *.ino | *.c | *.py | *.sh | *.js)
+                code_files+=("$file")
+                ;;
+            *.csv)
+                csv_files+=("$file")
+                ;;
+            *.txt)
+                text_files+=("$file")
+                ;;
+            *)
+                other_files+=("$file")
+                ;;
+            esac
+        done <<<"$files"
+    fi
+
+    # Output sections
+    if [ ${#image_files[@]} -gt 0 ]; then
+        echo -e "> ## Images\n"
+        for file in "${image_files[@]}"; do
+            echo -e "####  $(basename "$file")"
+            echo -e "![$(basename "$file")]($(echo "$file" | sed 's/ /%20/g') '$(basename "$file")')"
+        done
+        echo -e "<br>\n"
+    fi
+
+    if [ ${#csv_files[@]} -gt 0 ]; then
+        echo -e "> ## Budgets\n"
+        for file in "${csv_files[@]}"; do
+            echo -e "####  $(basename "$file")"
+            csv2md "$file"
+            echo -e "\n"
+        done
+        echo -e "<br>\n"
+    fi
+
+    if [ ${#code_files[@]} -gt 0 ]; then
+        echo -e "> ## Code Files\n"
+        for file in "${code_files[@]}"; do
+            echo -e "#### $(basename "$file")"
+            echo -e "\`\`\`\n$(cat "$file")\n\`\`\`\n"
+        done
+        echo -e "<br>\n"
+    fi
+
+    if [ ${#text_files[@]} -gt 0 ]; then
+        echo -e "> ## Text Files\n"
+        for file in "${text_files[@]}"; do
+            echo -e "#### $(basename "$file")"
+            #echo -e "\`\`\`\n$(cat "$file")\n\`\`\`\n"
+            echo -e "\n$(cat "$file")\n"
+        done
+        echo -e "<br>\n"
+    fi
+
+    if [ ${#other_files[@]} -gt 0 ]; then
+        echo -e "> ## Other Files\n"
+        for file in "${other_files[@]}"; do
+            echo -e "- [$(basename "$file")]($(echo "$file" | sed 's/ /%20/g'))"
+
+        done
+    fi
+}
+
+printmd_ls() {
+    echo "# ${PWD##*/}"
+    for folder in $(ls -d */ 2>/dev/null); do
+        echo "- [$folder]($folder)"
+    done
+}
+
+write() {
+    if [ "$option_ls" ]; then
+        printmd_ls > $workingdir/$readme
+    else
+        printmd > $workingdir/$readme
+    fi
+    echo "Wrote $workingdir/$readme."
+    exit 0;
+}
+
+if [ "$option_w" ]; then
+    write
+    exit
+fi
+
+if [ "$option_ls" ]; then
+
+    printmd_ls
+    exit
+fi
+
+printmd

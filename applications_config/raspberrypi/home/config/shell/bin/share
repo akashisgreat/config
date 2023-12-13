@@ -1,0 +1,9 @@
+#!/bin/bash
+  if [[ -z $1 ]]; then
+    #curl  -s -F "file=@$(fzf)" https://0x0.st | tee /dev/tty | wl-copy -n
+    echo -e "Usage: $0 <file>\nHint: Sharing file to 0x0.st"
+    exit
+  else
+    curl -s -F "file=@$1" https://0x0.st | tee /dev/tty | wl-copy -n
+    exit
+  fi
