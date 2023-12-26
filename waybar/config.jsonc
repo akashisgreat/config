@@ -1,5 +1,6 @@
 {
     "position": "top",
+    //"position": "bottom",
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -7,7 +8,8 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "hyprland/window"
+        //"hyprland/window"
+        ""
     ],
     "modules-right": [
         "custom/other",
@@ -20,7 +22,6 @@
     "hyprland/window": {
         "format": "{}",
         "on-click-middle": "killall wofi || wofi"
-
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -34,8 +35,7 @@
             "4": "🖹",
             "5": "",
             "default": ""
-        }
-
+        },
     },
     "clock": {
         //"format": " {:%I:%M %p   %d/%m}",
@@ -69,14 +69,14 @@
         "min-length": 5,
         "on-scroll-up": "brightnessctl set 1%+",
         "on-scroll-down": "brightnessctl set 1%-",
-        "on-click-middle": "killall wlogout || ~/.config/sys_bin/wlogout --protocol layer-shell "
+        "on-click-middle": "killall wlogout || ~/.config/sys_bin/wlogout --protocol layer-shell ",
+        "interval": 1
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "tooltip": false,
         "format-muted": " Muted",
         "on-click": "pamixer -t",
-        //"on-click-middle": "killall pulsemixer || kitty -e pulsemixer",
         "on-click-middle": "~/.config/sys_bin/set_volume -s",
         "on-scroll-up": "~/.config/sys_bin/set_volume +",
         "on-scroll-down": "~/.config/sys_bin/set_volume -",
@@ -129,7 +129,6 @@
         "interval": 1,
         "format": "{}"
     }
-    
 }
 //"modules-center": ["hyprland/window"],
 // "persistent_workspaces": {

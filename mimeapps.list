@@ -4,7 +4,7 @@ text/javascript=org.xfce.mousepad.desktop;nvim.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 text/html=firefox.desktop;
-image/jpeg=userapp-sxiv-WJF9W1.desktop;
+image/jpeg=gimp.desktop;userapp-sxiv-WJF9W1.desktop;
 application/xml=org.xfce.mousepad.desktop;
 image/png=sxiv.desktop;userapp-sxiv -f-BUX631.desktop;gimp.desktop;swappy.desktop;imv-dir.desktop;google-maps-geo-handler.desktop;imv.desktop;
 application/json=org.xfce.mousepad.desktop;
@@ -18,6 +18,7 @@ text/markdown=firefox.desktop;chrome-aghbiahbpaijignceidepookljebhfak-Default.de
 model/stl=blender.desktop;
 application/octet-stream=code-oss.desktop;
 text/x-readme=leafpad.desktop;
+video/mpeg=mpv.desktop;
 
 [Default Applications]
 x-scheme-handler/http=firefox.desktop
