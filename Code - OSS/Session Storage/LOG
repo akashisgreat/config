@@ -1,2 +1,3 @@
-2024/01/20-00:04:57.640 9d5b Creating DB /home/akash/.config/Code - OSS/Session Storage since it was missing.
-2024/01/20-00:04:57.652 9d5b Reusing MANIFEST /home/akash/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/01/20-14:49:37.819 33b6 Reusing MANIFEST /home/akash/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/01/20-14:49:37.819 33b6 Recovering log #3
+2024/01/20-14:49:37.819 33b6 Reusing old log /home/akash/.config/Code - OSS/Session Storage/000003.log 

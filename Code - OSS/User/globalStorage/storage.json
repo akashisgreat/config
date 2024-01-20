@@ -3,7 +3,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1705689286795": "__default__profile__"
+            "1705743144555": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -14,7 +14,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1705689286795"
+                "backupFolder": "1705743144555"
             }
         ]
     },
@@ -58,6 +58,20 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/.config/computer/archlinux_install/archlinux-install.md",
+                                        "path": "/home/akash/.config/computer/archlinux_install/archlinux-install.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/computer/archlinux_install/archlinux-install.md"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -629,6 +643,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -729,7 +750,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "enabled": false
+                        "checked": true
                     }
                 ]
             },
@@ -737,8 +758,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -747,8 +767,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1396,6 +1415,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1642,13 +1666,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/akash/.config/Code - OSS/Backups/1705689286795",
+            "backupPath": "/home/akash/.config/Code - OSS/Backups/1705743144555",
             "uiState": {
-                "mode": 1,
-                "x": 207,
-                "y": 73,
-                "width": 1028,
-                "height": 656
+                "mode": 0,
+                "x": 0,
+                "y": 18,
+                "width": 1481,
+                "height": 792
             }
         },
         "openedWindows": []
