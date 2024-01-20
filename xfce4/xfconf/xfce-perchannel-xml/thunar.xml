@@ -24,7 +24,7 @@
   <property name="default-view" type="string" value="void"/>
   <property name="misc-middle-click-in-tab" type="bool" value="false"/>
   <property name="misc-full-path-in-tab-title" type="bool" value="true"/>
-  <property name="misc-exec-shell-scripts-by-default" type="bool" value="true"/>
+  <property name="misc-exec-shell-scripts-by-default" type="bool" value="false"/>
   <property name="misc-status-bar-active-info" type="uint" value="15"/>
   <property name="last-window-width" type="int" value="1103"/>
   <property name="last-window-height" type="int" value="695"/>

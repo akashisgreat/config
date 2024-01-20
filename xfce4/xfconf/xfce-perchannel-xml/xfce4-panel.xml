@@ -49,6 +49,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="nxrunner.bin"/>
         <value type="string" value="notes"/>
         <value type="string" value="networkmanager applet"/>
       </property>
@@ -113,8 +114,9 @@
       <property name="recent-items-max" type="int" value="15"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="recent" type="array">
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="xfce-mouse-settings.desktop"/>
         <value type="string" value="firefox.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
         <value type="string" value="code-oss.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
         <value type="string" value="thunar.desktop"/>
