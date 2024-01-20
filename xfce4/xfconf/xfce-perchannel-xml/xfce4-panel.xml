@@ -49,6 +49,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="clipman"/>
+        <value type="string" value="wi-fi network connection “wifi_5ghz” active: wifi_5ghz (51%)"/>
         <value type="string" value="nxrunner.bin"/>
         <value type="string" value="notes"/>
         <value type="string" value="networkmanager applet"/>
@@ -92,6 +94,10 @@
     <property name="clipman" type="empty">
       <property name="settings" type="empty">
         <property name="show-qr-code" type="bool" value="true"/>
+        <property name="enable-actions" type="bool" value="true"/>
+      </property>
+      <property name="tweaks" type="empty">
+        <property name="popup-at-pointer" type="bool" value="false"/>
       </property>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu">
@@ -107,28 +113,28 @@
       <property name="position-commands-alternate" type="bool" value="true"/>
       <property name="profile-shape" type="int" value="1"/>
       <property name="button-single-row" type="bool" value="true"/>
-      <property name="default-category" type="int" value="1"/>
+      <property name="default-category" type="int" value="0"/>
       <property name="hover-switch-category" type="bool" value="true"/>
       <property name="stay-on-focus-out" type="bool" value="false"/>
       <property name="sort-categories" type="bool" value="true"/>
       <property name="recent-items-max" type="int" value="15"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="recent" type="array">
-        <value type="string" value="xfce-mouse-settings.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="firefox.desktop"/>
+        <value type="string" value="xfce4-web-browser.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="ranger.desktop"/>
+        <value type="string" value="xfce-mouse-settings.desktop"/>
         <value type="string" value="code-oss.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
         <value type="string" value="thunar.desktop"/>
-        <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="org.freecadweb.FreeCAD.desktop"/>
         <value type="string" value="librecad.desktop"/>
-        <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce-session-settings.desktop"/>
         <value type="string" value="xfce4-mime-settings.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
-        <value type="string" value="xfce4-color-settings.desktop"/>
-        <value type="string" value="blender.desktop"/>
       </property>
       <property name="launcher-show-tooltip" type="bool" value="false"/>
       <property name="category-show-name" type="bool" value="true"/>
@@ -137,6 +143,11 @@
       <property name="show-command-settings" type="bool" value="true"/>
       <property name="show-command-profile" type="bool" value="false"/>
       <property name="show-command-menueditor" type="bool" value="false"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+      </property>
     </property>
     <property name="plugin-1" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>

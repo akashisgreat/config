@@ -35,3 +35,4 @@ alias bz='bat $(find . | fzf)'
 #alias share-ss="share ~/pic/ss/$(ls -t pic/ss/ | head -n 1)"
 alias nchat="nchat -d ~/.config/nchat"
 #alias firefox-special="firefox --profile /home/akash/.mozilla/firefox/xke9q1wc.MySpecial"
+alias date-now="date +%Y-%m-%d_%I:%M:%S"
