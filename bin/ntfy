@@ -1,0 +1,16 @@
+#!/bin/bash
+
+id="akashisgreat"
+
+if [ -p /dev/stdin ]; then
+  input_data=$(cat -)
+  curl -s -d "$input_data" ntfy.sh/$id
+elif [[ $* == *-c* ]]; then
+  curl -s ntfy.sh/$id/json
+elif [[ $* == "" ]]; then
+  echo "Please provide somthing."
+
+else
+  curl -s -d "$*" ntfy.sh/$id
+fi
+

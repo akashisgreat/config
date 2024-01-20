@@ -1,0 +1,7 @@
+#!/bin/zsh
+#filepath=$PWD/$(find -type f | fzf | sed 's/^..//g' | tr -d '\n')
+
+
+for file in $*; do
+    echo "$PWD/$file"
+done

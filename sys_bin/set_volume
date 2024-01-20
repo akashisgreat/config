@@ -1,0 +1,30 @@
+#!/bin/bash
+# volume_setting="pulsemixer"
+volume_setting="pavucontrol"
+
+if [[ $1 == "-s" ]]; then
+  if [[ $volume_setting == "pulsemixer" ]]; then
+    killall $volume_setting || kitty -e $volume_setting
+    exit
+  else
+    killall $volume_setting || $volume_setting
+  fi
+elif [[ $1 == "-t" ]]; then
+  pamixer -t
+  status="$(pamixer --get-mute | sed 's/true/🔇 Muted/;s/false/🔇 Unmuted/')"
+else
+
+  if [[ -z $2 ]]; then
+    value=5
+  else
+    value=$2
+  fi
+  if [[ $1 == '+' ]]; then
+    pamixer -i $value
+  else
+    pamixer -d $value
+  fi
+  curr_vol=$(pamixer --get-volume)
+  status="-h int:value:$curr_vol Volume $curr_vol"
+fi
+#notify-send -r 1 $status

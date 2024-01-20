@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ ! -z $1 ]]; then 
+  cd  "$(find . -type d  2>&1 | fzf -f $1 | head -n 1)" 
+else
+  cd  "$(find . -type d 2>&1| fzf)"
+fi

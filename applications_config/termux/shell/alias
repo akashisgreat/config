@@ -1,0 +1,16 @@
+alias ls='ls --color=auto'
+alias ll='ls -lah'
+alias grep='grep --color'
+alias e="echo"
+alias c='cat'
+alias b='bat -Pp'
+alias m='make'
+alias g='grep'
+alias cl='clear'
+alias n='nvim'
+alias z='fzf'
+alias nz='nvim $(find . | fzf)'
+alias bz='bat $(find . | fzf)'
+alias cz='cd $(find . -type d 2>/dev/null | fzf)'
+alias remove="awk 'NF' | sed 's/^[[:space:]]*//'"
+alias ser='python3 -m http.server'

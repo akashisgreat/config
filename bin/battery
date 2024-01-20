@@ -1,0 +1,17 @@
+
+case $BLOCK_BUTTON in
+        3) notify-send "🔋 Battery module" "🔋: discharging
+🛑: not charging
+♻:: stagnant charge
+🔌: charging
+⚡: charged
+❗: battery very low!
+- Scroll to change adjust xbacklight." ;;
+        4) light -A 5;notify-send "Brightness $perc" -h int:value:$(light) -t 700 -r 2 ;;
+        5) light -U 5; notify-send "Brightness $perc" -h int:value:$(light) -t 700 -r 2 ;;
+        6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+
+echo  $(cat /sys/class/power_supply/BAT0/status | sed 's/Discharging/🔋/;s/Charging/🔌/;s/Not charging/🛑/;s/Unknown/♻/;s/Full/⚡/') $(cat /sys/class/power_supply/BAT0/capacity_level | sed 's/Normal//;s/Low/❗/;s/Critical/❗❗/;s/High/⚡/;s/Full/⚡⚡/' ) $(cat /sys/class/power_supply/BAT0/capacity)%
+

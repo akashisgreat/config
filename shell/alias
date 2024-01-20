@@ -1,0 +1,37 @@
+alias ls='ls -v --color=auto'
+alias remove="awk 'NF' | sed 's/^[[:space:]]*//'"
+#alias ll='ls -tlah'
+alias ll='ls -lh'
+alias grep='grep --color -i'
+alias sxiv='sxiv -o'
+
+alias gc='git clone'
+alias ga='git add -A'
+alias gl='git log'
+alias gb='git branch'
+alias gch='git checkout'
+alias open='xdg-open'
+alias sps='sudo pacman --noconfirm -S'
+alias spr='sudo pacman -R'
+alias smi='sudo make install'
+alias cf=". cf"
+
+alias e="echo"
+alias c='cat'
+alias b='bat -Pp'
+alias m='make'
+alias g='grep'
+alias cl='clear'
+alias n='nvim'
+alias z='fzf'
+#alias p='zathura'
+alias ser='python3 -m http.server'
+alias copy="xclip -rmlastnl -selection clipboard"
+alias timer="termdown"
+alias hz="history +1 | cut -c 8- | fzf | tr -d '\n' | wl-copy"
+alias nz='nvim $(find . | fzf)'
+alias bz='bat $(find . | fzf)'
+#alias cz='cd $(find . -type d 2>/dev/null | fzf)'
+#alias share-ss="share ~/pic/ss/$(ls -t pic/ss/ | head -n 1)"
+alias nchat="nchat -d ~/.config/nchat"
+#alias firefox-special="firefox --profile /home/akash/.mozilla/firefox/xke9q1wc.MySpecial"

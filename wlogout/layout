@@ -1,0 +1,38 @@
+{
+    "label" : "lock",
+    "action" : "swaylock",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "logout",
+    "action" : "pkill Hyprland",
+    "text" : "Exit Session",
+    "keybind" : "e"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
+{
+    "label" : "quit",
+    "action" : "killall wlogout",
+    "text" : "Quit",
+    "keybind" : "q"
+}
+{
+    "label" : "reboot2windows",
+    "action" : "sudo /usr/bin/grub-reboot 1;systemctl reboot",
+    "text" : "Windows Boot ",
+    "keybind" : "w"
+}
+
+

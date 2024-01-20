@@ -1,0 +1,47 @@
+[Added Associations]
+text/plain=leafpad.desktop;org.xfce.mousepad.desktop;userapp-feh-JRO1V1.desktop;
+text/javascript=org.xfce.mousepad.desktop;nvim.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+text/html=leafpad.desktop;firefox.desktop;
+image/jpeg=gimp.desktop;userapp-sxiv-WJF9W1.desktop;
+application/xml=org.xfce.mousepad.desktop;
+image/png=sxiv.desktop;userapp-sxiv -f-BUX631.desktop;gimp.desktop;swappy.desktop;imv-dir.desktop;google-maps-geo-handler.desktop;imv.desktop;
+application/json=org.xfce.mousepad.desktop;
+application/x-zerosize=org.xfce.mousepad.desktop;com.github.xournalpp.xournalpp.desktop;libreoffice-calc.desktop;userapp-sxiv-WJF9W1.desktop;
+application/x-shellscript=leafpad.desktop;org.xfce.mousepad.desktop;
+application/pdf=firefox.desktop;org.pwmt.zathura-pdf-poppler.desktop;xpdf.desktop;com.github.babluboy.bookworm.desktop;com.github.xournalpp.xournalpp.desktop;
+text/x-csrc=leafpad.desktop;org.xfce.mousepad.desktop;
+image/webp=userapp-imv-7I9P31.desktop;
+image/gif=sxiv.desktop;imv.desktop;
+text/markdown=leafpad.desktop;firefox.desktop;chrome-aghbiahbpaijignceidepookljebhfak-Default.desktop;code-oss.desktop;
+model/stl=blender.desktop;
+application/octet-stream=code-oss.desktop;
+text/x-readme=leafpad.desktop;
+video/mpeg=mpv.desktop;
+application/vnd.apple.mpegurl=vlc.desktop;
+video/x-matroska=mpv.desktop;org.xfce.Parole.desktop;
+video/mp4=org.xfce.Parole.desktop;
+
+[Default Applications]
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+image/jpeg=imv.desktop
+image/jpg=imv.desktop
+des=imv.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/x-zerosize=userapp-sxiv-WJF9W1.desktop
+image/png=imv.desktop
+image/webp=userapp-imv-7I9P31.desktop
+image/gif=imv.desktop
+x-scheme-handler/discord-492484203435393035=discord-492484203435393035.desktop
+application/octet-stream=code-oss.desktop

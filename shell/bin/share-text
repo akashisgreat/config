@@ -1,0 +1,10 @@
+#!/bin/bash
+ if [[ -t 0 ]]; then
+   echo "Usage: <command> | $0"
+   echo "Hint: Share text to ix.io (pastebin type)."
+    exit
+  else
+    cat | curl -s -F 'f:1=<-' ix.io | tee /dev/tty | wl-copy -n
+    exit
+  fi
+

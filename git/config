@@ -1,0 +1,10 @@
+[user]
+        name = Akash
+        email = akashisgreat0000@gmail.com
+[init]
+        defaultBranch = master
+[core]
+        editor = nvim
+
+[credential]
+	helper = 
