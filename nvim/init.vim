@@ -1,5 +1,33 @@
+color desert
+
 set clipboard+=unnamedplus
 set relativenumber
-set wrap           " Enable word wrap
+set nowrap 
 set whichwrap+=>,l
 set whichwrap+=<,h
+set cursorline
+set cursorcolumn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
