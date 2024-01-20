@@ -1,3 +1,4 @@
+# use git add -A commmand to use all the file inside the .config
 /home/akash/.config/applications_config
 /home/akash/.config/autostart
 /home/akash/.config/bin
