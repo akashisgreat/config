@@ -135,9 +135,10 @@ reboot
 # Setup system 
 ----------------------------------------------
 # install additional useful tools
-sudo pacman -S zsh xclip unzip zip unrar tmux tree sxiv python mpv leafpad bat curl kitty code yt-dlp ranger zbar qrencode zenity gvfs ntfs-3g xarchiver fzf nmap usbutils firefox speech-dispatcher pavucontrol
+sudo pacman -S zsh xclip unzip zip unrar tmux tree sxiv python mpv leafpad bat curl kitty code yt-dlp ranger zbar qrencode zenity gvfs ntfs-3g xarchiver fzf nmap usbutils firefox speech-dispatcher pavucontrol cheese
 
-
+#fonts
+sudo pacman -S nerd-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
 
 # install additional tools
 sudo pacman -S freecad librecad xournalpp blender gimp inkscape #gromit-mpx
