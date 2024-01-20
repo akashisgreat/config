@@ -119,7 +119,7 @@ reboot
 
 
 
-### installaltion of GUI
+## installaltion of GUI
 ----------------------------------------------
 
 ```bash
@@ -135,14 +135,16 @@ reboot
 ```
 
 
-### Setup system 
+
+
+## Setup system 
 ----------------------------------------------
 
 ```bash
 # install additional useful tools
 sudo pacman -S zsh xclip unzip zip unrar tmux tree sxiv python mpv leafpad bat curl kitty code yt-dlp ranger zbar qrencode zenity gvfs ntfs-3g xarchiver fzf nmap usbutils firefox speech-dispatcher pavucontrol cheese
 
-# fonts
+#fonts
 sudo pacman -S nerd-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
 
 # install additional tools
@@ -153,7 +155,5 @@ sudo pacman -S freecad librecad xournalpp blender gimp inkscape #gromit-mpx
 mkdir -p ~/des ~/dl ~/doc/{code,projects} ~/pic/{ss,wall,music,vids}
 chsh -s /bin/zsh
 ```
---------------------
-# Now the system is ready.
 
 

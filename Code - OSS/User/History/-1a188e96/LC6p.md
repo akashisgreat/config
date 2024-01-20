@@ -154,6 +154,6 @@ mkdir -p ~/des ~/dl ~/doc/{code,projects} ~/pic/{ss,wall,music,vids}
 chsh -s /bin/zsh
 ```
 --------------------
-# Now the system is ready.
+> Now the system is ready.
 
 

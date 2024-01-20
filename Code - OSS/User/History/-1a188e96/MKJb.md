@@ -119,7 +119,7 @@ reboot
 
 
 
-### installaltion of GUI
+## installaltion of GUI
 ----------------------------------------------
 
 ```bash
@@ -135,7 +135,7 @@ reboot
 ```
 
 
-### Setup system 
+## Setup system 
 ----------------------------------------------
 
 ```bash
@@ -153,7 +153,5 @@ sudo pacman -S freecad librecad xournalpp blender gimp inkscape #gromit-mpx
 mkdir -p ~/des ~/dl ~/doc/{code,projects} ~/pic/{ss,wall,music,vids}
 chsh -s /bin/zsh
 ```
---------------------
-# Now the system is ready.
 
 

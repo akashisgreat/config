@@ -1668,11 +1668,11 @@
         "lastActiveWindow": {
             "backupPath": "/home/akash/.config/Code - OSS/Backups/1705743144555",
             "uiState": {
-                "mode": 0,
-                "x": 0,
-                "y": 18,
-                "width": 1481,
-                "height": 792
+                "mode": 1,
+                "x": -21,
+                "y": 158,
+                "width": 1483,
+                "height": 796
             }
         },
         "openedWindows": []
