@@ -88,7 +88,7 @@ EDITOR=nvim visudo
 pacman  -Sy linux-headers intel-ucode nano sudo vim git neofetch networkmanager dhcpcd pulseaudio bluez wpa_supplicant base-devel linux-lts
 
 # installing the grub & boot manager 
-pacman -Sy grub efibootmgr dosfstools mtools os-prober
+pacman -Sy grub efibootmgr dosfstools mtools 
 
 ####### GRUB
 mkdir /boot/efi
@@ -97,6 +97,7 @@ mount /dev/sda1 /boot/efi
 
 #set for os-probre
 echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
+pacman -S os-prober
 
 #installing the grub in the system 
 grub-install --target=x86_64-efi --bootloader-id=Arch --recheck

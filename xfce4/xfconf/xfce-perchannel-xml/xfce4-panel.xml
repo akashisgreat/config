@@ -114,10 +114,10 @@
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="recent" type="array">
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="firefox.desktop"/>
         <value type="string" value="code-oss.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
         <value type="string" value="thunar.desktop"/>
-        <value type="string" value="firefox.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="org.freecadweb.FreeCAD.desktop"/>
         <value type="string" value="librecad.desktop"/>
