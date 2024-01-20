@@ -85,7 +85,7 @@ EDITOR=nvim visudo
 "%wheel ALL=(ALL) ALL"
 
 #install other important packages
-pacman  -Sy linux-headers intel-ucode nano sudo vim git neofetch networkmanager dhcpcd pulseaudio bluez wpa_supplicant base-devel linux-lts
+pacman -Sy linux-headers intel-ucode nano sudo vim git neofetch networkmanager dhcpcd openssh pulseaudio bluez wpa_supplicant base-devel linux-lts
 
 # installing the grub & boot manager 
 pacman -Sy grub efibootmgr dosfstools mtools 
@@ -111,6 +111,7 @@ ls /boot/efi/EFI/
 # enabling the network 
 systemctl enable dhcpcd.service
 systemctl enable NetworkManager.service
+sudo systemctl enable sshd
 
 #exit and reboot from arch-chroot
 exit
