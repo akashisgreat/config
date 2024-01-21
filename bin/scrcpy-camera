@@ -1,0 +1,7 @@
+#!/bin/bash
+
+scrcpy --no-audio --video-source=camera --camera-id=0 --display-orientation=90 --window-title="scrcpy camera"
+#import -window "$(xdotool selectwindow)" /tmp/scrcpy-camera.png
+#import -window "$(xdotool getactivewindow)" /tmp/scrcpy-camera.png
+#import -window "$(xdotool search --name 'scrcpy')" /tmp/scrcpy-camera.png
+

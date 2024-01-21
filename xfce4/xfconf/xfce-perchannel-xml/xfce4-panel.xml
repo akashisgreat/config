@@ -16,12 +16,11 @@
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
-        <value type="int" value="5"/>
+        <value type="int" value="11"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
-        <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="1"/>
@@ -36,36 +35,45 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="uint" value="1"/>
+      <property name="grouping" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="4"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
     </property>
     <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-4" type="string" value="pager"/>
-    <property name="plugin-5" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="clipman"/>
-        <value type="string" value="wi-fi network connection “wifi_5ghz” active: wifi_5ghz (51%)"/>
-        <value type="string" value="nxrunner.bin"/>
         <value type="string" value="notes"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="ibus-ui-gtk3"/>
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="redshift"/>
         <value type="string" value="blueman"/>
       </property>
       <property name="icon-size" type="int" value="22"/>
       <property name="single-row" type="bool" value="false"/>
-      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="hide-new-items" type="bool" value="true"/>
       <property name="hidden-items" type="array">
+        <value type="string" value="redshift"/>
       </property>
-      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="menu-is-primary" type="bool" value="true"/>
       <property name="hidden-legacy-items" type="array">
+        <value type="string" value="clipman"/>
       </property>
+      <property name="symbolic-icons" type="bool" value="false"/>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
@@ -73,7 +81,7 @@
       <property name="play-sound" type="bool" value="false"/>
       <property name="volume-max" type="uint" value="100"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="known-players" type="string" value="Chrome;com.github.louis77.tuner;firefox"/>
+      <property name="known-players" type="string" value="Chrome;com.github.louis77.tuner;firefox;org.kde.kdeconnect.app"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -98,6 +106,7 @@
       </property>
       <property name="tweaks" type="empty">
         <property name="popup-at-pointer" type="bool" value="false"/>
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
       </property>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu">
@@ -110,7 +119,7 @@
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="false"/>
-      <property name="position-commands-alternate" type="bool" value="true"/>
+      <property name="position-commands-alternate" type="bool" value="false"/>
       <property name="profile-shape" type="int" value="1"/>
       <property name="button-single-row" type="bool" value="true"/>
       <property name="default-category" type="int" value="0"/>
@@ -120,11 +129,14 @@
       <property name="recent-items-max" type="int" value="15"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="recent" type="array">
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="xfce-keyboard-settings.desktop"/>
-        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-notifyd-config.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
         <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="xpdf.desktop"/>
+        <value type="string" value="xfce4-web-browser.desktop"/>
         <value type="string" value="ranger.desktop"/>
         <value type="string" value="xfce-mouse-settings.desktop"/>
         <value type="string" value="code-oss.desktop"/>
@@ -132,9 +144,6 @@
         <value type="string" value="thunar.desktop"/>
         <value type="string" value="org.freecadweb.FreeCAD.desktop"/>
         <value type="string" value="librecad.desktop"/>
-        <value type="string" value="xfce-session-settings.desktop"/>
-        <value type="string" value="xfce4-mime-settings.desktop"/>
-        <value type="string" value="xfce-ui-settings.desktop"/>
       </property>
       <property name="launcher-show-tooltip" type="bool" value="false"/>
       <property name="category-show-name" type="bool" value="true"/>
@@ -149,14 +158,20 @@
         <value type="string" value="firefox.desktop"/>
       </property>
     </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="version" type="string" value="1.11.0"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="showdesktop"/>
     <property name="plugin-1" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
-      <property name="custom-title" type="string" value="🔐"/>
+      <property name="custom-title" type="string" value="🔑 "/>
       <property name="items" type="array">
         <value type="string" value="+lock-screen"/>
         <value type="string" value="-switch-user"/>
         <value type="string" value="+separator"/>
-        <value type="string" value="-suspend"/>
+        <value type="string" value="+suspend"/>
         <value type="string" value="-hibernate"/>
         <value type="string" value="-hybrid-sleep"/>
         <value type="string" value="-separator"/>
@@ -166,13 +181,6 @@
         <value type="string" value="+logout"/>
         <value type="string" value="-logout-dialog"/>
       </property>
-      <property name="appearance" type="uint" value="1"/>
     </property>
-    <property name="notes" type="empty">
-      <property name="global" type="empty">
-        <property name="version" type="string" value="1.11.0"/>
-      </property>
-    </property>
-    <property name="plugin-16" type="string" value="showdesktop"/>
   </property>
 </channel>

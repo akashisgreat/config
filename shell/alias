@@ -17,6 +17,7 @@ alias smi='sudo make install'
 alias cf=". cf"
 
 alias e="echo"
+alias scrcpy="scrcpy --no-audio"
 alias c='cat'
 alias b='bat -Pp'
 alias m='make'

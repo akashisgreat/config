@@ -4,7 +4,8 @@
    echo "Hint: Share text to ix.io (pastebin type)."
     exit
   else
-    cat | curl -s -F 'f:1=<-' ix.io | tee /dev/tty | wl-copy -n
+    #cat | curl -s -F 'f:1=<-' ix.io | tee /dev/tty | wl-copy -n
+    cat | curl -s -F 'f:1=<-' ix.io 
     exit
   fi
 

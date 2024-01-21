@@ -1,0 +1,14 @@
+[Plugins]
+kdeconnect_bigscreenEnabled=false
+kdeconnect_contactsEnabled=false
+kdeconnect_findmyphoneEnabled=false
+kdeconnect_findthisdeviceEnabled=false
+kdeconnect_lockdeviceEnabled=false
+kdeconnect_mmtelephonyEnabled=false
+kdeconnect_mpriscontrolEnabled=false
+kdeconnect_mprisremoteEnabled=false
+kdeconnect_pausemusicEnabled=false
+kdeconnect_presenterEnabled=false
+kdeconnect_smsEnabled=false
+kdeconnect_systemvolumeEnabled=false
+kdeconnect_telephonyEnabled=false

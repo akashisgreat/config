@@ -28,7 +28,7 @@
   <property name="misc-middle-click-opens-uri" type="bool" value="true"/>
   <property name="misc-new-tab-adjacent" type="bool" value="false"/>
   <property name="misc-bell-urgent" type="bool" value="true"/>
-  <property name="title-mode" type="string" value="TERMINAL_TITLE_APPEND"/>
+  <property name="title-mode" type="string" value="TERMINAL_TITLE_PREPEND"/>
   <property name="command-login-shell" type="bool" value="false"/>
   <property name="misc-borders-default" type="bool" value="true"/>
   <property name="misc-default-geometry" type="string" value="90x24"/>

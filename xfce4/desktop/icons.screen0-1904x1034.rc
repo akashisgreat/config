@@ -1,9 +1,29 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/akash/des/CAD]
+[/home/akash/des/rr.xopp]
 row=3
-col=0
+col=17
+
+[/home/akash/des/xopp-notes]
+row=0
+col=17
+
+[/home/akash/des/xopp2pdf]
+row=2
+col=17
+
+[/home/akash/des/NCERT]
+row=1
+col=17
+
+[/home/akash/des/2024-01-21-Note-21-33.xopp]
+row=4
+col=17
+
+[/home/akash/des/ceap1ps.xopp]
+row=2
+col=4
 
 [01DA4A8B45889720]
 row=2
