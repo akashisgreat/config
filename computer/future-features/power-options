@@ -1,8 +1,0 @@
-lock -- all apps running, 8hr
-sleep -- pause all apps, not power off, 3hr
-hibernate -- snap all apps, power off, 4hr
-
-logout -- show all menu
-restart -- reboot
-shutdown -- shutdown
-

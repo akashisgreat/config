@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Xvkbd
+Exec=$HOME/.config/bin/xvkbd
+Icon=$HOME/.config/icons/xvkbd.png
+Type=Application
+Categories=Utility;
+

@@ -10,7 +10,7 @@ image/png=sxiv.desktop;userapp-sxiv -f-BUX631.desktop;gimp.desktop;swappy.deskto
 application/json=org.xfce.mousepad.desktop;
 application/x-zerosize=org.xfce.mousepad.desktop;com.github.xournalpp.xournalpp.desktop;libreoffice-calc.desktop;userapp-sxiv-WJF9W1.desktop;
 application/x-shellscript=leafpad.desktop;org.xfce.mousepad.desktop;
-application/pdf=xpdf.desktop;com.github.xournalpp.xournalpp.desktop;firefox.desktop;org.pwmt.zathura-pdf-poppler.desktop;com.github.babluboy.bookworm.desktop;
+application/pdf=firefox.desktop;com.github.xournalpp.xournalpp.desktop;xpdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;com.github.babluboy.bookworm.desktop;
 text/x-csrc=leafpad.desktop;org.xfce.mousepad.desktop;
 image/webp=userapp-imv-7I9P31.desktop;
 image/gif=sxiv.desktop;imv.desktop;
@@ -22,6 +22,7 @@ video/mpeg=mpv.desktop;
 application/vnd.apple.mpegurl=vlc.desktop;
 video/x-matroska=mpv.desktop;org.xfce.Parole.desktop;
 video/mp4=org.xfce.Parole.desktop;
+application/x-xopp=com.github.xournalpp.xournalpp.desktop;wine-Programs-File Converter-File Converter.desktop;
 
 [Default Applications]
 x-scheme-handler/http=firefox.desktop

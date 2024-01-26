@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Xvkbd Keyboard
+Exec=/home/akash/.config/bin/xvkbd-toggle
+Icon=input-keyboard
+Type=Application
+Categories=Utility;
+Comment=On screen keyboard
+Path=
+Terminal=false
+StartupNotify=false
+X-XFCE-Source=file:///home/akash/.local/share/applications/xvkbd.desktop

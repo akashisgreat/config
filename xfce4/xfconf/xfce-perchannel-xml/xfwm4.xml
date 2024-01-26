@@ -57,7 +57,7 @@
     <property name="snap_resist" type="bool" value="false"/>
     <property name="snap_to_border" type="bool" value="true"/>
     <property name="snap_to_windows" type="bool" value="false"/>
-    <property name="snap_width" type="int" value="10"/>
+    <property name="snap_width" type="int" value="12"/>
     <property name="vblank_mode" type="string" value="auto"/>
     <property name="theme" type="string" value="Default"/>
     <property name="tile_on_move" type="bool" value="true"/>
@@ -76,7 +76,7 @@
     <property name="workspace_count" type="int" value="2"/>
     <property name="wrap_cycle" type="bool" value="true"/>
     <property name="wrap_layout" type="bool" value="true"/>
-    <property name="wrap_resistance" type="int" value="10"/>
+    <property name="wrap_resistance" type="int" value="11"/>
     <property name="wrap_windows" type="bool" value="false"/>
     <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>

@@ -17,6 +17,7 @@
         <value type="int" value="3"/>
         <value type="int" value="4"/>
         <value type="int" value="11"/>
+        <value type="int" value="31"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
@@ -54,12 +55,15 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="notes"/>
         <value type="string" value="clipman"/>
         <value type="string" value="ibus-ui-gtk3"/>
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="gromit-mpx"/>
+        <value type="string" value="KDE Connect Indicator"/>
         <value type="string" value="redshift"/>
         <value type="string" value="blueman"/>
       </property>
@@ -68,9 +72,12 @@
       <property name="hide-new-items" type="bool" value="true"/>
       <property name="hidden-items" type="array">
         <value type="string" value="redshift"/>
+        <value type="string" value="gromit-mpx"/>
+        <value type="string" value="KDE Connect Indicator"/>
       </property>
       <property name="menu-is-primary" type="bool" value="true"/>
       <property name="hidden-legacy-items" type="array">
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="clipman"/>
       </property>
       <property name="symbolic-icons" type="bool" value="false"/>
@@ -129,21 +136,21 @@
       <property name="recent-items-max" type="int" value="15"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="recent" type="array">
-        <value type="string" value="xfce4-notifyd-config.desktop"/>
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
         <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
         <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="xfce-keyboard-settings.desktop"/>
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="xpdf.desktop"/>
-        <value type="string" value="xfce4-web-browser.desktop"/>
-        <value type="string" value="ranger.desktop"/>
         <value type="string" value="xfce-mouse-settings.desktop"/>
-        <value type="string" value="code-oss.desktop"/>
-        <value type="string" value="xfce-settings-manager.desktop"/>
-        <value type="string" value="thunar.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="wine-Programs-File Converter-File Converter.desktop"/>
+        <value type="string" value="uxterm.desktop"/>
+        <value type="string" value="cups.desktop"/>
+        <value type="string" value="org.gnome.Cheese.desktop"/>
         <value type="string" value="org.freecadweb.FreeCAD.desktop"/>
+        <value type="string" value="blender.desktop"/>
+        <value type="string" value="xdvi.desktop"/>
         <value type="string" value="librecad.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="xvkbd.desktop"/>
       </property>
       <property name="launcher-show-tooltip" type="bool" value="false"/>
       <property name="category-show-name" type="bool" value="true"/>
@@ -156,6 +163,8 @@
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
         <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="firefox.desktop"/>
+        <value type="string" value="org.kde.kdeconnect.nonplasma.desktop"/>
+        <value type="string" value="xvkbd.desktop"/>
       </property>
     </property>
     <property name="notes" type="empty">
@@ -180,6 +189,11 @@
         <value type="string" value="+separator"/>
         <value type="string" value="+logout"/>
         <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-31" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="170599447112.desktop"/>
       </property>
     </property>
   </property>
