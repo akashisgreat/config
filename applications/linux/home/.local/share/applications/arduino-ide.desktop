@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Arduino IDE
+Exec=/opt/arduino-ide_2.2.1_Linux_64bit/arduino-ide
+Icon=/opt/arduino-ide_2.2.1_Linux_64bit/resources/app/resources/icons/512x512.png
+Type=Application
+Categories=Development

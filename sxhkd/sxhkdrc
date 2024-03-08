@@ -1,43 +1,47 @@
-# Link file: $HOME/.local/shell/sxhkdrc --> $HOME/.config/sxhkd/sxhkdrc
-
 XF86AudioMute
-  ~/.local/bin/system/set_volume -t; kill -36 $(pidof dwm)
+  ~/.config/sys_bin/set_volume -t;
 
-{XF86AudioRaiseVolume,XF86AudioLowerVolume,super+m, super+n}
-  ~/.local/bin/system/set_volume {+,-,+,-}; kill -36 $(pidof dwm)
+{XF86AudioLowerVolume,XF86AudioRaiseVolume,super+z, super+x}
+  ~/.config/sys_bin/set_volume {-,+,-,+};
 
-{XF86MonBrightnessUp,XF86MonBrightnessDown,super+shift+m,super+shift+n}
-  ~/.local/bin/system/set_brg {+,-,+,-}; kill -36 $(pidof dwm)
+{XF86MonBrightnessDown,XF86MonBrightnessUp,super+XF86AudioLowerVolume,super+XF86AudioRaiseVolume,super+shift+z,super+shift+x}
+  ~/.config/sys_bin/brg {-,+,-,+,-,+} 2;
  
 super + Return
-  st
+  exo-open --launch TerminalEmulator
 
-super + shift + space 
-  dmenu_run
+super + b
+  exo-open --launch WebBrowser
 
-super + Escape
-  ~/.local/bin/system/xorg/sys_action
-  
-super + control + b
-  ~/.local/bin/system/xorg/bluetooth_setup
-
-super + control + w
-  ~/.local/bin/system/xorg/wifi_setup
-
-super + period
-  ~/.local/bin/system/xorg/emoji_selector
-  
-super + shift + Tab
-  ~/.local/bin/system/xorg/windows_switcher
+super + e
+  exo-open --launch FileManager
 
 super + v
-  clipmenu
+  xfce4-clipman-history
+
+super + Print
+  xfce4-screenshooter --no-border --fullscreen -s  ~/med/pic/ss/$(date +%Y-%m-%d_%I:%M:%S).png
+
+super + n
+  xfce4-notes
 
 super + s
-  ~/.local/bin/system/qr_scan
+  ~/.config/bin/qr_scan
 
-super + r 
+super + shift + s
+  ~/.config/bin/qr_scan -o
+
+super + g
+  ~/.config/bin/send2phone
+
+super + c
+    killall gnome-calculator || gnome-calculator
+
+XF86Calculator
+    killall gnome-calculator || gnome-calculator
+
+super + i
   pkill -USR1 -x sxhkd
 
-super + s
-  notify-send "2 $(date)"  
+alt + space
+  $HOME/.config/bin/script/$(ls $HOME/.config/bin/script  | dmenu -b)

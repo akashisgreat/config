@@ -1,0 +1,6 @@
+2024-02-07 20:56:42.976 [info] Extension host with pid 52429 started
+2024-02-07 20:56:42.976 [info] Skipping acquiring lock for /home/akash/.config/Code - OSS/User/workspaceStorage/4cd23bf4d4ebc245af767134bda354bf.
+2024-02-07 20:56:43.051 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-07 20:56:43.084 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-02-07 20:56:43.533 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-07 20:56:43.534 [info] Extension host with pid 52429 exiting with code 0

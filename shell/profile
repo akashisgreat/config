@@ -35,7 +35,7 @@ bindkey "^[h" backward-char
 
 bindkey -s "^g" "echo $0 | xclip -sel c\n"
 
-cmd_to_clip () { wl-copy <<< $BUFFER }
+cmd_to_clip () { xclip -sel c <<< $BUFFER }
 zle -N cmd_to_clip
 bindkey '^G' cmd_to_clip
 

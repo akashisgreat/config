@@ -85,7 +85,7 @@ EDITOR=nvim visudo
 "%wheel ALL=(ALL) ALL"
 
 #install other important packages
-pacman -Sy linux-headers intel-ucode nano sudo vim git neofetch networkmanager dhcpcd openssh pulseaudio bluez wpa_supplicant base-devel linux-lts
+pacman -Sy linux-headers intel-ucode nano sudo vim git neofetch networkmanager dhcpcd openssh pulseaudio pulseaudio-bluetooth bluez wpa_supplicant base-devel linux-lts
 
 # installing the grub & boot manager 
 pacman -Sy grub efibootmgr dosfstools mtools 
@@ -142,10 +142,10 @@ reboot
 
 ```bash
 # install additional useful tools
-sudo pacman -S zsh xclip unzip zip unrar tmux tree sxiv python mpv leafpad bat curl kitty code yt-dlp ranger zbar qrencode zenity gvfs ntfs-3g xarchiver fzf nmap usbutils firefox speech-dispatcher pavucontrol cheese
+sudo pacman -S zsh xclip unzip zip unrar tmux tree sxiv python mpv leafpad bat curl kitty code yt-dlp ranger zbar qrencode zenity gvfs ntfs-3g xarchiver fzf nmap usbutils firefox speech-dispatcher pavucontrol cheese  xev sxhkd tesseract tesseract-data-eng
 
 # fonts
-sudo pacman -S nerd-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
+sudo pacman -S nerd-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji emote
 
 # install additional tools
 sudo pacman -S freecad librecad xournalpp blender gimp inkscape #gromit-mpx

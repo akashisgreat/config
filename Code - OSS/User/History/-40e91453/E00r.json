@@ -1,0 +1,9 @@
+{
+    "editor.mouseWheelZoom": true,
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+}

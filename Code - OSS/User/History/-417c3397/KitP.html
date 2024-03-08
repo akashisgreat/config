@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📟</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="root/table.css">
+    <link rel="stylesheet" href="root/header.css">
+    <script defer src="root/header.js"></script>
+    <title>Calculator</title>
+</head>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    section {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .head {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .body {
+        margin-bottom: 20px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    .input-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .input-group input {
+        width: calc(100% - 10px);
+        padding: 8px;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+
+    #rate{
+        width: calc(95% - 20px);
+    }
+
+    .input-group span {
+        margin-left: 5px;
+    }
+
+    fieldset {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    legend {
+        font-weight: bold;
+    }
+
+    .time-input {
+        margin-bottom: 10px;
+    }
+
+    .foot {
+        margin-top: 20px;
+    }
+
+    button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    /* Media Query for responsiveness */
+    @media (max-width: 600px) {
+        section {
+            max-width: 90%;
+        }
+    }
+
+    .foot {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .result {
+        flex: 1 1 48%;
+        /* Adjust the width as needed */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .result-label {
+        font-weight: bold;
+    }
+    
+    .result-value {
+        font-weight: normal;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+    <header></header>
+
+    <section>
+        <div class="head">
+            Interest Calculator
+        </div>
+
+        <div class="body">
+            <div class="input-group">
+                <label for="principal">Principal:</label>
+                <input id="principal" type="number">
+            </div>
+            <div class="input-group">
+                <label for="rate">Rate:</label>
+                <input id="rate" type="number">
+                <span>%</span>
+            </div>
+            <fieldset>
+                <legend>Time Duration</legend>
+                <div class="time-input">
+                    <label for="year">Year:</label>
+                    <input id="year" type="number" min="1">
+                </div>
+                <div class="time-input">
+                    <label for="month">Month:</label>
+                    <input id="month" type="number" min="1" max="12" value="0">
+                </div>
+                <div class="time-input">
+                    <label for="day">Day:</label>
+                    <input id="day" type="number" min="1" max="31" value="0">
+                </div>
+            </fieldset>
+        </div>
+       
+        <div class="foot">
+            <div class="result">
+                <div class="result-label">SI:
+                <span class="result-value" id="si_f"></span></div>
+            </div>
+
+
+            <div class="result">
+                <div class="result-label">CI:
+                <span class="result-value" id="ci_f"></span></div>
+            </div>
+
+            <div class="result">
+                <div class="result-label">SI Amt:
+                <span class="result-value" id="sa_f"></span></div>
+            </div>
+
+            <div class="result">
+                <div class="result-label">CI Amt:
+                <span class="result-value" id="ca_f"></span></div>
+            </div>
+        </div>
+
+
+
+        <button id="calculate_btn" onclick="calculate()">Calculate</button>
+    </section>
+
+
+    <script>
+
+
+        function calculate() {
+            p = parseFloat(principal.value)
+            r = parseFloat(rate.value)
+            ty = parseFloat(year.value)
+            tm = parseFloat(month.value || 0)
+            td = parseFloat(day.value || 0)
+            t = ty + (tm / 12) + (td / 365);
+
+
+            si = (p * r * t) / 100
+            sa = p + si
+
+
+            ci = p * Math.pow(1 + r / 100, t) - p;
+            ca = ci + p
+
+
+            si_f.innerHTML = si.toFixed(3)
+            sa_f.innerHTML = sa.toFixed(3)
+
+            ci_f.innerHTML = ci.toFixed(3)
+            ca_f.innerHTML = ca.toFixed(3)
+
+            console.log(si, sa, ci, ca)
+
+
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>

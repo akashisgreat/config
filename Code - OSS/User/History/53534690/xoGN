@@ -1,0 +1,7 @@
+#!/bin/bash
+sel_file=$(kitty -e fzf)
+echo $sel_file  | xclip -sel c 
+echo $sel_file | tee -a ~/.cache/openz.hist
+notify-send "$sel_file"
+export SFILE=$sel_file
+xdg-open $SFILE

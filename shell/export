@@ -1,7 +1,0 @@
-export PATH="$HOME/.config/shell/bin/:$PATH"
-export PATH="$HOME/.config/bin/:$PATH"
-export PATH="$HOME/.local/bin/:$PATH"
-export EDITOR=nvim
-#export TERM="xterm-kitty"
-#export TERM="kitty"
-#export QT_QPA_PLATFORM=xcb

@@ -1,0 +1,143 @@
+<html lang="ru"><head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <script src="//code.tidio.co/ydhdvlf6aykdakmpvyziz3ry0ffsbohh.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/shakrmedia/tuesday@v1.1.0/build/tuesday.min.css">
+  </head><body style="background-color:#C44F00;text-align:center;color:#fff">
+    <style>
+      .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 14px 24px;
+        border: 0 none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        width: 400px;
+      }
+      .button {
+        padding: 14px 24px;
+        border: 0 none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .button:hover {
+        background-color:#428bca;
+        cursor: pointer;
+      }
+      #logo {
+        float: right;
+      }
+@media only screen and (max-width: 1000px) {
+        #logo {
+          float: none;
+        }
+      }
+    </style>
+    <img src="logo.gif" alt="" id="logo" width="50%">
+    <h2 style="margin-top:10%">Здесь вы можете добавить<br> новую радио станцию в свою ESP.</h2>
+          <form name="test" method="post" action="index.php">
+      <h1>MAC ESP8266:</h1>
+      <input class="btn" name="mac" id="mac" type="text" pattern="[A-F0-9:]{17}" placeholder="Пример: 2C:3A:E8:3D:9D:80" title="Пример: 2C:3A:E8:3D:9D:80" required="">
+      <h1>URL Radio<sup id="max-kbps"></sup>:</h1>
+      <select class="btn" name="radio-list" id="radio-list" style="width:370px;" onchange="setRadio(this)">
+        <option value="">Выберите радио станцию</option>
+        <option value="http://ep64server.streamr.ru:8033/europaplus64.mp3">Europa +</option>
+        <option value="http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps">Вести FM</option>
+        <option value="http://ic3.101.ru:8000/r3_1">Авторадио</option>
+        <option value="http://nashe.streamr.ru/nashe-64.mp3">Наше радио</option>
+        <option value="http://dorognoe.hostingradio.ru:8000/dorognoe">Дорожное</option>
+        <option value="http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_64kbps">Маяк</option>
+        <option value="http://ice912.echo.msk.ru:9120/stream">Эхо Моксвы</option>
+        <option value="http://audio1.video.ria.ru/voicerus">Голос Росии</option>
+        <option value="http://jazz.streamr.ru/jazz-64.mp3">Джаз FM</option>
+        <option value="http://nashe.streamr.ru/nashe20-64.mp3">Наше 2.0</option>
+        <option value="http://air.radiorecord.ru:8102/sd90_64">Радио Рекорд</option>
+        <option value="othe">Добавить свой линк на радио</option>
+      </select>
+      <input class="btn" name="radio" type="url" id="radio" style="width:320px;display:none" value="http://ep64server.streamr.ru:8033/europaplus64.mp3" required="">
+      <a id="play-pause-button" class="fa fa-play" style="cursor:pointer;width:70px;"> Play</a>
+      <br><br>
+      <input class="btn button" type="submit" onclick="createCookie('mac',$('#mac').val(),365)" value="Cохранить в ESP8266">
+    </form>
+    <audio id="player" src="http://ep64server.streamr.ru:8033/europaplus64.mp3"></audio>
+    <script>
+      var audio = document.getElementById("player");
+      $('#play-pause-button').on("click", function() {
+        document.getElementById("player").src = $("#radio").val();
+        if ($(this).hasClass('fa-play')) {
+          $(this).removeClass('fa-play');
+          $(this).addClass('fa-pause');
+          this.innerHTML = ' Pause';
+          audio.play();
+        } else {
+          $(this).removeClass('fa-pause');
+          $(this).addClass('fa-play');
+          this.innerHTML = ' Play';
+          audio.pause();
+        }
+      });
+      audio.onended = function() {
+        $("#play-pause-button").removeClass('fa-pause');
+        $("#play-pause-button").addClass('fa-play');
+      };
+      function setRadio(sel) {
+        sel = sel.options[sel.selectedIndex].value;
+        $('#play-pause-button').removeClass('fa-pause');
+        $('#play-pause-button').addClass('fa-play');
+        $('#play-pause-button').html(' Play');
+        audio.pause();
+        if (sel == 'othe') {
+          document.getElementById('radio-list').style.display = 'none';
+          document.getElementById('radio').style.display = 'inline';
+          document.getElementById('max-kbps').innerHTML = '(max 64Kbps)';
+        } else {
+          $('#radio').val(sel);
+        }
+      }
+      function createCookie(name, value, days) {
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+          var expires = "; expires=" + date.toGMTString();
+        } else expires = "";
+        document.cookie = name + "=" + value + expires + "; path=/";
+      }
+      function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+      }
+      if (readCookie('mac') != null) $('#mac').val(readCookie('mac'));
+      if (self.document.location.hash.substr(1) != '') $('#mac').val(self.document.location.hash.substr(1));
+    </script>
+    <h3><a href="https://github.com/renat2985/esp8266-Radio"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABtUlEQVRIic3Vz4uNURzH8dfVkBkWUsosKYryI5KF1dRsBgskSRbGQhlsTKMws5smysLGP2AxSwvKWLAZZUsasUD2kxWGBfNYPOfmOM65nnuz8KlTt+fz+b6/57md8334D9TCLoziGq6G3zuD17P6MYEPqArrPcaxulv4frzrAE7XW+xrCj+Eb13A22sJI3+D7w3BCl+x3AC8HLIVvmB3Cb4Kr6PCwxjETXzGczzEHF7gE6axASeiugX05RqcT3a2LfJWZPLxsz1J7blcg1dJaKj0qhmNJLUv08CWJPBG/Zc1Vb/6yMaMzXHgVGJe7gLe1vWEcTI2ryTmwR4aHE8YE7E5lZjHemhwOmFMxualTmZDzSSMsdgcTswF+aNZUp96XBRP4YBft7G9ZhrCW7id1C6pT9Zvmg3mrPq2VniCI1ifAW9U3+CnCbzC3dxOduAHFtXz/0FUMJfZ9XwGXOE7tpde91YIzWMd7uA+DmSy44UGN0pwWInHIXihU9Cfs6vCI4VBF2sg7LpSf82e4WgmN5bA7+niy9YKgI+heDSTuRi8RYXp2URrcRabMt5WnMGaXuH/RD8BvDHAOKWL/3cAAAAASUVORK5CYII="></a></h3>
+  
+
+
+<iframe id="tidio-chat-code" style="display: none;" title="Tidio Chat code"></iframe><div id="tidio-chat"><iframe title="Tidio Chat" style="display: block; border: medium; position: fixed; inset: auto 0px 0px auto; width: 112px; height: 140px; opacity: 1; color-scheme: none; background: transparent !important; margin: 0px; max-height: 100vh; max-width: 100vw; transform: translateY(0px); transition: none 0s ease 0s !important; visibility: visible; z-index: 999999999 !important;" id="tidio-chat-iframe" srcdoc="
+                <html lang=&quot;en&quot;>
+                <head>
+                <meta name=&quot;viewport&quot; content=&quot;width=device-width, user-scalable=no&quot;>
+                  </head>
+                <body  class=&quot;&quot;>
+                  <div></div>
+                </body>
+                "></iframe></div></body></html>

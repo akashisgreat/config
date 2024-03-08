@@ -1,9 +1,18 @@
 {
     "userDataProfilesMigration": true,
     "profileAssociations": {
-        "workspaces": {},
+        "workspaces": {
+            "file:///home/akash/doc/code/Arduino/esp-radio-music": "__default__profile__",
+            "file:///home/akash/esp8266-Radio": "__default__profile__",
+            "file:///home/akash": "__default__profile__",
+            "file:///home/akash/backup.privet.lv": "__default__profile__",
+            "file:///home/akash/doc/projects/radio": "__default__profile__",
+            "file:///home/akash/doc/projects/market": "__default__profile__",
+            "file:///home/akash/doc/projects/tv": "__default__profile__",
+            "file:///home/akash/des/lado": "__default__profile__"
+        },
         "emptyWindows": {
-            "1705743144555": "__default__profile__"
+            "1709447777770": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -14,7 +23,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1705743144555"
+                "backupFolder": "1709447777770"
             }
         ]
     },
@@ -63,15 +72,128 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "openRecentFile",
+                                    "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/akash/.config/computer/archlinux_install/archlinux-install.md",
-                                        "path": "/home/akash/.config/computer/archlinux_install/archlinux-install.md",
+                                        "external": "file:///home/akash/des/lado",
+                                        "path": "/home/akash/des/lado",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/computer/archlinux_install/archlinux-install.md"
+                                    "label": "~/des/lado"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/doc/projects/tv",
+                                        "path": "/home/akash/doc/projects/tv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/doc/projects/tv"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/doc/projects/market",
+                                        "path": "/home/akash/doc/projects/market",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/doc/projects/market"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/doc/projects/radio",
+                                        "path": "/home/akash/doc/projects/radio",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/doc/projects/radio"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/backup.privet.lv",
+                                        "path": "/home/akash/backup.privet.lv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/backup.privet.lv"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash",
+                                        "path": "/home/akash",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/akash"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/doc/code/Arduino/esp-radio-music",
+                                        "path": "/home/akash/doc/code/Arduino/esp-radio-music",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/doc/code/Arduino/esp-radio-music"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/.config/bin/openz",
+                                        "path": "/home/akash/.config/bin/openz",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/bin/openz"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/.config/shell/bin/share-text",
+                                        "path": "/home/akash/.config/shell/bin/share-text",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/shell/bin/share-text"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/.config/templates/xournal/blank.xopp~",
+                                        "path": "/home/akash/.config/templates/xournal/blank.xopp~",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/templates/xournal/blank.xopp~"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/index..html",
+                                        "path": "/home/akash/index..html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/index..html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -118,8 +240,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -145,7 +266,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -445,8 +567,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleMenuBar",
-                                    "label": "Menu &&Bar",
-                                    "checked": true
+                                    "label": "Menu &&Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
@@ -466,6 +587,10 @@
                                     "label": "&&Panel"
                                 },
                                 {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -481,6 +606,10 @@
                                                 "id": "workbench.action.activityBarLocation.side",
                                                 "label": "&&Side",
                                                 "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.top",
+                                                "label": "&&Top"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -567,6 +696,10 @@
                                                 "checked": true
                                             },
                                             {
+                                                "id": "workbench.action.editorActionsTitleBar",
+                                                "label": "Title Bar"
+                                            },
+                                            {
                                                 "id": "workbench.action.hideEditorActions",
                                                 "label": "Hidden"
                                             }
@@ -588,7 +721,8 @@
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -749,8 +883,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -758,7 +891,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1047,6 +1181,10 @@
                                 {
                                     "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.triggerByBreakpoint",
+                                    "label": "&&Triggered Breakpoint..."
                                 }
                             ]
                         }
@@ -1341,8 +1479,8 @@
                 "userSettingsLabel": "ctrl+shift+alt+up"
             },
             "editor.action.copyLinesDownAction": {
-                "label": "Ctrl+Shift+Alt+Down",
-                "userSettingsLabel": "ctrl+shift+alt+down"
+                "label": "Ctrl+D",
+                "userSettingsLabel": "ctrl+d"
             },
             "editor.action.moveLinesUpAction": {
                 "label": "Alt+Up",
@@ -1419,6 +1557,11 @@
                 "label": "Ctrl+K Ctrl+Shift+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
+            "workbench.action.copyEditorToNewWindow": {
+                "label": "Ctrl+K O",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k o"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1642,7 +1785,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -1666,13 +1809,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/akash/.config/Code - OSS/Backups/1705743144555",
+            "backupPath": "/home/akash/.config/Code - OSS/Backups/1709447777770",
             "uiState": {
-                "mode": 1,
-                "x": -42,
-                "y": 145,
-                "width": 1483,
-                "height": 796
+                "mode": 0,
+                "x": 0,
+                "y": 12,
+                "width": 1415,
+                "height": 775
             }
         },
         "openedWindows": []

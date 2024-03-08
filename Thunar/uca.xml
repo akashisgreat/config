@@ -12,19 +12,4 @@
 	<startup-notify/>
 	<directories/>
 </action>
-<action>
-	<icon>document-share</icon>
-	<name>Send To Phone</name>
-	<submenu></submenu>
-	<unique-id>1693809446440221-1</unique-id>
-	<command>/home/akash/.local/bin/send2phone %f</command>
-	<description>Send file to phone</description>
-	<range>*</range>
-	<patterns>*</patterns>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
-</action>
 </actions>

@@ -8,12 +8,12 @@
   <property name="last-separator-position" type="int" value="223"/>
   <property name="last-location-bar" type="string" value="ThunarLocationButtons"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
-  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
   <property name="last-toolbar-item-order" type="string" value="0,15,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17"/>
   <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,148,50,50,873,50,50,422,50,50,85,50,445"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,158,50,50,108,50,50,377,50,50,80,50,133"/>
   <property name="last-compact-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_100_PERCENT"/>
   <property name="misc-file-size-binary" type="bool" value="false"/>
   <property name="misc-directory-specific-settings" type="bool" value="false"/>
@@ -26,9 +26,14 @@
   <property name="misc-full-path-in-tab-title" type="bool" value="true"/>
   <property name="misc-exec-shell-scripts-by-default" type="bool" value="false"/>
   <property name="misc-status-bar-active-info" type="uint" value="15"/>
-  <property name="last-window-width" type="int" value="1103"/>
-  <property name="last-window-height" type="int" value="652"/>
+  <property name="last-window-width" type="int" value="1080"/>
+  <property name="last-window-height" type="int" value="672"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="misc-parallel-copy-mode" type="string" value="THUNAR_PARALLEL_COPY_MODE_ALWAYS"/>
   <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="hidden-bookmarks" type="array">
+    <value type="string" value="trash:///"/>
+    <value type="string" value="computer:///"/>
+    <value type="string" value="recent:///"/>
+  </property>
 </channel>

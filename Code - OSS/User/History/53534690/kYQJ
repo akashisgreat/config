@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sel_file=$(fzf)
+if [ -z "$sel_file" ]; then
+    notify-send "No file selected."
+    exit 1
+fi
+
+echo "$sel_file" | xclip -sel c
+echo "$sel_file" >> ~/.cache/openz.hist
+notify-send "$(basename $sel_file)"
+exo-open "$sel_file"

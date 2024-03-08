@@ -1,0 +1,43 @@
+# Link file: $HOME/.local/shell/sxhkdrc --> $HOME/.config/sxhkd/sxhkdrc
+
+XF86AudioMute
+  ~/.local/bin/system/set_volume -t; kill -36 $(pidof dwm)
+
+{XF86AudioRaiseVolume,XF86AudioLowerVolume,super+m, super+n}
+  ~/.local/bin/system/set_volume {+,-,+,-}; kill -36 $(pidof dwm)
+
+{XF86MonBrightnessUp,XF86MonBrightnessDown,super+shift+m,super+shift+n}
+  ~/.local/bin/system/set_brg {+,-,+,-}; kill -36 $(pidof dwm)
+ 
+super + Return
+  st
+
+super + shift + space 
+  dmenu_run
+
+super + Escape
+  ~/.local/bin/system/xorg/sys_action
+  
+super + control + b
+  ~/.local/bin/system/xorg/bluetooth_setup
+
+super + control + w
+  ~/.local/bin/system/xorg/wifi_setup
+
+super + period
+  ~/.local/bin/system/xorg/emoji_selector
+  
+super + shift + Tab
+  ~/.local/bin/system/xorg/windows_switcher
+
+super + v
+  clipmenu
+
+super + s
+  ~/.local/bin/system/qr_scan
+
+super + r 
+  pkill -USR1 -x sxhkd
+
+super + s
+  notify-send "2 $(date)"  

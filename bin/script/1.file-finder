@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+path=$HOME/med/Docs/
+
+if [[ $1 == "-f" ]]; then
+    file="$(fd --full-path $path -t f | fzf)"
+else
+    file="$(fd --full-path $path -t f | dmenu -l 10)"
+fi
+
+if [ -z "$file" ]; then
+    notify-send "No file selected."
+    exit 1
+fi
+
+echo "$file" | xclip -sel c
+echo "$file" >> ~/.cache/openz.hist
+xdg-open "$(realpath "$file")"

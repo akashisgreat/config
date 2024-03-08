@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Table</title>
+    <link rel="stylesheet" type="text/css" href="table.css">
+</head>
+
+<style>
+    table {
+        border-collapse: collapse;
+        /* Remove borders between tables */
+        width: 100%;
+        /* Make the table fill the full width of the container */
+    }
+
+    th,
+    td {
+        border: 1px solid #ccc;
+        /* Add a light gray border to the table headers and cells 
+    */
+        padding: 8px;
+        /* Add some space between the border and the content */
+        text-align: left;
+        /* Align the content to the left */
+    }
+
+    th {
+        background-color: #f2f2f2;
+        /* Light gray background color for table headers */
+    }
+
+    tr:hover {
+        background-color: #dfdfdf;
+        /* Light gray background color for hovered rows */
+    }
+
+    /* Add some styling to the table cells */
+    td {
+        border-left: 1px solid #333;
+        /* Add a dark gray border to the left side of the 
+    cell */
+        padding: 6px;
+        /* Add some space between the border and the content */
+    }
+
+    /* Add some styling to the table headers */
+    th {
+        background-color: #f2f2f2;
+        /* Light gray background color for table headers */
+        color: #333;
+        /* Dark gray text color for table headers */
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+    </table>
+</body>
+
+</html>

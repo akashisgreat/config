@@ -1,0 +1,24 @@
+{
+	"windowstate": {
+		"isFullScreen": false,
+		"isMaximized": true,
+		"width": 1413,
+		"height": 756,
+		"x": 0,
+		"y": 17,
+		"frame": true,
+		"screenLayout": "0:0:1412:794"
+	},
+	"workspaces": [
+		{
+			"x": 0,
+			"y": 17,
+			"width": 1413,
+			"height": 756,
+			"isMaximized": true,
+			"isFullScreen": false,
+			"file": "/home/akash/doc/code/Arduino/pixel_led_art",
+			"time": 1709002745446
+		}
+	]
+}

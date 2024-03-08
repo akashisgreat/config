@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Aajtak",
+    "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+    "img": "https://i.imgur.com/RpIdCB3.png"
+  },
+  {
+    "name": "India News",
+    "url": "https://livetv.newsx.com/itv/itvnetwork5/playlist.m3u8",
+    "img": "https://i.imgur.com/l54AGtz.png"
+  },
+  {
+    "name": "India TV",
+    "url": "https://ythls.armelin.one/channel/UCttspZesZIDEwwpVIgoZtWQ.m3u8",
+    "img": "https://i.imgur.com/ztn2IR8.png"
+  },
+  {
+    "name": "NDTV India",
+    "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
+    "img": "https://i.imgur.com/PyDjUZB.png"
+  },
+  {
+    "name": "News Bihar/Jharkhand",
+    "url": "https://ythls.armelin.one/channel/UC531MlZA5LUbeGwEN_zcppw.m3u8",
+    "img": "https://i.imgur.com/FQ3zDZE.png"
+  },
+  {
+    "name": "News18 India",
+    "url": "https://ythls.armelin.one/channel/UCPP3etACgdUWvizcES1dJ8Q.m3u8",
+    "img": "https://i.imgur.com/5VLCwbt.png"
+  },
+  {
+    "name": "News 24",
+    "url": "https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8",
+    "img": "https://i.imgur.com/x72O77X.png"
+  },
+  {
+    "name": "Abp News",
+    "url": "https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/ABP_News_logo.svg/512px-ABP_News_logo.svg.png"
+  },
+  {
+    "name": "Zee News",
+    "url": "https://ythls.armelin.one/channel/UCIvaYmXn910QMdemBG3v1pQ.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zee_news.svg/512px-Zee_news.svg.png"
+  },
+  {
+    "name": "DD India",
+    "url": "https://ythls.armelin.one/channel/UCGDQNvybfDDeGTf4GtigXaw.m3u8",
+    "img": "https://i.imgur.com/45uptR8.png"
+  },
+  {
+    "name": "DD News",
+    "url": "https://hls.media.nic.in/hls/live/ddnews/ddnews.m3u8",
+    "img": "https://i.imgur.com/H4f9R7n.png"
+  },
+  {
+    "name": "Sansad TV",
+    "url": "https://hls.media.nic.in/hls/live/lstv/lstv.m3u8",
+    "img": "https://i.imgur.com/TWSZC2H.png"
+  },
+
+  {
+    "name": "9xm",
+    "url": "https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8",
+    "img": "https://i.imgur.com/F17QtN2.png"
+  },
+  {
+    "name": "MTV Beats",
+    "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/MTV_Beats_HD_voot_MOB/Fallback/MTV_Beats_HD_voot_MOB-audio_98834_eng=98800-video=2293600.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png"
+  },
+  {
+    "name": "Bollywood HD",
+    "url": "https://shls-live-ak.akamaized.net/out/v1/fb7b452f58f2412a9ae26b22dd30bd6b/index.m3u8",
+    "img": "https://i.imgur.com/scDKOLS.png"
+  },
+  {
+    "name": "Colors Cineplex Bolloywood",
+    "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Colors_Cineplex_Bollywood_voot_MOB/Fallback/index.m3u8",
+    "img": "https://i.imgur.com/EbHSQAJ.png"
+  },
+  {
+    "name": "Colors Cineplex Superhits",
+    "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Rishtey_Cineplex_voot_MOB/Fallback/index.m3u8",
+    "img": "https://i.ibb.co/KbXhstz/Screenshot-20230610-130415.jpg"
+  },
+  {
+    "name": "Colors HD",
+    "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Colors_HD_voot_MOB/Fallback/index.m3u8",
+    "img": "https://i.imgur.com/M8uCJ0D.png"
+  },
+  {
+    "name": "Nickelodeon Sonic Hindi",
+    "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Nickelodeon_Sonic_logo.png/512px-Nickelodeon_Sonic_logo.png"
+  }
+]

@@ -13,12 +13,14 @@
       <property name="size" type="uint" value="29"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
+        <value type="int" value="15"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
-        <value type="int" value="11"/>
+        <value type="int" value="14"/>
         <value type="int" value="31"/>
         <value type="int" value="6"/>
+        <value type="int" value="11"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -36,7 +38,7 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="bool" value="true"/>
+      <property name="grouping" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="false"/>
       <property name="show-handle" type="bool" value="true"/>
@@ -47,38 +49,41 @@
       <property name="show-only-minimized" type="bool" value="false"/>
       <property name="include-all-monitors" type="bool" value="true"/>
     </property>
-    <property name="plugin-3" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
     </property>
-    <property name="plugin-4" type="string" value="pager"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="wi-fi network connection “wifi” active: wifi (75%)"/>
+        <value type="string" value="wi-fi network connection “wifi” active: wifi (55%)"/>
         <value type="string" value="notes"/>
         <value type="string" value="clipman"/>
-        <value type="string" value="ibus-ui-gtk3"/>
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="remmina-icon"/>
         <value type="string" value="gromit-mpx"/>
         <value type="string" value="KDE Connect Indicator"/>
-        <value type="string" value="redshift"/>
         <value type="string" value="blueman"/>
+        <value type="string" value="redshift"/>
       </property>
-      <property name="icon-size" type="int" value="22"/>
-      <property name="single-row" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="single-row" type="bool" value="true"/>
       <property name="hide-new-items" type="bool" value="true"/>
       <property name="hidden-items" type="array">
         <value type="string" value="redshift"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="TelegramDesktop"/>
         <value type="string" value="gromit-mpx"/>
         <value type="string" value="KDE Connect Indicator"/>
       </property>
       <property name="menu-is-primary" type="bool" value="true"/>
       <property name="hidden-legacy-items" type="array">
-        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="clipman"/>
+        <value type="string" value="wi-fi network connection “wifi” active: wifi (75%)"/>
+        <value type="string" value="wi-fi network connection “wifi” active: wifi (55%)"/>
       </property>
       <property name="symbolic-icons" type="bool" value="false"/>
     </property>
@@ -88,7 +93,8 @@
       <property name="play-sound" type="bool" value="false"/>
       <property name="volume-max" type="uint" value="100"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="known-players" type="string" value="Chrome;com.github.louis77.tuner;firefox;org.kde.kdeconnect.app"/>
+      <property name="known-players" type="string" value="Chrome;com.github.louis77.tuner;firefox;org.kde.kdeconnect.app;vlc"/>
+      <property name="rec-indicator-persistent" type="bool" value="false"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -102,6 +108,7 @@
       <property name="digital-layout" type="uint" value="1"/>
       <property name="digital-date-font" type="string" value="Sans 8"/>
       <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="digital-date-format" type="string" value="%d/%m/%Y"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -136,21 +143,21 @@
       <property name="recent-items-max" type="int" value="15"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="recent" type="array">
-        <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
-        <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="xfce-mouse-settings.desktop"/>
-        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="gparted.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
-        <value type="string" value="wine-Programs-File Converter-File Converter.desktop"/>
-        <value type="string" value="uxterm.desktop"/>
-        <value type="string" value="cups.desktop"/>
+        <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="thunar-bulk-rename.desktop"/>
+        <value type="string" value="org.gnome.clocks.desktop"/>
+        <value type="string" value="xfce-session-settings.desktop"/>
+        <value type="string" value="org.telegram.desktop.desktop"/>
         <value type="string" value="org.gnome.Cheese.desktop"/>
-        <value type="string" value="org.freecadweb.FreeCAD.desktop"/>
-        <value type="string" value="blender.desktop"/>
-        <value type="string" value="xdvi.desktop"/>
-        <value type="string" value="librecad.desktop"/>
+        <value type="string" value="termite.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
-        <value type="string" value="xvkbd.desktop"/>
+        <value type="string" value="realvnc-vncviewer.desktop"/>
+        <value type="string" value="com.zamaudio.zamverb.desktop"/>
+        <value type="string" value="avahi-discover.desktop"/>
       </property>
       <property name="launcher-show-tooltip" type="bool" value="false"/>
       <property name="category-show-name" type="bool" value="true"/>
@@ -165,11 +172,53 @@
         <value type="string" value="firefox.desktop"/>
         <value type="string" value="org.kde.kdeconnect.nonplasma.desktop"/>
         <value type="string" value="xvkbd.desktop"/>
+        <value type="string" value="arduino-ide.desktop"/>
+        <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
+        <value type="string" value="qcad.desktop"/>
+      </property>
+      <property name="search-actions" type="int" value="6">
+        <property name="action-0" type="empty">
+          <property name="name" type="string" value="Man Pages"/>
+          <property name="pattern" type="string" value="#"/>
+          <property name="command" type="string" value="exo-open --launch TerminalEmulator man %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-1" type="empty">
+          <property name="name" type="string" value="Search the Web"/>
+          <property name="pattern" type="string" value="?"/>
+          <property name="command" type="string" value="exo-open --launch WebBrowser https://duckduckgo.com/?q=%u"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-2" type="empty">
+          <property name="name" type="string" value="Search for Files"/>
+          <property name="pattern" type="string" value="-"/>
+          <property name="command" type="string" value="fzf  -f %s | xargs -I &apos;{}&apos; xdg-open &apos;{}&apos;"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-3" type="empty">
+          <property name="name" type="string" value="Wikipedia"/>
+          <property name="pattern" type="string" value="!w"/>
+          <property name="command" type="string" value="exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-4" type="empty">
+          <property name="name" type="string" value="Run in Terminal"/>
+          <property name="pattern" type="string" value="!"/>
+          <property name="command" type="string" value="exo-open --launch TerminalEmulator %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-5" type="empty">
+          <property name="name" type="string" value="Open URI"/>
+          <property name="pattern" type="string" value="^(file|http|https):\/\/(.*)$"/>
+          <property name="command" type="string" value="exo-open \0"/>
+          <property name="regex" type="bool" value="true"/>
+        </property>
       </property>
     </property>
     <property name="notes" type="empty">
       <property name="global" type="empty">
         <property name="version" type="string" value="1.11.0"/>
+        <property name="skip-taskbar-hint" type="bool" value="true"/>
       </property>
     </property>
     <property name="plugin-16" type="string" value="showdesktop"/>
@@ -190,11 +239,22 @@
         <value type="string" value="+logout"/>
         <value type="string" value="-logout-dialog"/>
       </property>
+      <property name="appearance" type="uint" value="1"/>
     </property>
     <property name="plugin-31" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="170599447112.desktop"/>
       </property>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
   </property>
 </channel>

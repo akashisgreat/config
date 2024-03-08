@@ -1,0 +1,53 @@
+
+#!/bin/bash
+
+# Function to adjust brightness
+adjust_brightness() {
+    local change_type=$1
+    local per_change=$2
+    
+    max=$(xfpm-power-backlight-helper --get-max-brightness)
+    curr=$(xfpm-power-backlight-helper --get-brightness)
+
+    if [ "$change_type" == "+" ]; then
+        new_curr=$(echo "$curr + ($max * $per_change / 100)" | bc)
+    elif [ "$change_type" == "-" ]; then
+        new_curr=$(echo "$curr - ($max * $per_change / 100)" | bc)
+    else
+        echo "Invalid change type. Use '+' for increase or '-' for decrease."
+        exit 1
+    fi
+
+# Ensure brightness doesn't go below 2%
+min_brightness=$(echo "0.02 * $max" | bc)
+if [ "$(echo "$new_curr < $min_brightness" | bc)" -eq 1 ]; then
+    new_curr=$min_brightness
+fi
+
+    if [ "$new_curr" -gt "$max" ]; then
+        new_curr=$max
+    fi
+
+    pkexec xfpm-power-backlight-helper --set-brightness "$new_curr"
+
+    # Calculate the new brightness percentage
+    curr_per=$(echo "scale=2; $new_curr / $max * 100" | bc)
+
+    echo "Current brightness percentage: $curr_per%"
+
+    notify-send "Brg" -t 2000 -i display-brightness-symbolic -h int:value:$curr_per -r 1
+}
+
+# Check if argument count is correct
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 +/- percentage"
+    exit 1
+fi
+
+change_type=$1
+per_change=$2
+
+# Call the function to adjust brightness
+adjust_brightness "$change_type" "$per_change"
+
+

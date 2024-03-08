@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Price</title>
+    <link rel="stylesheet" href="root/table.css">
+    <link rel="stylesheet" href="root/header.css">
+    <script defer src="root/header.js"></script>
+</head>
+<!-- <style>
+    table {
+        min-width: 50%;
+    }
+
+    @media (max-width: 770px) {
+        table {
+            min-width: 90%;
+        }
+
+    }
+
+
+    .positive {
+        background: rgba(42, 239, 42, 0.7);
+
+    }
+
+    .negative {
+        background: rgba(252, 42, 42, 0.7);
+
+    }
+</style> -->
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header-info {
+    text-align: center;
+    padding: 1em;
+}
+
+.heading {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#date {
+    font-size: 0.8em;
+    color: #666;
+}
+
+main {
+    margin: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.positive {
+    background: rgba(42, 239, 42, 0.7);
+}
+
+.negative {
+    background: rgba(252, 42, 42, 0.7);
+}
+
+@media (max-width: 770px) {
+    table {
+        min-width: 90%;
+    }
+}
+</style>
+
+<body>
+    <header>
+
+    </header>
+    <section class="header-info">
+        <h2 class="heading">Tomorrow's Market</h2>
+        <div id="date"></div>
+
+    </section>
+    <main>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>₹</th>
+                    <th>%</th>
+                </tr>
+            </thead>
+            <tbody> </tbody>
+        </table>
+
+
+
+
+    </main>
+</body>
+
+
+
+<script>
+    const url = 'https://www.moneycontrol.com/stocksmarketsindia/';
+    const outputElement = document.querySelector('tbody');
+
+    const currentDate = new Date();
+    const year = currentDate.getFullYear();
+    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+    const day = String(currentDate.getDate()).padStart(2, '0');
+    const hours = String((currentDate.getHours() % 12) || 12).padStart(2, '0');
+    const ampm = currentDate.getHours() >= 12 ? 'PM' : 'AM';
+    const minutes = String(currentDate.getMinutes()).padStart(2, '0');
+    const seconds = String(currentDate.getSeconds()).padStart(2, '0');
+
+    date.innerHTML = `Today: ${hours}:${minutes}${ampm}, ${day}/${month}/${year}`;
+
+
+    fetch(url)
+        .then(response => response.text())
+        .then(html => {
+            const tempElement = document.createElement('div');
+            tempElement.innerHTML = html;
+            table = tempElement.querySelector('#maindindi .marketatc_actcont .mctable1');
+
+            table.querySelectorAll('tbody tr').forEach(row => {
+                const cells = row.querySelectorAll('td');
+                if (cells.length >= 2) {
+                    cells[1].remove();
+                }
+            });
+
+            tbody = `<tr>
+                    ${colorizeCell(table.querySelectorAll("tbody tr")[1])}
+                    ${colorizeCell(table.querySelectorAll("tbody tr")[2])}
+                    ${colorizeCell(table.querySelectorAll("tbody tr")[3])}     
+                    ${colorizeCell(table.querySelectorAll("tbody tr")[4])}
+                </tr>`
+
+
+            outputElement.innerHTML = tbody;
+
+
+            function colorizeCell(row) {
+                const cells = row.querySelectorAll('td');
+                const companyCell = cells[0];
+
+                companyCell.innerHTML = companyCell.textContent;
+
+                const valueCell = cells[2];
+                const value = parseFloat(valueCell.innerText.replace(/[₹%]/g, ''));
+
+                if (value < 0) {
+                    valueCell.classList.add('negative');
+                } else if (value > 0) {
+                    valueCell.classList.add('positive');
+                }
+
+                if (value > 0) {
+                    valueCell.innerHTML = `+${valueCell.innerHTML}`;
+                }
+
+                return row.outerHTML;
+            }
+
+
+        })
+        .catch(error => {
+            console.error(error);
+        });
+</script>
+
+</html>

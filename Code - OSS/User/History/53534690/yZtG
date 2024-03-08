@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Set up environment variables if needed
+export DISPLAY=:0.0
+
+sel_file=$(fzf)
+if [ -z "$sel_file" ]; then
+    notify-send "No file selected."
+    exit 1
+fi
+
+echo "$sel_file" | xclip -sel c
+echo "$sel_file" >> ~/.cache/openz.hist
+
+# Get the full path to xdg-open
+XDG_OPEN_PATH=$(which xdg-open)
+
+# Check if xdg-open is found
+if [ -z "$XDG_OPEN_PATH" ]; then
+    notify-send "Error: xdg-open not found."
+    exit 1
+fi
+
+# Use the full path to xdg-open
+"$XDG_OPEN_PATH" "$sel_file"

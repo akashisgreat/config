@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>">
+    <title>Live Radio</title>
+    <link rel="manifest" href="root/manifest.json">
+    <link rel="stylesheet" href="root/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="player">
+            <video id="player-engine" width="100%" height="225px" controls></video>
+            <span class="name"></span>
+        </section>
+    </header>
+    <main>
+        <div class="container"></div>
+    </main>
+</body>
+
+<script defer>
+    const player_name = document.querySelector('.player .name');
+    const player_engine = document.querySelector('#player-engine');
+    const container = document.querySelector(".container");
+
+    fetch('channels.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(e => {
+                const label = document.createElement('label');
+                label.innerHTML = `<input type="radio" name="station">
+                <img src="${e.img}" alt="${e.name}">
+                <url data-url="${e.url}">`;
+                container.appendChild(label);
+            });
+
+            const items = document.querySelectorAll(".container label input");
+
+            function loaddata() {
+                const selectedLabel = document.querySelector('input[name="station"]:checked').parentElement;
+                const name = selectedLabel.querySelector('img').getAttribute('alt');
+                const url = selectedLabel.querySelector('url').dataset.url;
+                player_name.innerHTML = name;
+                player_engine.src = url;
+                player_engine.play();
+            }
+
+            items.forEach(item => {
+                item.addEventListener('click', loaddata);
+            });
+            items[0].click();
+            loaddata();
+        });
+
+</script>
+
+</html>

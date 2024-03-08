@@ -3,8 +3,9 @@
 timeout_sec=3
 
 if [[ $1 == "-o" ]]; then
-  qrencode -t PNG -s 8 -o /tmp/qr.png "$(wl-paste)"
-  killall imv-wayland|| timeout $(($timesec + 7)) imv /tmp/qr.png
+	text="$(xsel -p)"
+  	qrencode -t PNG -s 8 -o /tmp/qr.png "$text";
+	killall sxiv || timeout $(($timesec + 7)) sxiv /tmp/qr.png
   exit
 fi
 

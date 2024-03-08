@@ -3,7 +3,7 @@
 PS1='%F{green}%B%n@%m%f:%F{blue}%~ $%f%b '
 source $HOME/.config/shell/profile
 source $HOME/.config/shell/alias
-source $HOME/.config/shell/export
+source $HOME/.config/shell/env
 
 #printf "  Akash" | figlet -f ~/.config/fonts/mono12.tlf | lolcat 
 #chafa ~/.local/share/images/india_flag.jpg

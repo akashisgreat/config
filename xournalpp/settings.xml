@@ -6,8 +6,8 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Dracula"/>
-  <property name="lastSavePath" value="/home/akash/des"/>
-  <property name="lastOpenPath" value="/home/akash/des"/>
+  <property name="lastSavePath" value="/home/akash/des/Xournal"/>
+  <property name="lastOpenPath" value="/home/akash/dl"/>
   <property name="lastImagePath" value="/home/akash/pic/ss"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
@@ -16,15 +16,16 @@
   <property name="displayDpi" value="72"/>
   <property name="mainWndWidth" value="1920"/>
   <property name="mainWndHeight" value="1026"/>
-  <property name="maximized" value="true"/>
+  <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
-  <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="141"/>
+  <property name="showSidebar" value="false"/>
+  <property name="sidebarWidth" value="50"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
   <property name="menubarVisible" value="true"/>
   <property name="filepathShownInTitlebar" value="false"/>
+  <property name="pageNumberShownInTitlebar" value="false"/>
   <property name="numColumns" value="1"/>
   <property name="numRows" value="1"/>
   <property name="viewFixedRows" value="false"/>
@@ -37,7 +38,7 @@
   <property name="emptyLastPageAppend" value="disabled"/>
   <property name="presentationMode" value="false"/>
   <!--Which GUI elements are shown in default view mode, separated by a colon (,)-->
-  <property name="defaultViewModeAttributes" value="showMenubar,showToolbar,showSidebar"/>
+  <property name="defaultViewModeAttributes" value="showMenubar,showToolbar"/>
   <!--Which GUI elements are shown in fullscreen view mode, separated by a colon (,)-->
   <property name="fullscreenViewModeAttributes" value="goFullscren,showToolbar"/>
   <!--Which GUI elements are shown in presentation view mode, separated by a colon (,)-->
@@ -66,12 +67,15 @@
   <property name="autosaveEnabled" value="true"/>
   <property name="autosaveTimeout" value="3"/>
   <property name="addHorizontalSpace" value="false"/>
-  <property name="addHorizontalSpaceAmount" value="150"/>
+  <property name="addHorizontalSpaceAmountRight" value="150"/>
+  <property name="addHorizontalSpaceAmountLeft" value="150"/>
   <property name="addVerticalSpace" value="false"/>
-  <property name="addVerticalSpaceAmount" value="150"/>
+  <property name="addVerticalSpaceAmountAbove" value="150"/>
+  <property name="addVerticalSpaceAmountBelow" value="150"/>
+  <property name="unlimitedScrolling" value="false"/>
   <property name="drawDirModsEnabled" value="false"/>
   <property name="drawDirModsRadius" value="50"/>
-  <property name="snapRotation" value="false"/>
+  <property name="snapRotation" value="true"/>
   <property name="snapRotationTolerance" value="0.3"/>
   <property name="snapGrid" value="false"/>
   <property name="snapGridTolerance" value="0.5"/>
@@ -83,6 +87,7 @@
   <property name="selectionBorderColor" value="4294901760"/>
   <property name="backgroundColor" value="4292664021"/>
   <property name="selectionMarkerColor" value="4285702095"/>
+  <property name="activeSelectionColor" value="4286381056"/>
   <property name="touchZoomStartThreshold" value="0"/>
   <property name="pageRerenderThreshold" value="5"/>
   <!--The count of rendered PDF pages which will be cached.-->
@@ -99,7 +104,7 @@
   <property name="audioSampleRate" value="44100"/>
   <property name="audioGain" value="1"/>
   <property name="defaultSeekTime" value="5"/>
-  <property name="pluginEnabled" value=""/>
+  <property name="pluginEnabled" value="/usr/share/xournalpp/plugins/ColorCycle,/usr/share/xournalpp/plugins/Example,/usr/share/xournalpp/plugins/HighlightPosition,/usr/share/xournalpp/plugins/QuickScreenshot,/home/akash/.config/xournalpp/plugins/vi-xournalpp"/>
   <property name="pluginDisabled" value=""/>
   <property name="strokeFilterIgnoreTime" value="150"/>
   <property name="strokeFilterIgnoreLength" value="1"/>
@@ -139,6 +144,7 @@
       <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="size" type="string" value="none"/>
+      <attribute name="strokeType" type="string" value="none"/>
       <attribute name="tool" type="string" value="pen"/>
     </data>
     <data name="eraser">
@@ -158,12 +164,14 @@
       <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="size" type="string" value="none"/>
+      <attribute name="strokeType" type="string" value="none"/>
       <attribute name="tool" type="string" value="pen"/>
     </data>
     <data name="stylus2">
       <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="size" type="string" value="none"/>
+      <attribute name="strokeType" type="string" value="none"/>
       <attribute name="tool" type="string" value="pen"/>
     </data>
     <data name="touch">
@@ -180,6 +188,10 @@
     <data name="ELAN1200:00 04F3:3067 Touchpad">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="6"/>
+    </data>
+    <data name="LITEON Dell Wireless Device Mouse">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
     </data>
     <data name="PixArt Dell MS116 USB Optical Mouse">
       <attribute name="deviceClass" type="int" value="1"/>
@@ -211,7 +223,7 @@
     <attribute name="count" type="int" value="9"/>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="selectObject"/>
+    <attribute name="current" type="string" value="pen"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -231,7 +243,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="eraser">
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="arrow"/>
       <attribute name="size" type="string" value="THIN"/>
       <attribute name="type" type="string" value="deleteStroke"/>
     </data>
@@ -239,7 +251,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="highlighter">
-      <attribute name="color" type="hex" value="ffffff00"/>
+      <attribute name="color" type="hex" value="8be9fd"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
@@ -248,12 +260,15 @@
     <data name="image">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
+    <data name="link">
+      <attribute name="drawingType" type="string" value="default"/>
+    </data>
     <data name="pen">
       <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
-      <attribute name="size" type="string" value="MEDIUM"/>
+      <attribute name="size" type="string" value="BIG"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">

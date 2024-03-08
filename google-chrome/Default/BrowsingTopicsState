@@ -1,0 +1,78 @@
+{
+   "epochs": [ {
+      "calculation_time": "13351767958642255",
+      "config_version": 0,
+      "model_version": "0",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 0,
+      "top_topics_and_observing_domains": [  ]
+   }, {
+      "calculation_time": "13352526628447070",
+      "config_version": 2,
+      "model_version": "4",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 46
+      }, {
+         "hashed_domains": [  ],
+         "topic": 351
+      }, {
+         "hashed_domains": [  ],
+         "topic": 536
+      }, {
+         "hashed_domains": [  ],
+         "topic": 474
+      }, {
+         "hashed_domains": [  ],
+         "topic": 153
+      } ]
+   }, {
+      "calculation_time": "13353342500190991",
+      "config_version": 2,
+      "model_version": "4",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 323
+      }, {
+         "hashed_domains": [  ],
+         "topic": 362
+      }, {
+         "hashed_domains": [  ],
+         "topic": 415
+      }, {
+         "hashed_domains": [  ],
+         "topic": 94
+      }, {
+         "hashed_domains": [  ],
+         "topic": 443
+      } ]
+   }, {
+      "calculation_time": "13354048872980444",
+      "config_version": 2,
+      "model_version": "4",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 154
+      }, {
+         "hashed_domains": [  ],
+         "topic": 483
+      }, {
+         "hashed_domains": [  ],
+         "topic": 152
+      }, {
+         "hashed_domains": [  ],
+         "topic": 448
+      }, {
+         "hashed_domains": [  ],
+         "topic": 619
+      } ]
+   } ],
+   "hex_encoded_hmac_key": "18B6F9F4B778F415CEB880CD8F9DC2238223B55D84FDFC2C7B8726F988A2E2DA",
+   "next_scheduled_calculation_time": "13354653673058129"
+}

@@ -1,0 +1,19 @@
+
+#!/bin/bash
+url="$*"
+
+
+if [[ $url == *-p* ]]; then
+    # Shift again to remove the option ("-p")
+    shift
+    yt-dlp --embed-thumbnail -x --audio-format mp3 --progress --yes-playlist "$@"
+    #echo "playlist" "$@"
+elif [[ $url == *-h* ]]; then
+    echo "$0 [option] [url]"
+    echo "	-p	playlist download (if available)."
+    echo "	-h	show this help."
+else
+    yt-dlp --embed-thumbnail -x --audio-format mp3 --progress "$@"
+    #echo "default" "$@"
+fi
+

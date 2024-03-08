@@ -1,0 +1,1 @@
+/home/akash/.local/src/piper/piper --model /home/akash/.local/src/piper/en_US-kusal-medium.onnx --output-raw |  aplay -r 22050 -f S16_LE -t raw -

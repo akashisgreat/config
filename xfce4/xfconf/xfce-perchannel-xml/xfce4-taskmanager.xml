@@ -2,6 +2,6 @@
 
 <channel name="xfce4-taskmanager" version="1.0">
   <property name="window-maximized" type="bool" value="false"/>
-  <property name="window-width" type="int" value="459"/>
+  <property name="window-width" type="int" value="896"/>
   <property name="window-height" type="int" value="600"/>
 </channel>

@@ -1,11 +1,39 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[AAFA76EDFA76B563]
+[/home/akash/des/CAD]
+row=2
+col=0
+
+[/home/akash/des/camQuix_CAD_EN.xopp]
+row=4
+col=0
+
+[/home/akash/des/MyPresentHomeMitilashBeside.dxf]
+row=3
+col=0
+
+[/home/akash/des/NCERT]
 row=1
 col=0
 
-[Trash]
+[/home/akash/des/Xournal]
 row=0
 col=0
+
+[/home/akash/des/bolt.FCStd]
+row=5
+col=0
+
+[a4397bba-ad1e-489b-b8a0-80c4d80e1775]
+row=2
+col=17
+
+[01DA4A8B45889720]
+row=1
+col=17
+
+[Trash]
+row=0
+col=17
 

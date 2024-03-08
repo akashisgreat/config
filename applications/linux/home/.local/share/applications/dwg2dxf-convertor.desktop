@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ODAFileConverter
+Comment=DWG to DXF file convertor
+Exec=/home/akash/.config/bin/ODAFileConverter_QT5_lnxX64_8.3dll_24.12.AppImage
+Icon=/home/akash/.config/icons/dwg2dxf-convertor.png
+Type=Application
+Categories=Development

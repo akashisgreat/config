@@ -1,13 +1,13 @@
 app=sxiv
-custom_action_command=none
+custom_action_command=/home/akash/.config/bin/image-to-text-screenshot %f
 last_user=
 last_extension=png
 enable_imgur_upload=true
 show_in_folder=false
-screenshot_dir=file:/home/akash/pic/ss
+screenshot_dir=file:/home/akash/med/pic/ss
 action=2
 delay=0
 region=3
 show_mouse=0
-show_border=1
+show_border=0
 

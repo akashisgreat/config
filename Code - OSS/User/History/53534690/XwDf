@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if ! command -v fzf &> /dev/null; then
+    echo "Error: fzf is not installed."
+    exit 1
+fi
+
+selected_file=$(fzf)
+if [ -z "$selected_file" ]; then
+    notify-send "No file selected."
+    exit 1
+fi
+
+echo "Selected file: $selected_file"
+
+echo "$selected_file" | xclip -sel c
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to copy to clipboard."
+    exit 1
+fi
+
+echo "$selected_file" >> ~/.cache/openz.hist
+
+# Uncomment and configure if you want to open the file
+# xdg-open "$selected_file"

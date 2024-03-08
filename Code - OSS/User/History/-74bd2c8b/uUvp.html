@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVs Price</title>
+    <script src="data.js"></script>
+    <script defer src="root/header.js"></script>
+    <link rel="stylesheet" href="root/table.css">
+    <link rel="stylesheet" href="root/header.css">
+
+
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        main {
+            padding: 0 1em;
+            overflow: scroll;
+            height: 100%;
+            justify-content: unset;
+            align-items: flex-start;
+        }
+
+
+        #duration {
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 1em;
+            width: 120px;
+            padding: 5px;
+        }
+
+        .graph {
+            position: relative;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .graph span {
+            content: "";
+            height: 100%;
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            background: hsla(78, 78%, 39%, 0.549);
+            z-index: -4;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+
+    <section class="header-info">
+        <h2 class="heading">NAV Price Records</h2>
+        <select name="duration" id="duration">
+            <option value="1M">1 month</option>
+            <option value="3M">3 Months</option>
+            <option value="6M">6 Months</option>
+            <option value="1Y">1 Year</option>
+            <option value="2Y">2 Years</option>
+            <option value="5Y">5 Years</option>
+            <option value="ALL">All</option>
+        </select>
+    </section>
+
+
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company Name</th>
+                    <th>Min</th>
+                    <th>Average</th>
+                    <th>Max</th>
+                    <th>Current</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+
+        </table>
+    </main>
+
+</body>
+
+<script>
+    tbody = document.querySelector('tbody');
+
+
+
+    var alertstate = false
+    function showalert(msg, color) {
+        ldiv = document.createElement('div')
+        ldiv.classList.add('alertcontainer')
+        ldiv.style = ` position: absolute;
+    top: 2em;
+    left: 50%;
+    translate: -50%;
+    z-index: 30;
+    text-align: center;
+
+    width: 350px;`
+
+        document.body.append(ldiv)
+
+
+        if (alertstate) {
+            alert.innerHTML = `<span class="closebtn" style="margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;" onclick="this.parentElement.remove();alertstate = false">&times;</span>${msg}`
+        } else {
+            alert = document.createElement('div')
+            color = color || 'red'
+            alert.classList.add('alert')
+            alert.style = ` margin: .2em;padding: 15px;border-radius: 10px;color: white;z-index: 20;background-color: ${color}`
+            alert.innerHTML = `<span class="closebtn" style="margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;" onclick="this.parentElement.remove();alertstate = false">&times;</span>${msg}`
+            alertstate = true
+            setTimeout(() => {
+                alert.remove()
+                alertstate = false
+            }, (2000));
+            document.querySelector('.alertcontainer').append(alert)
+        }
+    }
+
+    function getMax(arry) {
+        return arry.length ? Math.max(...arry) : 0;
+    }
+
+    function getMin(arry) {
+        return arry.length ? Math.min(...arry) : 0;
+    }
+
+    function getAvg(numbers) {
+        return numbers.length ? +((numbers.reduce((sum, value) => sum + value, 0) / numbers.length).toFixed(4)) : 0;
+    }
+
+    function getCurrent(arry) {
+        return arry.length ? arry[arry.length - 1] : 0;
+    }
+
+    function getpercentage(min, value, max) {
+        return ((value - min) / (max - min)) * 100;
+    }
+
+    function getColorBasedOnValue(value) {
+        const normalizedValue = Math.min(Math.max(value, 0), 100);
+        const red = normalizedValue < 100 ? 255 : 0;
+        const green = normalizedValue < 100 ? normalizedValue * 2.55 : 255;
+        return `rgb(${red}, ${green}, 0, 0.549)`;
+    }
+
+    async function fetchurl(url) {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    }
+
+    async function usejson(data) {
+        const dataArray = data.g1.map(e => e.navValue);
+        return {
+            min: getMin(dataArray),
+            avg: getAvg(dataArray),
+            max: getMax(dataArray),
+            current: getCurrent(dataArray)
+        };
+    }
+
+
+
+    const url = 'https://www.moneycontrol.com/stocksmarketsindia/';
+    // const url = 'https://www.moneycontrol.com/mc/widget/mfnavonetimeinvestment/get_chart_value?isin=${e.isin}&dur=${duration.value}';
+
+    fetch(url)
+        .then(response => response.text())
+        .then(html => {
+            const tempElement = document.createElement('div');
+            tempElement.innerHTML = html;
+            table = tempElement.innerHTML
+
+         
+
+            console.log(table)
+
+        })
+        .catch(error => {
+            console.error(error);
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // 
+
+    async function updateTable() {
+        for (const e of DATA) {
+            url = `https://www.moneycontrol.com/mc/widget/mfnavonetimeinvestment/get_chart_value?isin=${e.isin}&dur=${duration.value}`;
+            // url = 'https://cors-anywhere.herokuapp.com/' + url
+            url = `https://script.google.com/macros/s/AKfycbyUZJOCiD3Au_LIgGI78YiUuWpkCBBJAd7gceW990SMszh9Wk30VW8mgbV_7Ko6UCdN/exec?url=${url}`;
+
+            console.log(url)
+            try {
+                const data = await fetchurl(url);
+                const result = await usejson(data);
+
+                const graph_value = getpercentage(result.min, result.current, result.max);
+
+                const bg_color = getColorBasedOnValue(graph_value);
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                <td><a href="nav-price-history.html?cname=${e.cname}&isin=${e.isin}">${e.cname}</a></td>
+                <td>${result.min}</td>
+                <td>${result.avg}</td>
+                <td>${result.max}</td>
+                <td title="-${(100 - graph_value).toFixed(2)}%" class="graph"><span  style="right: calc(100% - ${graph_value}%);background-color:${bg_color};"></span>${result.current}</td>`;
+                tbody.appendChild(row);
+            } catch (error) {
+                console.log(error);
+                showalert('Please Enable Desktop mode.');
+            }
+        }
+    }
+
+    // updateTable();
+
+
+
+
+
+
+
+
+
+
+
+    duration.onchange = () => {
+        tbody.innerHTML = '';
+        updateTable();
+    };
+
+
+
+</script>
+
+
+
+
+</html>

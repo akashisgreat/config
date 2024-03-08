@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+sel_file=$(fzf)
+sel_file_full_path="$(realpath '$sel_file')"
+if [ -z "$sel_file_full_path" ]; then
+    notify-send "No file selected."
+    exit 1
+fi
+
+echo "$sel_file_full_path" | xclip -sel c
+echo "$sel_file_full_path" >> ~/.cache/openz.hist
+# notify-send "$(basename $sel_file)"
+/usr/bin/xdg-open "$sel_file_full_path"

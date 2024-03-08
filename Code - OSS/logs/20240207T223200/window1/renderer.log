@@ -1,0 +1,4 @@
+2024-02-07 22:32:17.141 [info] Started local extension host with pid 63710.
+2024-02-07 22:32:30.402 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1901:12495
+2024-02-07 22:32:37.232 [info] [perf] Render performance baseline is 309ms

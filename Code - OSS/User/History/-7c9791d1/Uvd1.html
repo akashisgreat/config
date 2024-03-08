@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>">
+    <title>Live Radio</title>
+    <link rel="manifest" href="root/manifest.json">
+    <link rel="stylesheet" href="root/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="player">
+            <video id="player-engine" width="100%" height="100%" controls title="Your Title Here"></video>
+            <span class="name"></span>
+        </section>
+    </header>
+
+    <main>
+        <div class="container">
+            <label>
+                <input type="radio" name="station">
+                <span class="name">9xm</span>
+                <img src="https://i.imgur.com/gxKFKRG.png">
+                <url data-url="https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8">
+            </label>
+        </div>
+    </main>
+
+
+</body>
+
+
+<script defer>
+    const player_freq = document.querySelector('.player .freq')
+    const player_name = document.querySelector('.player .name')
+    const player_engine = document.querySelector('#player-engine')
+    const container = document.querySelector(".container")
+    const items = document.querySelectorAll(".container label input")
+
+    var alertstate = false
+    function showalert(msg, color) {
+        if (alertstate) {
+            // alert.innerHTML = `<span class="closebtn" onclick="this.parentElement.remove();alertstate = false">&times;</span>${msg}`
+            console.log('');
+        } else {
+            alert = document.createElement('div')
+            color = color || 'red'
+            alert.classList.add('alert')
+            alert.style = `position: absolute;top: 4em;left: 50%;transform: translate(-50%, -50%);margin: .2em;padding: 10px 15px;border-radius: 10px;color: white;z-index: 20;background-color: ${color}`
+            alert.innerHTML = `<span class="closebtn" 
+            style="margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;" 
+            onclick="this.parentElement.remove();alertstate = false">&times;</span>${msg}`
+            alertstate = true
+            setTimeout(() => {
+                alert.remove()
+                alertstate = false
+            }, (2000));
+            document.querySelector('body').append(alert)
+        }
+
+        console.log(msg);
+
+    }
+
+    function loaddata() {
+        selectedLabel = document.querySelector('input[name="station"]:checked').parentElement
+        const name = selectedLabel.querySelector('.name').innerHTML
+        const url = selectedLabel.querySelector('url').dataset.url;
+        player_name.innerHTML = name
+        player_engine.src = url
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        items[0].checked = true;
+        items.forEach(item => {
+            item.addEventListener('click', function () {
+                loaddata()
+                player_engine.play()
+            })
+        });
+
+
+
+        loaddata()
+    });
+
+
+
+
+
+
+</script>
+
+</html>

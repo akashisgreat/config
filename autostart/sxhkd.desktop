@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Sxhkd
+TryExec=sxhkd
+Exec=/usr/bin/sxhkd
+Icon=sxhkd
+OnlyShowIn=XFCE;GNOME;
+Terminal=false
+Hidden=false
+Comment=Sxhkd (key shortcut manager)
+RunHook=0
+

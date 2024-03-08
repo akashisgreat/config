@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sel_file=$(fzf)
+if [ -z "$sel_file" ]; then
+    notify-send "No file selected."
+    exit 1
+fi
+
+echo "$sel_file" | xclip -sel c
+echo "$sel_file" >> ~/.cache/openz.hist
+notify-send "$(basename $sel_file)"
+doc/code/HTML/bookWebsite/v1.1/root/books/pdf.js/external/bcmaps/KSC-V.bcmap
+ "$sel_file"

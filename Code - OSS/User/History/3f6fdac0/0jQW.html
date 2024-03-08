@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📻</text></svg>">
+    <title>Live Radio</title>
+    <link rel="manifest" href="root/manifest.json">
+    <link rel="stylesheet" href="root/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="player">
+
+
+            <div class="loading">
+                <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px"
+                    viewBox="0 0 50 50" style="enable-background:new 0 0 50 50; transform: scale(0.7);"
+                    xml:space="preserve">
+                    <circle cx="25" cy="25" r="17" stroke="#e1e0e0f6" stroke-width="4.5" fill="transparent" />
+                    <path fill="#a2a1a1"
+                        d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z">
+                        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25"
+                            to="360 25 25" dur="1s" repeatCount="indefinite" />
+                    </path>
+                </svg>
+            </div>
+            <div class="status">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="17px"
+                    viewBox="0 0 24 24" style="enable-background:new 0 0 50 50; transform: rotateX(180deg) scale(1);"
+                    xml:space="preserve">
+                    <rect x="0" y="0" width="4" height="7" fill="#333">
+                        <animateTransform attributeType="xml" attributeName="transform" type="scale"
+                            values="1,1; 1,3; 1,1" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                    </rect>
+                    <rect x="10" y="0" width="4" height="7" fill="#333">
+                        <animateTransform attributeType="xml" attributeName="transform" type="scale"
+                            values="1,1; 1,3; 1,1" begin="0.2s" dur="0.6s" repeatCount="indefinite" />
+                    </rect>
+                    <rect x="20" y="0" width="4" height="7" fill="#333">
+                        <animateTransform attributeType="xml" attributeName="transform" type="scale"
+                            values="1,1; 1,3; 1,1" begin="0.4s" dur="0.6s" repeatCount="indefinite" />
+                    </rect>
+                </svg>
+            </div>
+
+
+
+            <span>
+                <span class="freq"></span>
+                <span class="name"></span>
+            </span>
+            <video style="display: none;" id="player-engine"></video>
+            <label tabindex=1>
+                <input type="checkbox" id="play-pause-checkbox" />
+            </label>
+        </section>
+    </header>
+
+
+
+
+    <main>
+        <div class="container">
+            <label>
+                <input type="radio" name="station">
+                <span class="freq">101.6 Mhz</span>
+                <span class="name">AkashVani Patna</span>
+                <url data-url="https://air.pc.cdn.bitgravity.com/air/live/pbaudio087/chunklist.m3u8">
+            </label>
+            <label>
+                <input type="radio" name="station">
+                <span class="freq">102.5 Mhz</span>
+                <span class="name">Vividh Bharti Patna</span>
+                <url data-url="https://air.pc.cdn.bitgravity.com/air/live/pbaudio251/chunklist.m3u8">
+            </label>
+            <label class="song">
+                <input type="radio" name="station">
+                <span class="freq">Md. Rafi</span>
+                <span class="name">Mohammed Rafi songs</span>
+                <url data-url="http://radio.mohdrafi.com/rafi.mp3">
+            </label>
+            <label class="song">
+                <input type="radio" name="station">
+                <span class="freq">Kishore</span>
+                <span class="name">Kishore Kumar songs</span>
+                <url data-url="https://stream-156.zeno.fm/s9c3zek68a0uv?zs=2n3_bd2iRrmIN5-HuvzoXA">
+            </label>
+            <label class="song">
+                <input type="radio" name="station">
+                <span class="freq">Bollywood Songs</span>
+                <span class="name">New Songs</span>
+                <url data-url="">
+            </label>
+            <label class="song">
+                <input type="radio" name="station">
+                <span class="freq">Old Songs</span>
+                <span class="name">Old Hindi Songs</span>
+                <url data-url="https://stream-146.zeno.fm/8ty8szwpwfeuv?zs=DKl5QSwcRduGJEyDUqUTVA">
+            </label>
+            <!--  -->
+            <label>
+                <input type="radio" name="station">
+                <span class="freq">98.3 Mhz</span>
+                <span class="name">Radio Mirchi</span>
+                <url data-url="https://playerservices.streamtheworld.com/api/livestream-redirect/PAT_HIN_ESTAAC.m3u8">
+            </label>
+        </div>
+    </main>
+
+
+</body>
+
+
+<script defer>
+    const player_freq = document.querySelector('.player .freq')
+    const player_name = document.querySelector('.player .name')
+    const player_engine = document.querySelector('#player-engine')
+    const play_pause_btn = document.querySelector('#play-pause-checkbox');
+    const container = document.querySelector(".container")
+    const items = document.querySelectorAll(".container label input")
+    const loading = document.querySelector(".loading")
+    const status = document.querySelector(".status")
+    play_pause_btn.checked = false
+
+    var alertstate = false
+    function showalert(msg, color) {
+        if (alertstate) {
+            // alert.innerHTML = `<span class="closebtn" onclick="this.parentElement.remove();alertstate = false">&times;</span>${msg}`
+            console.log('');
+        } else {
+            alert = document.createElement('div')
+            color = color || 'red'
+            alert.classList.add('alert')
+            alert.style = `position: absolute;top: 4em;left: 50%;transform: translate(-50%, -50%);margin: .2em;padding: 10px 15px;border-radius: 10px;color: white;z-index: 20;background-color: ${color}`
+            alert.innerHTML = `<span class="closebtn" 
+            style="margin-left: 15px;color: white;font-weight: bold;float: right;font-size: 22px;line-height: 20px;cursor: pointer;transition: 0.3s;" 
+            onclick="this.parentElement.remove();alertstate = false">&times;</span>${msg}`
+            alertstate = true
+            setTimeout(() => {
+                alert.remove()
+                alertstate = false
+            }, (2000));
+            document.querySelector('body').append(alert)
+        }
+
+        console.log(msg);
+
+    }
+
+    function loaddata() {
+        selectedLabel = document.querySelector('input[name="station"]:checked').parentElement
+        const freq = selectedLabel.querySelector('.freq').innerHTML
+        const name = selectedLabel.querySelector('.name').innerHTML
+        const url = selectedLabel.querySelector('url').dataset.url;
+        player_freq.innerHTML = freq
+        player_name.innerHTML = name
+        player_engine.src = url
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        items[0].checked = true;
+        items.forEach(item => {
+            item.addEventListener('click', function () {
+                loaddata()
+                player_engine.play()
+            })
+        });
+
+        player_engine.addEventListener('loadstart', () => {
+            play_pause_btn.checked = false;
+            loading.style.display = 'block'
+            status.style.display = 'none'
+            console.log("loading...");
+        })
+
+        player_engine.addEventListener('loadeddata', () => {
+            loading.style.display = 'none'
+            console.log("loaded succes");
+            if (!player_engine.paused) {
+                play_pause_btn.checked = true;
+                status.style.display = 'block'
+                console.log("playing");
+            }
+        });
+
+        player_engine.addEventListener('pause', function () {
+            play_pause_btn.checked = false;
+            status.style.display = 'none'
+            console.log("pause");
+        });
+
+        player_engine.addEventListener('play', function () {
+            play_pause_btn.checked = true;
+            status.style.display = 'block'
+            console.log("playing");
+        });
+
+        player_engine.addEventListener('error', function () {
+            // loading.innerHTML = " [!]"
+            status.style.display = 'none'
+            loading.style.display = 'none'
+            showalert("error video");
+        });
+
+        play_pause_btn.addEventListener('change', function () {
+            if (play_pause_btn.checked) {
+                player_engine.play();
+            } else {
+                player_engine.pause();
+            }
+        });
+
+        loaddata()
+    });
+
+
+
+
+
+
+</script>
+
+</html>

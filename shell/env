@@ -1,0 +1,11 @@
+export PATH="$HOME/.config/bin/:$PATH"
+export PATH="$HOME/.local/bin/:$PATH"
+export EDITOR=nvim
+#export TERM="xterm-kitty"
+#export TERM="kitty"
+#export QT_QPA_PLATFORM=xcb
+export TESSDATA_PREFIX=/usr/share/tessdata/ # for OCR (image to text)
+export CLIPMANAGER="xfce4-clipman-history" # clip history manager
+export TERMINAL="xfce4-terminal" # Terminal
+export FILEMANAGER=thunar
+export NOTE="xfce4-notes"

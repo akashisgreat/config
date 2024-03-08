@@ -1,0 +1,6 @@
+#!/bin/bash
+sel_file=$(fzf)
+echo $sel_file  | xclip -sel c 
+echo $sel_file | tee -a ~/.cache/openz.hist
+notify-send "$sel_file"
+xdg-open $sel_file

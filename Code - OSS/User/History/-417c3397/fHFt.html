@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📟</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="root/table.css">
+    <link rel="stylesheet" href="root/header.css">
+    <script defer src="root/header.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header></header>
+
+    <section>
+        <div class="head">
+            Interest Calculator
+        </div>
+        <div class="body">
+            <label>Principal: <input id="principal" type="number"></label>
+            <label>Rate: <input id="rate" type="number">%</label>
+            <label>
+                <span>Time Duration:</span>
+                Year: <input id="year" type="number" min="1">
+                Month: <input id="month" type="number" min="1" max="12" value="0">
+                Day: <input id="day" type="number" min="1" max="31" value="0">
+            </label>
+        </div>
+        <div class="foot">
+
+            <div>
+                Simple Interest: <span id="si"></span>
+            </div>
+            <div>
+                Simple Interest Amount: <span id="sa"></span>
+            </div>
+
+            <div>
+                Compound Interest: <span id="ci"></span>
+            </div>
+            <div>
+                Compound Interest Amount: <span id="ca"></span>
+            </div>
+        </div>
+        <button id="calculate_btn" onclick="calculate()">Calculate</button>
+    </section>
+
+
+    <script>
+
+
+        function calculate() {
+            p = parseFloat(principal.value)
+            r = parseFloat(rate.value)
+            ty = parseFloat(year.value)
+            tm = parseFloat(month.value || 0)
+            td = parseFloat(day.value || 0)
+            t = ty + (tm / 12) + (td / 365);
+
+
+
+            si = (p * r * t) / 100
+            sa = p + si
+
+            ci = p * (1 + (r / 100)) ^ t - p
+            ca = p + ci
+
+
+            si.innerHTML = si
+            sa.innerHTML = sa
+
+            ci.innerHTML = ci
+            ca.innerHTML = ca
+
+            console.log(si,sa)
+
+
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>
