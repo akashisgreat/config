@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Fungua kiungo cha URL kwenye kichupo kipya sasa?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Decode ya QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Rangi ya mandharinyuma"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Pakua QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Ukubwa wa Pakua"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Marekebisho ya Kosa"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Rangi ya mbele"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikoni"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Pambizo ya Ikoni"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL ya ikoni"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Ukanda wa Kabisa"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Weka upya"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Je, unaupenda upanuzi huu?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Nipe ukaguzi wa nyota 5 katika"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Ukurasa wa chaguo"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Duka la Wavuti la Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Nakiliwa"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Nakili kiungo"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Pakua QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Maoni"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Vipimo"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Yaliyomo kwenye QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Sorry, sikuweza ku decode ya QR"
+   }
+}

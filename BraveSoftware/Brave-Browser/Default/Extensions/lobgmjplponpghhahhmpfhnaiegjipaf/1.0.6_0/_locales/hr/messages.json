@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Želite li sada otvoriti URL vezu na novoj kartici?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Dekodiranje QR-a"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Boja pozadine"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Podaci"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Preuzmi QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Veličina preuzimanja"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Ispravak pogreške"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Boja prednjeg plana"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikona"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Margina ikone"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL ikone"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Sasvim zona"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Brisanje"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Volite li ovo proširenje?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Dajte mi recenziju s 5 zvjezdica u"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Stranica Mogućnosti"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google web-trgovina"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kopiran"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopiraj vezu"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Preuzmi QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Povratna informacija"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Postavkama"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR sadržaj"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Nažalost, nije moguće dekodirati QR"
+   }
+}

@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "ಈಗ ಹೊಸ ಟ್ಯಾಬ್ ನಲ್ಲಿ URL ಲಿಂಕ್ ತೆರೆಯಬೇಕೆ?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "QR ಅನ್ನು ಡಿಕೋಡ್ ಮಾಡಿ"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "ಹಿನ್ನೆಲೆ ಬಣ್ಣ"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "ಡೇಟಾ"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR ಡೌನ್ ಲೋಡ್ ಮಾಡಿ"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "ಡೌನ್ ಲೋಡ್ ಗಾತ್ರ"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "ದೋಷ ತಿದ್ದುಪಡಿ"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "ಮುಂಭಾಗದ ಬಣ್ಣ"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "ಐಕಾನ್"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "ಐಕಾನ್ ಮಾರ್ಜಿನ್"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "ಐಕಾನ್ URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "ಸಾಕಷ್ಟು ವಲಯ"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "ಮರುಹೊಂದಿಸಿ"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "ಈ ವಿಸ್ತರಣೆಯನ್ನು ಇಷ್ಟಪಡುತ್ತೀರಾ?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "ನನಗೆ 5-ಸ್ಟಾರ್ ವಿಮರ್ಶೆಯನ್ನು ನೀಡಿ"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "ಆಯ್ಕೆಗಳ ಪುಟ"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google ವೆಬ್ ಸ್ಟೋರ್"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "ನಕಲು ಮಾಡಲಾಗಿದೆ"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "ಲಿಂಕ್ ನಕಲಿಸು"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR ಡೌನ್ ಲೋಡ್ ಮಾಡಿ"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "ಪ್ರತಿಕ್ರಿಯೆ"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "ಸೆಟ್ಟಿಂಗ್ ಗಳು"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR ವಿಷಯ"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "ಕ್ಷಮಿಸಿ, QR ಅನ್ನು ಡೀಕೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+   }
+}

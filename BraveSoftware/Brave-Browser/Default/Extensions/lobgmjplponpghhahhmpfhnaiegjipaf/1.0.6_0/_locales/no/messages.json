@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Åpne URL-lenke i en ny fane nå?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Dekode QR-en"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Bakgrunnsfarge"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Last ned QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Nedlastingsstørrelse"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Feilretting"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Forgrunnsfarge"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikon"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Ikon marg"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL-adresse for ikon"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Ganske sone"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Nullstille"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Liker du denne utvidelsen?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Gi meg en 5-stjerners anmeldelse i"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Alternativer-siden"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Googles nettbutikk"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kopiert"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopier kobling"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Last ned QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Tilbakemelding"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Innstillinger"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR-innhold"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Beklager, kunne ikke dekode QR-en"
+   }
+}

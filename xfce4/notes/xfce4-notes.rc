@@ -1,11 +1,11 @@
 [Notes]
 PosX=1172
 PosY=77
-Width=523
+Width=348
 Height=481
-TabsOrder=Note 1;
+TabsOrder=Note 1;LongTerm Data;
 LastTab=0
 Above=false
 Sticky=true
 Transparency=9
-Visible=false
+Visible=true

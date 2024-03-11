@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Ανοίξτε τον σύνδεσμο URL σε νέα καρτέλα τώρα;"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Αποκωδικοποιήστε το QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Χρώμα φόντου"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Δεδομένα"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Κατεβάστε το QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Μέγεθος λήψης"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Διόρθωση σφαλμάτων"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Χρώμα προσκηνίου"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Εικόνα"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Περιθώριο εικονιδίου"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL εικονιδίου"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Ήσυχη ζώνη"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Επαναφορά"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Σας αρέσει αυτή η επέκταση;"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Δώστε μου μια κριτική 5 αστέρων στο"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Σελίδα επιλογών"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Κατάστημα Google Web"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Αντιγραφεί"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Αντιγραφή συνδέσμου"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Κατεβάστε το QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Ανάδραση"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Ρυθμίσεις"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Περιεχόμενο QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Λυπούμαστε, δεν ήταν δυνατή η αποκωδικοποίηση του QR"
+   }
+}

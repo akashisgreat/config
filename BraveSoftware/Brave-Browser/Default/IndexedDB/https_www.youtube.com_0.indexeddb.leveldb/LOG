@@ -1,0 +1,6 @@
+2024/03/11-15:59:42.928 59c6 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/11-15:59:42.928 59c6 Recovering log #82
+2024/03/11-15:59:42.930 59c6 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000082.log 
+2024/03/11-18:56:10.859 59c2 Level-0 table #87: started
+2024/03/11-18:56:10.873 59c2 Level-0 table #87: 1796441 bytes OK
+2024/03/11-18:56:10.879 59c2 Delete type=0 #82

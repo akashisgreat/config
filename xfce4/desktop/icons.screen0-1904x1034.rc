@@ -1,29 +1,21 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/akash/des/xfce4]
-row=3
-col=0
-
 [/home/akash/des/NCERT]
 row=1
-col=0
-
-[/home/akash/des/panel]
-row=2
 col=0
 
 [/home/akash/des/Xournal]
 row=0
 col=0
 
-[a4397bba-ad1e-489b-b8a0-80c4d80e1775]
-row=2
-col=17
-
 [01DA4A8B45889720]
 row=1
 col=17
+
+[86B6-37E7]
+row=2
+col=0
 
 [Trash]
 row=0

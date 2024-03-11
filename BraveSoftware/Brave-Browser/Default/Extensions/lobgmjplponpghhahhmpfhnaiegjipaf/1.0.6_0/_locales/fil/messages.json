@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Lumikha at mag-scan ng QR Codes sa isang click! I-simplify ang iyong karanasan online sa mabilis at maginhawang pakikipag-ugnayan sa QR Codes."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Madaling QR"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Buksan ang URL link sa isang bagong tab ngayon?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "I-decode ang QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Background color"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "I-download ang QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Laki ng I-download"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Antas ng Pagsasahihing Error"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Foreground color"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Icon"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Margin ng Icon"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Icon URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Tahimik na Zone"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "I-reset"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Mahalin ang ekstensyon na ito?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Bigyan ako ng 5-star na review sa "
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Pahina ng mga Opsyon"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kinopya"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopyahin ang link"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "I-download ang QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Feedback"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Mga Setting"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Nilalaman ng QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Pasensya na, hindi mabasa ang QR"
+   }
+}

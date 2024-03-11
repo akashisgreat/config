@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Deschideți linkul URL într-o filă nouă acum?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Decodarea codului QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Culoare de fundal"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Date"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Descărcați QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Dimensiune descărcare"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Corectarea erorilor"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Culoare plan frontal"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Icoană"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Margine pictogramă"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Adresa URL a pictogramei"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Destul de zonă"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Reseta"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Îți place această extensie?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Dă-mi o recenzie de 5 stele în"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Pagina de opțiuni"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Magazinul web Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Copiat"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Copiați linkul"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Descărcați QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Feedback"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Setări"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Conținut QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Ne pare rău, nu am putut decoda QR-ul"
+   }
+}

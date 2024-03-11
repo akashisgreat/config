@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "आता नवीन टॅबमध्ये यूआरएल लिंक उघडा?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "क्यूआर डिकोड करा"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "पार्श्वरंग"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "डेटा:"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "क्यूआर डाऊनलोड करा"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "आकार डाउनलोड करा"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "त्रुटी दुरुस्ती"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "अग्रभागाचा रंग[संपादन]।"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "मूर्ती"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "आयकॉन मार्जिन"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "आयकॉन यूआरएल"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "एकदम झोन"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "रीसेट करा"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "हा विस्तार आवडला का?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "मला 5-स्टार रिव्ह्यू द्या"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "पर्याय पृष्ठ"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "गुगल वेब स्टोअर"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "कॉपी केली आहे"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "कॉपी लिंक"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "क्यूआर डाऊनलोड करा"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "अभिप्राय"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "सेटिंग्स"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "क्यूआर सामग्री"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "माफ करा, क्यूआर डिकोड करू शकलो नाही"
+   }
+}

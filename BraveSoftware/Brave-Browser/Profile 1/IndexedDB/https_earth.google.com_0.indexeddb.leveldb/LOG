@@ -1,0 +1,11 @@
+2024/03/10-18:34:43.821 577 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_earth.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/10-18:34:43.821 577 Recovering log #4
+2024/03/10-18:34:43.828 577 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_earth.google.com_0.indexeddb.leveldb/000004.log 
+2024/03/10-18:34:45.376 577 Level-0 table #8: started
+2024/03/10-18:34:45.384 577 Level-0 table #8: 61877 bytes OK
+2024/03/10-18:34:45.388 577 Delete type=0 #4
+2024/03/10-18:34:45.388 577 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/10-18:34:47.495 578 Compacting 1@1 + 1@2 files
+2024/03/10-18:34:47.500 578 Generated table #9@1: 755 keys, 27311 bytes
+2024/03/10-18:34:47.500 578 Compacted 1@1 + 1@2 files => 27311 bytes
+2024/03/10-18:34:47.503 578 compacted to: files[ 0 0 1 0 0 0 0 ]

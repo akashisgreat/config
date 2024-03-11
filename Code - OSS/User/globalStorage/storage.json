@@ -8,24 +8,26 @@
             "file:///home/akash/backup.privet.lv": "__default__profile__",
             "file:///home/akash/doc/projects/radio": "__default__profile__",
             "file:///home/akash/doc/projects/market": "__default__profile__",
+            "file:///home/akash/des/lado": "__default__profile__",
             "file:///home/akash/doc/projects/tv": "__default__profile__",
-            "file:///home/akash/des/lado": "__default__profile__"
+            "file:///home/akash/doc/projects/pay": "__default__profile__",
+            "file:///home/akash/dl/Takeout": "__default__profile__",
+            "file:///home/akash/doc/projects/akashisgreat/data/android": "__default__profile__",
+            "file:///home/akash/doc/projects/akashisgreat": "__default__profile__"
         },
-        "emptyWindows": {
-            "1709447777770": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "19ad4fe1d080f7b03713ad88cd8345c36f29691026ecec109f746f5fb72b3aab",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1709447777770"
+                "folderUri": "file:///home/akash/doc/projects/akashisgreat"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -75,12 +77,45 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/akash/des/lado",
-                                        "path": "/home/akash/des/lado",
+                                        "external": "file:///home/akash/doc/projects/akashisgreat",
+                                        "path": "/home/akash/doc/projects/akashisgreat",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/des/lado"
+                                    "label": "~/doc/projects/akashisgreat"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/doc/projects/akashisgreat/data/android",
+                                        "path": "/home/akash/doc/projects/akashisgreat/data/android",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/doc/projects/akashisgreat/data/android"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/dl/Takeout",
+                                        "path": "/home/akash/dl/Takeout",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dl/Takeout"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/doc/projects/pay",
+                                        "path": "/home/akash/doc/projects/pay",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/doc/projects/pay"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -92,6 +127,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/doc/projects/tv"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/akash/des/lado",
+                                        "path": "/home/akash/des/lado",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/des/lado"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -138,29 +184,7 @@
                                     "label": "/home/akash"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/akash/doc/code/Arduino/esp-radio-music",
-                                        "path": "/home/akash/doc/code/Arduino/esp-radio-music",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/doc/code/Arduino/esp-radio-music"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/akash/.config/bin/openz",
-                                        "path": "/home/akash/.config/bin/openz",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/bin/openz"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -240,7 +264,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -250,6 +275,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -377,6 +409,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -584,7 +620,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -891,8 +928,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1221,8 +1257,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1405,6 +1440,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1809,7 +1849,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/akash/.config/Code - OSS/Backups/1709447777770",
+            "folder": "file:///home/akash/doc/projects/akashisgreat",
+            "backupPath": "/home/akash/.config/Code - OSS/Backups/e19de0cdb392cf97bea14f3ebe9f7111",
             "uiState": {
                 "mode": 0,
                 "x": 0,

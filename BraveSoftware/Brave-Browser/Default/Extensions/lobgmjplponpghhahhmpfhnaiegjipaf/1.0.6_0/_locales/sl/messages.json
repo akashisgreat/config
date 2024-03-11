@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Odprite povezavo URL na novem zavihku zdaj?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Dekodirajte QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Barva ozadja"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Podatki"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Prenesite QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Velikost prenosa"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Popravljanje napak"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Barva ospredja"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikona"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Rob ikone"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL ikone"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Čisto območje"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Ponastavi"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Vam je všeč ta razširitev?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Daj mi oceno s 5 zvezdicami v"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Stran z možnostmi"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Googlova spletna trgovina"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kopirati"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopiraj povezavo"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Prenesite QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Povratne informacije"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Nastavitve"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Vsebina QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Žal QR ni bilo mogoče dekodirati"
+   }
+}

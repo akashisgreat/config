@@ -22,6 +22,12 @@ super + v
 super + Print
   xfce4-screenshooter --no-border --fullscreen -s  ~/med/pic/ss/$(date +%Y-%m-%d_%I:%M:%S).png
 
+alt + Print
+  xfce4-screenshooter --no-border --fullscreen -s  ~/med/pic/ss/$(date +%Y-%m-%d_%I:%M:%S).png
+
+alt + Insert
+  xfce4-screenshooter --no-border --fullscreen -s  ~/med/pic/ss/$(date +%Y-%m-%d_%I:%M:%S).png
+
 super + n
   xfce4-notes
 

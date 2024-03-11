@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Buat dan pindai Kode QR dengan sekali klik! Mudahkan pengalaman online Anda dengan interaksi Kode QR yang cepat dan nyaman."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Buka tautan URL di tab baru sekarang?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Pecahkan kode QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Warna latar belakang"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Unduh QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Ukuran Download"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Koreksi galat"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Warna latar depan"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "ikoncomment"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Tepi ikon"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL ikon"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Cukup zona"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Atur ulang"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Suka ekstensi ini?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Beri aku ulasan 5-stars"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Halaman opsi"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "disalin"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Salin tautan"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Unduh QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Umpan balik"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "pengaturan"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Isi qrname"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Maaf, tidak bisa membaca kode QR"
+   }
+}

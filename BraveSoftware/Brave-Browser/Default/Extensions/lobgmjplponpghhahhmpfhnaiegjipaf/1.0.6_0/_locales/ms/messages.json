@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Cipta dan imbas Kod QR dengan sekali klik! Mudahkan pengalaman atas talian anda dengan interaksi Kod QR yang cepat dan mudah."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Buka pautan URL dalam tab baharu sekarang?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Nyahkodkan QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Warna latar belakang"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Muat turun QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Saiz Muat Turun"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Pembetulan Ralat"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Warna latar depan"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikon"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Margin Ikon"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL ikon"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Zon Cukup-cukuplah"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Set semula"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Suka sambungan ini?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Beri saya ulasan 5 bintang dalam"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Halaman opsyen"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Kedai Web Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Disalin"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Salin pautan"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Muat turun QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Maklum balas"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Seting"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Kandungan QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Maaf, tidak dapat menyahkod QR"
+   }
+}

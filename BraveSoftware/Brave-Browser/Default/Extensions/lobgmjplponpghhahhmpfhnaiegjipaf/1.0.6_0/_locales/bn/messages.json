@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "এখন একটি নতুন ট্যাবে URL লিঙ্কটি খুলবেন?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "কিউআর ডিকোড করুন"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "পটভূমির রং"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "ডাটা"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR ডাউনলোড করুন"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "ডাউনলোডের আকার"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "ত্রুটি সংশোধন"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "অগ্রভাগের রঙ"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "আইকন"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "আইকন মার্জিন"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "আইকন URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "বেশ জোন"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "রিসেট"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "এই এক্সটেনশনটি ভালবাসেন?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "আমাকে একটি 5 তারকা পর্যালোচনা দিন"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "বিকল্প পৃষ্ঠা"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "গুগল ওয়েব স্টোর"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "অনুলিপি"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "লিংক কপি করুন"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR ডাউনলোড করুন"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "প্রতিপ্রদান"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "সেটিংস"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR বিষয়বস্তু"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "দুঃখিত, কিউআর ডিকোড করা যায়নি"
+   }
+}

@@ -55,35 +55,22 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “wifi” active: wifi (75%)"/>
-        <value type="string" value="wi-fi network connection “wifi” active: wifi (55%)"/>
-        <value type="string" value="notes"/>
         <value type="string" value="clipman"/>
+        <value type="string" value="notes"/>
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
         <value type="string" value="TelegramDesktop"/>
-        <value type="string" value="remmina-icon"/>
-        <value type="string" value="gromit-mpx"/>
         <value type="string" value="KDE Connect Indicator"/>
         <value type="string" value="blueman"/>
-        <value type="string" value="redshift"/>
       </property>
       <property name="icon-size" type="int" value="0"/>
       <property name="single-row" type="bool" value="true"/>
-      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="hide-new-items" type="bool" value="false"/>
       <property name="hidden-items" type="array">
-        <value type="string" value="redshift"/>
-        <value type="string" value="remmina-icon"/>
-        <value type="string" value="TelegramDesktop"/>
-        <value type="string" value="gromit-mpx"/>
-        <value type="string" value="KDE Connect Indicator"/>
       </property>
       <property name="menu-is-primary" type="bool" value="true"/>
       <property name="hidden-legacy-items" type="array">
-        <value type="string" value="clipman"/>
-        <value type="string" value="wi-fi network connection “wifi” active: wifi (75%)"/>
-        <value type="string" value="wi-fi network connection “wifi” active: wifi (55%)"/>
       </property>
       <property name="symbolic-icons" type="bool" value="false"/>
     </property>
@@ -93,7 +80,7 @@
       <property name="play-sound" type="bool" value="false"/>
       <property name="volume-max" type="uint" value="100"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="known-players" type="string" value="Chrome;com.github.louis77.tuner;firefox;org.kde.kdeconnect.app;vlc"/>
+      <property name="known-players" type="string" value="Brave;Chrome;com.github.louis77.tuner;firefox;org.kde.kdeconnect.app;vlc"/>
       <property name="rec-indicator-persistent" type="bool" value="false"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
@@ -133,7 +120,7 @@
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="false"/>
-      <property name="position-commands-alternate" type="bool" value="false"/>
+      <property name="position-commands-alternate" type="bool" value="true"/>
       <property name="profile-shape" type="int" value="1"/>
       <property name="button-single-row" type="bool" value="true"/>
       <property name="default-category" type="int" value="0"/>
@@ -143,21 +130,21 @@
       <property name="recent-items-max" type="int" value="15"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="recent" type="array">
-        <value type="string" value="gparted.desktop"/>
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
-        <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="code-oss.desktop"/>
         <value type="string" value="firefox.desktop"/>
-        <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="thunar-bulk-rename.desktop"/>
-        <value type="string" value="org.gnome.clocks.desktop"/>
-        <value type="string" value="xfce-session-settings.desktop"/>
+        <value type="string" value="emote.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="thunar.desktop"/>
         <value type="string" value="org.telegram.desktop.desktop"/>
+        <value type="string" value="google-chrome.desktop"/>
+        <value type="string" value="xfce4-appfinder.desktop"/>
+        <value type="string" value="chrome-lfenmiihmmilnjodobinijcjbjapbabe-Default.desktop"/>
+        <value type="string" value="xfce4-mime-settings.desktop"/>
+        <value type="string" value="xfce-mouse-settings.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
         <value type="string" value="org.gnome.Cheese.desktop"/>
-        <value type="string" value="termite.desktop"/>
-        <value type="string" value="xfce-keyboard-settings.desktop"/>
-        <value type="string" value="realvnc-vncviewer.desktop"/>
-        <value type="string" value="com.zamaudio.zamverb.desktop"/>
-        <value type="string" value="avahi-discover.desktop"/>
+        <value type="string" value="leafpad.desktop"/>
       </property>
       <property name="launcher-show-tooltip" type="bool" value="false"/>
       <property name="category-show-name" type="bool" value="true"/>
@@ -167,14 +154,14 @@
       <property name="show-command-profile" type="bool" value="false"/>
       <property name="show-command-menueditor" type="bool" value="false"/>
       <property name="favorites" type="array">
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
-        <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="org.kde.kdeconnect.nonplasma.desktop"/>
-        <value type="string" value="xvkbd.desktop"/>
         <value type="string" value="arduino-ide.desktop"/>
-        <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="org.kde.kdeconnect.nonplasma.desktop"/>
         <value type="string" value="qcad.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
+        <value type="string" value="xvkbd.desktop"/>
       </property>
       <property name="search-actions" type="int" value="6">
         <property name="action-0" type="empty">

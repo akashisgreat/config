@@ -13,7 +13,7 @@ fi
 qr_result=$(timeout $timeout_sec zbarcam -1 --nodisplay | sed 's/QR-Code://' 2>/dev/null)
 
 if [ -n "$qr_result" ]; then
-  wl-copy "$qr_result"
+  echo "$qr_result" | xclip -sel c
   notify-send "$qr_result"
     exo-open "$qr_result"
  # canOpen="$(echo  -e "Open\nNo" | xmenu)"

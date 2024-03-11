@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "አሁን በአዲስ መክፈቻ ውስጥ ዩአርኤል አገናኝ ክፈት?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "QR (QR) የሚለውን ኮድ"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "የድህረ ገጽ ቀለም"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "ዳታ"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR አውርድ"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "መጠን አውርድ"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "ስህተት እርማት"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "ከላይ ያለው ቀለም"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "ምስል"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "የምስል ኅዳግ"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "ኢኮን ዩ አር ኤል"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "ወልቃይት ዞን"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "መልሶ ማቋቋም"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "ይህን ማራዘሚያ ትወዳለህ?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "5-ኮከብ ክለሳ ይስጡኝ"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "ምርጫዎች ገጽ"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "የተገለበጠ"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "አገናኝ መገልበጥ"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR አውርድ"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "አስተያየት"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "ምርጫዎች"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR ይዘት"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "ይቅርታ, QR ን ሊደፍን አልቻለም"
+   }
+}

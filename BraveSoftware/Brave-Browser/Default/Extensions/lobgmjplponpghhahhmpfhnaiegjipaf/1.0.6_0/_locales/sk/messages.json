@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Otvoriť odkaz URL na novej karte teraz?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Dekódovanie kódu QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Farba pozadia"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Údaje"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Stiahnite si QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Veľkosť na stiahnutie"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Oprava chýb"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Farba popredia"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikona"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Okraj ikony"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL adresa ikony"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Úplná zóna"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Vynulovanie"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Páči sa vám toto rozšírenie?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Dajte mi 5-hviezdičkovú recenziu v"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Stránka možností"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Internetový obchod Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Skopíruje"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopírovať odkaz"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Stiahnite si QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Spätná väzba"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Nastavenia"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR obsah"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Ľutujeme, QR sa nepodarilo dekódovať"
+   }
+}

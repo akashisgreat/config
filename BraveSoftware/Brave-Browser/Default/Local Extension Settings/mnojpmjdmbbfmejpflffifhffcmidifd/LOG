@@ -1,0 +1,55 @@
+2024/03/11-15:59:37.217 59c2 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2024/03/11-15:59:37.217 59c2 Recovering log #142
+2024/03/11-15:59:37.222 59c2 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000142.log 
+2024/03/11-16:11:39.571 59c2 Level-0 table #147: started
+2024/03/11-16:11:39.585 59c2 Level-0 table #147: 279514 bytes OK
+2024/03/11-16:11:39.590 59c2 Delete type=0 #142
+2024/03/11-16:12:19.590 59c2 Level-0 table #149: started
+2024/03/11-16:12:19.604 59c2 Level-0 table #149: 272846 bytes OK
+2024/03/11-16:12:19.607 59c2 Delete type=0 #146
+2024/03/11-16:12:39.656 59c3 Level-0 table #151: started
+2024/03/11-16:12:39.663 59c3 Level-0 table #151: 273453 bytes OK
+2024/03/11-16:12:39.667 59c3 Delete type=0 #148
+2024/03/11-16:12:44.611 59c2 Level-0 table #153: started
+2024/03/11-16:12:44.621 59c2 Level-0 table #153: 273849 bytes OK
+2024/03/11-16:12:44.625 59c2 Delete type=0 #150
+2024/03/11-16:12:54.738 59c6 Level-0 table #155: started
+2024/03/11-16:12:54.772 59c6 Level-0 table #155: 275253 bytes OK
+2024/03/11-16:12:54.796 59c6 Delete type=0 #152
+2024/03/11-16:12:54.797 59c6 Compacting 4@0 + 1@1 files
+2024/03/11-16:12:54.831 59c6 Generated table #156@0: 29 keys, 57718 bytes
+2024/03/11-16:12:54.832 59c6 Compacted 4@0 + 1@1 files => 57718 bytes
+2024/03/11-16:12:54.857 59c6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-16:12:54.858 59c6 Delete type=2 #151
+2024/03/11-16:12:54.858 59c6 Delete type=2 #149
+2024/03/11-16:12:54.858 59c6 Delete type=2 #153
+2024/03/11-16:12:54.858 59c6 Delete type=2 #155
+2024/03/11-16:12:54.858 59c6 Delete type=2 #147
+2024/03/11-16:13:04.628 59c3 Level-0 table #158: started
+2024/03/11-16:13:04.661 59c3 Level-0 table #158: 274533 bytes OK
+2024/03/11-16:13:04.684 59c3 Delete type=0 #154
+2024/03/11-16:13:44.669 59c3 Level-0 table #160: started
+2024/03/11-16:13:44.688 59c3 Level-0 table #160: 275656 bytes OK
+2024/03/11-16:13:44.708 59c3 Delete type=0 #157
+2024/03/11-16:20:40.033 59c3 Compacting 2@0 + 1@1 files
+2024/03/11-16:20:40.045 59c3 Generated table #161@0: 27 keys, 57478 bytes
+2024/03/11-16:20:40.045 59c3 Compacted 2@0 + 1@1 files => 57478 bytes
+2024/03/11-16:20:40.049 59c3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-16:20:40.049 59c3 Delete type=2 #160
+2024/03/11-16:20:40.049 59c3 Delete type=2 #156
+2024/03/11-16:20:40.049 59c3 Delete type=2 #158
+2024/03/11-16:40:41.051 59c3 Compacting 1@1 + 1@2 files
+2024/03/11-16:40:41.058 59c3 Generated table #162@1: 12 keys, 56917 bytes
+2024/03/11-16:40:41.058 59c3 Compacted 1@1 + 1@2 files => 56917 bytes
+2024/03/11-16:40:41.062 59c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-16:40:41.063 59c3 Delete type=2 #144
+2024/03/11-16:40:41.063 59c3 Delete type=2 #161
+2024/03/11-17:14:42.725 59c2 Level-0 table #164: started
+2024/03/11-17:14:42.736 59c2 Level-0 table #164: 276824 bytes OK
+2024/03/11-17:14:42.741 59c2 Delete type=0 #159
+2024/03/11-17:27:43.373 59c3 Compacting 1@1 + 1@2 files
+2024/03/11-17:27:43.382 59c3 Generated table #165@1: 10 keys, 56834 bytes
+2024/03/11-17:27:43.382 59c3 Compacted 1@1 + 1@2 files => 56834 bytes
+2024/03/11-17:27:43.386 59c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-17:27:43.387 59c3 Delete type=2 #162
+2024/03/11-17:27:43.387 59c3 Delete type=2 #164

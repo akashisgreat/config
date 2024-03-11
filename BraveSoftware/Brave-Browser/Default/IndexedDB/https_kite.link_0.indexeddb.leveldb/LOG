@@ -1,0 +1,6 @@
+2024/03/11-07:33:28.847 4a8 Creating DB /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_kite.link_0.indexeddb.leveldb since it was missing.
+2024/03/11-07:33:28.853 4a8 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_kite.link_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/11-08:00:13.904 4a9 Level-0 table #5: started
+2024/03/11-08:00:13.907 4a9 Level-0 table #5: 5161 bytes OK
+2024/03/11-08:00:13.911 4a9 Delete type=0 #3
+2024/03/11-08:00:13.912 4a9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

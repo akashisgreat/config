@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "ఇప్పుడు కొత్త ట్యాబ్ లో యూఆర్ ఎల్ లింక్ ఓపెన్ చేయాలా?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "QRను డీకోడ్ చేయండి"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "నేపథ్య రంగు"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "డేటా"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR డౌన్ లోడ్ చేసుకోండి"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "డౌన్ లోడ్ పరిమాణం"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "దోష దిద్దుబాటు"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "ముందు రంగు"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "చిహ్నం"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "ఐకాన్ మార్జిన్"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Icon URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "చాలా జోన్"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "రీసెట్"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "ఈ పొడిగింపు నచ్చిందా?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "5 స్టార్స్ రివ్యూ ఇవ్వండి"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "ఎంపికల పేజీ"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "గూగుల్ వెబ్ స్టోర్"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "కాపీ చేయబడింది"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "కాపీ లింక్"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR డౌన్ లోడ్ చేసుకోండి"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "ఫీడ్ బ్యాక్"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "సెట్టింగ్ లు"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR కంటెంట్"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "క్షమించండి, QRను డీకోడ్ చేయడం సాధ్యం కాలేదు"
+   }
+}

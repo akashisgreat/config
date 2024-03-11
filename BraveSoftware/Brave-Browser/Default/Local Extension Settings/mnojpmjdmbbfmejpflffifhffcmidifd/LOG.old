@@ -1,0 +1,66 @@
+2024/03/11-09:03:29.098 1d80 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2024/03/11-09:03:29.099 1d80 Recovering log #120
+2024/03/11-09:03:29.106 1d80 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000120.log 
+2024/03/11-09:04:43.150 1d83 Level-0 table #125: started
+2024/03/11-09:04:43.159 1d83 Level-0 table #125: 281642 bytes OK
+2024/03/11-09:04:43.166 1d83 Delete type=0 #120
+2024/03/11-09:16:31.304 1d80 Compacting 1@1 + 1@2 files
+2024/03/11-09:16:31.315 1d80 Generated table #126@1: 13 keys, 57179 bytes
+2024/03/11-09:16:31.315 1d80 Compacted 1@1 + 1@2 files => 57179 bytes
+2024/03/11-09:16:31.319 1d80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-09:16:31.319 1d80 Delete type=2 #125
+2024/03/11-09:16:31.319 1d80 Delete type=2 #122
+2024/03/11-09:23:23.672 1d7f Level-0 table #128: started
+2024/03/11-09:23:23.684 1d7f Level-0 table #128: 274634 bytes OK
+2024/03/11-09:23:23.690 1d7f Delete type=0 #124
+2024/03/11-09:36:32.246 1d80 Compacting 1@1 + 1@2 files
+2024/03/11-09:36:32.271 1d80 Generated table #129@1: 17 keys, 58886 bytes
+2024/03/11-09:36:32.271 1d80 Compacted 1@1 + 1@2 files => 58886 bytes
+2024/03/11-09:36:32.292 1d80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-09:36:32.293 1d80 Delete type=2 #126
+2024/03/11-09:36:32.293 1d80 Delete type=2 #128
+2024/03/11-10:14:34.603 1d80 Level-0 table #131: started
+2024/03/11-10:14:34.616 1d80 Level-0 table #131: 282739 bytes OK
+2024/03/11-10:14:34.621 1d80 Delete type=0 #127
+2024/03/11-10:28:35.365 1d80 Compacting 1@1 + 1@2 files
+2024/03/11-10:28:35.395 1d80 Generated table #132@1: 23 keys, 63248 bytes
+2024/03/11-10:28:35.395 1d80 Compacted 1@1 + 1@2 files => 63248 bytes
+2024/03/11-10:28:35.414 1d80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-10:28:35.415 1d80 Delete type=2 #129
+2024/03/11-10:28:35.415 1d80 Delete type=2 #131
+2024/03/11-10:29:35.428 1d80 Level-0 table #134: started
+2024/03/11-10:29:35.440 1d80 Level-0 table #134: 270508 bytes OK
+2024/03/11-10:29:35.443 1d80 Delete type=0 #130
+2024/03/11-10:37:35.847 1d80 Level-0 table #136: started
+2024/03/11-10:37:35.856 1d80 Level-0 table #136: 270556 bytes OK
+2024/03/11-10:37:35.859 1d80 Delete type=0 #133
+2024/03/11-10:46:36.275 1d80 Compacting 1@0 + 1@1 files
+2024/03/11-10:46:36.285 1d80 Generated table #137@0: 14 keys, 54989 bytes
+2024/03/11-10:46:36.285 1d80 Compacted 1@0 + 1@1 files => 54989 bytes
+2024/03/11-10:46:36.288 1d80 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-10:46:36.288 1d80 Delete type=2 #134
+2024/03/11-10:46:36.288 1d80 Delete type=2 #136
+2024/03/11-11:12:37.994 1d80 Compacting 1@1 + 1@2 files
+2024/03/11-11:12:38.001 1d80 Generated table #138@1: 11 keys, 58895 bytes
+2024/03/11-11:12:38.001 1d80 Compacted 1@1 + 1@2 files => 58895 bytes
+2024/03/11-11:12:38.004 1d80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-11:12:38.005 1d80 Delete type=2 #132
+2024/03/11-11:12:38.005 1d80 Delete type=2 #137
+2024/03/11-12:05:41.798 1d80 Level-0 table #140: started
+2024/03/11-12:05:41.809 1d80 Level-0 table #140: 283021 bytes OK
+2024/03/11-12:05:41.814 1d80 Delete type=0 #135
+2024/03/11-12:19:43.054 1d80 Compacting 1@1 + 1@2 files
+2024/03/11-12:19:43.065 1d80 Generated table #141@1: 14 keys, 59743 bytes
+2024/03/11-12:19:43.065 1d80 Compacted 1@1 + 1@2 files => 59743 bytes
+2024/03/11-12:19:43.068 1d80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-12:19:43.068 1d80 Delete type=2 #138
+2024/03/11-12:19:43.068 1d80 Delete type=2 #140
+2024/03/11-12:22:43.207 1d80 Level-0 table #143: started
+2024/03/11-12:22:43.220 1d80 Level-0 table #143: 271696 bytes OK
+2024/03/11-12:22:43.226 1d80 Delete type=0 #139
+2024/03/11-12:41:45.004 1d80 Compacting 1@1 + 1@2 files
+2024/03/11-12:41:45.015 1d80 Generated table #144@1: 7 keys, 56045 bytes
+2024/03/11-12:41:45.015 1d80 Compacted 1@1 + 1@2 files => 56045 bytes
+2024/03/11-12:41:45.020 1d80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-12:41:45.020 1d80 Delete type=2 #143
+2024/03/11-12:41:45.020 1d80 Delete type=2 #141

@@ -1,0 +1,3 @@
+--------------------------------------------------------------------------------
+[Mar 10, 2024, 6:35:14.0 PM:ERROR:get_available.cc(63)] Unexpected HTTP status: 426
+[Mar 10, 2024, 6:35:14.9 PM:ERROR:refill_confirmation_tokens.cc(197)] Failed to get signed tokens

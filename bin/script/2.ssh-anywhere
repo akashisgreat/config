@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cmd="`echo ssh $USER@$(curl -s ifconfig.me)`"
-echo $cmd
-echo "$cmd" | /home/akash/.config/bin/ntfy > /dev/null 2>&1
-notify-send "$cmd"  

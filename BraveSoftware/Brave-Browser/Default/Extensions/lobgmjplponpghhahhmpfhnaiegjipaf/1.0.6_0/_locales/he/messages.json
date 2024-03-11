@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "קורא QR פשוט"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "לפתוח קישור URL בכרטיסייה חדשה כעת?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "פענח את ה־QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "צבע רקע"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "נתונים"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "הורד QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "גודל הורדה"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "רמת תיקון שגיאות"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "צבע קידמי"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "איקון"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "מרווח איקון"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "כתובת איקון"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "אזור שקט"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "איפוס"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "אוהבים את התוסף הזה?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "תן לי בקשה ב-5 כוכבים ב-"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "דף אפשרויות"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "חנות האינטרנט של Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "הועתק"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "העתק קישור"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "הורד QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "משוב"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "הגדרות"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "תוכן QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "מתנצלים, לא הצלחנו לפענח את ה־QR"
+   }
+}

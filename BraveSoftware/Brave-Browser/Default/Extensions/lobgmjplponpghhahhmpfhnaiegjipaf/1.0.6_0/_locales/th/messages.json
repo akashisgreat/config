@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "สร้างและสแกนรหัส QR ด้วยคลิกเดียว! ทำให้ประสบการณ์ออนไลน์ของคุณง่ายดายด้วยการจับรหัส QR ที่รวดเร็วและสะดวก"
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "เปิด ที่อยู่ URL ในแท็บใหม่ตอนนี้ หรือไม่?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "ถอดรหัส QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "สีพื้นหลัง"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "ข้อมูล"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "ดาวน์โหลด QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "ขนาดการดาวน์โหลด"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "การแก้ไขข้อผิดพลาด"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "สีพื้นหน้า"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "ไอคอน"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "ขอบภาพไอคอน"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "ที่อยู่ URL ของไอคอน"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "ค่อนข้างโซน"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "ตั้งค่าใหม่"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "ชอบส่วนขยายนี้ มั้ย?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "ขอรีวิว 5 ดาวหน่อยค่ะ"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "หน้าตัวเลือก"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "กูเกิ้ลเว็บสโตร์"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "คัดลอกแล้ว"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "คัดลอกตำแหน่งเชื่อมโยง"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "ดาวน์โหลด QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "ความคิดเห็น"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "ตั้งค่า"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "เนื้อหา QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "ขออภัยไม่สามารถถอดรหัส QR"
+   }
+}

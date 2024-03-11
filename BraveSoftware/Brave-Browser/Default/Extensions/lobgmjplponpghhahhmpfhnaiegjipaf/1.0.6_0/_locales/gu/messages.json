@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "શું હવે નવી ટેબમાં URL કડીને ખોલો?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "QR ને ડિકોડ કરો"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "પાશ્વ ભાગનો રંગ"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "માહિતી"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR ડાઉનલોડ કરો"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "ડાઉનલોડ માપ"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "ભૂલ સુધારો"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "અગ્ર ભાગનો રંગ"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "ચિહ્ન"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "ચિહ્નનો હાંસિયો"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "ચિહ્ન URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "એકદમ ઝોન"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "પુન:સુયોજિત કરો"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "આ એક્સ્ટેંશનને પ્રેમ કરો છો?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "માં મને 5-સ્ટારની સમીક્ષા આપો"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "વિકલ્પોનું પાનું"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google વેબ સ્ટોર"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "નકલ થયેલ"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "કડીની નકલ કરો"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR ડાઉનલોડ કરો"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "પ્રતિસાદ"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "સુયોજનો"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR સમાવિષ્ટો"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "માફ કરશો, QR ને ડિકોડ કરી શક્યા નહિં"
+   }
+}

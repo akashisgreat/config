@@ -1,0 +1,7 @@
+2024/03/09-21:51:28.808 522 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/09-21:51:28.809 522 Recovering log #11
+2024/03/09-21:51:28.834 522 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000011.log 
+2024/03/09-21:51:31.017 522 Compacting 1@1 + 1@2 files
+2024/03/09-21:51:31.065 522 Generated table #16@1: 16084 keys, 2155286 bytes
+2024/03/09-21:51:31.066 522 Compacted 1@1 + 1@2 files => 2155286 bytes
+2024/03/09-21:51:31.068 522 compacted to: files[ 0 1 1 0 0 0 0 ]

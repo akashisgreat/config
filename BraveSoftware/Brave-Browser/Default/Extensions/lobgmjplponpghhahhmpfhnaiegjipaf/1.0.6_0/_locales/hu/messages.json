@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Nyissa meg az URL-linket egy új lapon most?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "A QR dekódolása"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Háttérszín"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Adat"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR letöltése"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Letöltés mérete"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Hibajavítás"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Festőszín"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikon"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Ikon margó"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Ikon URL-címe"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Elég zóna"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Átszed"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Tetszik ez a kiterjesztés?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Adjon nekem egy 5 csillagos értékelést itt:"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Beállítások lap"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Internetes áruház"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Másolt"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Link másolása"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR letöltése"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Visszacsatolás"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Beállítások"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR-tartalom"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Sajnáljuk, nem sikerült dekódolni a QR-kódot"
+   }
+}

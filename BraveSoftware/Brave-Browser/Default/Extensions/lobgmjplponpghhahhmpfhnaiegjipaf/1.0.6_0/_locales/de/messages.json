@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generiere und scanne QR-Codes mit nur einem Klick! Vereinfache deine Online-Erfahrung mit schnellen und bequemen QR-Code-Interaktionen."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Einfaches QR"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "URL-Link jetzt in einem neuen Tab öffnen?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "QR entschlüsseln"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Hintergrundfarbe"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Daten"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR herunterladen"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Downloadgröße"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Fehlerkorrektur"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Vordergrundfarbe"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Symbol"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Symbol abstand"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Symbol URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Ruhige Zone"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Zurücksetzen"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Lieben Sie diese Erweiterung?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Geben Sie mir eine 5-Sterne-Bewertung in "
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Optionen Seite"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kopiert"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Link kopieren"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR herunterladen"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Feedback"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Einstellungen"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR-Inhalt"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Entschuldigung, der QR-Code konnte nicht entschlüsselt werden"
+   }
+}

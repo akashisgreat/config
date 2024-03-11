@@ -1,0 +1,45 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "author": "aiddroid \u003Caiddroid@gmail.com>",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "content.903826e2.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "https://*/*" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl4X0IlMZCykGlaiTzgcH0KAFqo8RtaDUFXgMli8XVxxr6ujFNy2eBUSsPuwPtoJ9kNxRoGZ1dWCju8tnbT47zYHJ8op8AIdGfPWdrsIl7SkAzQbQS/1/JjjZf0/AyxlWW0CmtXODuUjIvXHO60vcPtnz0xARX8RC4bg4w/aACMjmYNd33fBuENdyzY8pmeaGHO/pM9bcXKRJwgvaEdttuhhH/U9LlVnxbT3Z3xS8jk0s8YqBg/wrvqnHsbHcEdpWLOq3P9+m8lBe/lWET3vShCn6zKbp5l7ihd9ZJgzAeQoKIVu3szgVM64GiyOdd2orIQmxgDiats31IfyXd2rU0QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "clipboardWrite", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.6",
+   "web_accessible_resources": [ {
+      "matches": [ "https://itoolkit.app/*" ],
+      "resources": [ "assets/**/*.png", "resources/*.json" ]
+   } ]
+}

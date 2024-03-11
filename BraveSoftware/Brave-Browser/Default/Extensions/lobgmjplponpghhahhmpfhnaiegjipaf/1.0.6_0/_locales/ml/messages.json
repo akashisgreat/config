@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "ഒരു പുതിയ ടാബിൽ ഇപ്പോൾ URL ലിങ്ക് തുറക്കണോ?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "QR ഡീകോഡ് ചെയ്യുക"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "പശ്ചാത്തല നിറം"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "ഡാറ്റ"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR ഡൌൺലോഡ് ചെയ്യുക"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "ഡൗൺലോഡ് വലുപ്പം"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "പിശക് തിരുത്തൽ"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "മുൻവശത്തെ നിറം"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "ഐക്കൺ"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "ഐക്കൺ മാർജിൻ"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "ഐക്കൺ URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "വളരെ നല്ല മേഖല"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "പുനഃക്രമീകരിക്കുക"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "ഈ extension ഇഷ്ടമാണോ?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "എനിക്ക് 5 സ്റ്റാർ റിവ്യൂ തരൂ"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "ഓപ്ഷനുകൾ പേജ്"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google വെബ് സ്റ്റോർ"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "കോപ്പിയടിച്ചത്"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "ലിങ്ക് പകർത്തുക"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR ഡൌൺലോഡ് ചെയ്യുക"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Feedback"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "ക്രമീകരണങ്ങൾ"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR ഉള്ളടക്കം"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "ക്ഷമിക്കണം, QR ഡീകോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല"
+   }
+}

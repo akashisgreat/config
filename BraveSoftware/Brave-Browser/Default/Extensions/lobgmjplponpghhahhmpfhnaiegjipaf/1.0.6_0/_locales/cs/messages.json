@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Otevřít nyní URL odkaz na nové kartě?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Dekódujte QR kód"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Barva pozadí"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Stáhnout QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Velikost stahování"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Oprava chyb"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Barva popředí"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikona"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Okraj ikony"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Adresa URL ikony"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Klidná zóna"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Resetovat"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Líbí se vám toto rozšíření?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Dejte mi 5hvězdičkovou recenzi v"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Stránka Možnosti"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Internetový obchod Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Zkopírovaný"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopírovat odkaz"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Stáhnout QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Zpětná vazba"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Nastavení"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR obsah"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Omlouváme se, QR kód se nepodařilo dekódovat"
+   }
+}

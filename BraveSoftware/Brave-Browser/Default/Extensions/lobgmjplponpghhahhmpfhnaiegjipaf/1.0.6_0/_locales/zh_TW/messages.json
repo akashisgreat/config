@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "一鍵生成和識別二維碼（QR），透過迅速方便的操作簡化您的二維碼體驗！"
+   },
+   "appName": {
+      "description": "application name",
+      "message": "簡單QR"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "立即在新選項卡中打開URL鏈接?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "解碼QR碼"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "背景顏色"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "數據"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "下載QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "下載尺寸"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "誤差修正"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "前景顏色"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "圖標"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "圖標間距"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "圖標URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "留白區"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "重置"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "喜歡這個應用程式嗎?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "給我5顆星的評價"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "選項頁面"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "複製"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "複製鏈接"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "下載QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "反饋"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "設置"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR內容"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "對不起，無法解碼QR碼"
+   }
+}

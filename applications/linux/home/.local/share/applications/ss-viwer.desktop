@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name= SS Folder (Screenshot Folder Viwer)
+Exec=exo-open --launch FileManager med/pic/ss/
+Icon=/home/akash/.config/icons/screenshot.png
+Type=Application
+Categories=Utility;
+Keywords=sss;ssv;viwer

@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Atvērt URL saiti jaunā cilnē tūlīt?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Atšifrējiet QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Fona krāsa"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Dati"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Lejupielādēt QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Lejupielādes lielums"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Kļūdu labošana"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Priekšplāna krāsa"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikona"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Ikonas piemale"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Ikonas URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Diezgan zona"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Atiestatīt"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Vai jums patīk šis paplašinājums?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Dodiet man 5 zvaigžņu pārskatu"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Lapa Opcijas"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google interneta veikals"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kopēts"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopēt saiti"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Lejupielādēt QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Atsauksmes"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Iestatījumus"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR saturs"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Atvainojiet, nevarēju atšifrēt QR"
+   }
+}

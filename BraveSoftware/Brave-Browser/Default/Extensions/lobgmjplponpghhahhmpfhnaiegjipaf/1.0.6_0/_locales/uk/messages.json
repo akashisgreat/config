@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Відкрити URL-посилання в новій вкладці?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Розшифровка QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Колір фону"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Дані"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Завантажити QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Розмір завантаження"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Виправлення помилок"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Колір переднього плану"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ікона"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Поле піктограми"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL-адреса піктограми"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Цілком Зона"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Скинути"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Подобається це розширення?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Дайте мені 5-зірковий відгук у"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Сторінка параметрів"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Веб-магазин Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Скопійовані"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Копіювати посилання"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Завантажити QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Зворотний зв'язок"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Параметри"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR-контент"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Вибачте, не зміг розшифрувати QR"
+   }
+}

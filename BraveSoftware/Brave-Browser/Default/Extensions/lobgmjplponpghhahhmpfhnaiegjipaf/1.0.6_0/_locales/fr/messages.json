@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Générez et scannez des codes QR en un clic ! Simplifiez votre expérience en ligne avec des interactions rapides et pratiques de codes QR."
+   },
+   "appName": {
+      "description": "nom de l'application",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "ouvrir le lien URL maintenant",
+      "message": "Ouvrir le lien URL dans un nouvel onglet maintenant ?"
+   },
+   "contextMenuScan": {
+      "description": "menu contextuel scanner le QR",
+      "message": "Décoder le QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "couleur de fond de l'étiquette de la page des options",
+      "message": "Couleur de fond"
+   },
+   "optionsLabelData": {
+      "description": "étiquette des données de la page des options",
+      "message": "Données"
+   },
+   "optionsLabelDownload": {
+      "description": "bouton de réinitialisation de la page des options",
+      "message": "Télécharger QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "étiquette de la taille de téléchargement de la page des options",
+      "message": "Taille de téléchargement"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "niveau de correction d'erreur de l'étiquette de la page des options",
+      "message": "Niveau de correction d'erreur"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "couleur du premier plan de l'étiquette de la page des options",
+      "message": "Couleur du premier plan"
+   },
+   "optionsLabelIcon": {
+      "description": "étiquette de l'icône de la page des options",
+      "message": "Icône"
+   },
+   "optionsLabelIconMargin": {
+      "description": "marge de l'icône de la page des options",
+      "message": "Marge de l'icône"
+   },
+   "optionsLabelIconUrl": {
+      "description": "URL de l'icône de la page des options",
+      "message": "URL de l'icône"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "étiquette de la zone silencieuse de la page des options",
+      "message": "Zone silencieuse"
+   },
+   "optionsLabelReset": {
+      "description": "bouton de réinitialisation de la page des options",
+      "message": "Réinitialiser"
+   },
+   "optionsLoveIt": {
+      "description": "étiquette j'aime de la page des options",
+      "message": "Aimez-vous cette extension ?"
+   },
+   "optionsReview": {
+      "description": "bouton de réinitialisation de la page des options",
+      "message": "Donnez-moi un avis 5 étoiles dans "
+   },
+   "optionsTitle": {
+      "description": "titre de la page des options",
+      "message": "Page des options"
+   },
+   "optionsWebstore": {
+      "description": "Google Web Store de la page des options",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "message copié",
+      "message": "Copié"
+   },
+   "popupCopyBtn": {
+      "description": "étiquette du bouton de copie de lien",
+      "message": "Copier le lien"
+   },
+   "popupDownloadBtn": {
+      "description": "étiquette du bouton de téléchargement QR",
+      "message": "Télécharger QR"
+   },
+   "popupFeedback": {
+      "description": "retour d'information",
+      "message": "Retour d'information"
+   },
+   "popupSettings": {
+      "description": "paramètres",
+      "message": "Paramètres"
+   },
+   "qrContent": {
+      "description": "contenu QR décodé",
+      "message": "Contenu QR"
+   },
+   "scanQrError": {
+      "description": "erreur de numérisation QR",
+      "message": "Désolé, impossible de décoder le QR"
+   }
+}

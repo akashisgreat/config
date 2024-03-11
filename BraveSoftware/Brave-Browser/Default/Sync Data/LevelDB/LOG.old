@@ -1,0 +1,48 @@
+2024/03/11-09:03:28.542 1d8e Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/03/11-09:03:28.543 1d8e Recovering log #85
+2024/03/11-09:03:28.543 1d8e Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000085.log 
+2024/03/11-09:25:38.123 1d85 Level-0 table #89: started
+2024/03/11-09:25:38.131 1d85 Level-0 table #89: 69221 bytes OK
+2024/03/11-09:25:38.138 1d85 Delete type=0 #85
+2024/03/11-09:45:27.391 1d8d Level-0 table #91: started
+2024/03/11-09:45:27.401 1d8d Level-0 table #91: 175135 bytes OK
+2024/03/11-09:45:27.407 1d8d Delete type=0 #88
+2024/03/11-09:45:27.407 1d8d Compacting 4@0 + 1@1 files
+2024/03/11-09:45:27.419 1d8d Generated table #92@0: 87 keys, 9515 bytes
+2024/03/11-09:45:27.419 1d8d Compacted 4@0 + 1@1 files => 9515 bytes
+2024/03/11-09:45:27.423 1d8d compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-09:45:27.423 1d8d Delete type=2 #91
+2024/03/11-09:45:27.424 1d8d Delete type=2 #84
+2024/03/11-09:45:27.424 1d8d Delete type=2 #86
+2024/03/11-09:45:27.424 1d8d Delete type=2 #89
+2024/03/11-09:45:27.424 1d8d Delete type=2 #82
+2024/03/11-10:31:11.708 1d8d Level-0 table #94: started
+2024/03/11-10:31:11.721 1d8d Level-0 table #94: 66243 bytes OK
+2024/03/11-10:31:11.729 1d8d Delete type=0 #90
+2024/03/11-11:00:43.622 1d7f Level-0 table #96: started
+2024/03/11-11:00:43.630 1d7f Level-0 table #96: 81388 bytes OK
+2024/03/11-11:00:43.633 1d7f Delete type=0 #93
+2024/03/11-11:44:33.159 1d85 Level-0 table #98: started
+2024/03/11-11:44:33.168 1d85 Level-0 table #98: 76528 bytes OK
+2024/03/11-11:44:33.174 1d85 Delete type=0 #95
+2024/03/11-12:48:51.786 1d8d Level-0 table #100: started
+2024/03/11-12:48:51.795 1d8d Level-0 table #100: 56407 bytes OK
+2024/03/11-12:48:51.801 1d8d Delete type=0 #97
+2024/03/11-12:48:51.801 1d8d Compacting 4@0 + 1@1 files
+2024/03/11-12:48:51.811 1d8d Generated table #101@0: 93 keys, 18042 bytes
+2024/03/11-12:48:51.811 1d8d Compacted 4@0 + 1@1 files => 18042 bytes
+2024/03/11-12:48:51.815 1d8d compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-12:48:51.816 1d8d Delete type=2 #94
+2024/03/11-12:48:51.816 1d8d Delete type=2 #96
+2024/03/11-12:48:51.816 1d8d Delete type=2 #98
+2024/03/11-12:48:51.816 1d8d Delete type=2 #92
+2024/03/11-12:48:51.816 1d8d Delete type=2 #100
+2024/03/11-13:45:40.865 1d85 Level-0 table #103: started
+2024/03/11-13:45:40.870 1d85 Level-0 table #103: 60681 bytes OK
+2024/03/11-13:45:40.876 1d85 Delete type=0 #99
+2024/03/11-14:31:07.477 1d8d Level-0 table #105: started
+2024/03/11-14:31:07.489 1d8d Level-0 table #105: 118268 bytes OK
+2024/03/11-14:31:07.496 1d8d Delete type=0 #102
+2024/03/11-15:02:40.640 1d83 Level-0 table #107: started
+2024/03/11-15:02:40.651 1d83 Level-0 table #107: 68664 bytes OK
+2024/03/11-15:02:40.655 1d83 Delete type=0 #104

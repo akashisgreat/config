@@ -1,0 +1,17 @@
+2024/03/11-09:27:43.237 1d80 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_zebpay.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/11-09:27:43.237 1d80 Recovering log #6
+2024/03/11-09:27:43.237 1d80 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_zebpay.com_0.indexeddb.leveldb/000006.log 
+2024/03/11-09:27:43.249 1d80 Level-0 table #11: started
+2024/03/11-09:27:43.251 1d80 Level-0 table #11: 3704 bytes OK
+2024/03/11-09:27:43.255 1d80 Delete type=0 #6
+2024/03/11-09:27:43.255 1d80 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/11-09:27:44.417 1d7f Level-0 table #13: started
+2024/03/11-09:27:44.419 1d7f Level-0 table #13: 6294 bytes OK
+2024/03/11-09:27:44.423 1d7f Delete type=0 #10
+2024/03/11-09:27:44.423 1d7f Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 317 : 1
+2024/03/11-09:27:44.423 1d7f Compacting 1@0 + 1@1 files
+2024/03/11-09:27:44.426 1d7f Generated table #14@0: 60 keys, 3188 bytes
+2024/03/11-09:27:44.426 1d7f Compacted 1@0 + 1@1 files => 3188 bytes
+2024/03/11-09:27:44.429 1d7f compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-09:27:44.429 1d7f Delete type=2 #13
+2024/03/11-09:27:44.430 1d7f Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 317 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

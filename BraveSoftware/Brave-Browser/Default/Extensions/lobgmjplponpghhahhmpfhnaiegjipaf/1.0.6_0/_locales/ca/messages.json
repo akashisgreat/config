@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Ara obriu l'enllaç d'URL en una pestanya nova?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Descodificar el QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Color de fons"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Dades"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Descarregar QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Mida de descàrrega"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Correcció d'errors"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Color de primer pla"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Icona"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Marge d'icones"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL de la icona"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Zona tranquil·la"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Reinicialitzar"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "T'encanta aquesta extensió?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Doneu-me una opinió de 5 estrelles a"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Pàgina d'opcions"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Copiat"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Copiar enllaç"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Descarregar QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Retroalimentació"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Configuració"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Contingut QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Ho sentim, no s'ha pogut descodificar el QR"
+   }
+}

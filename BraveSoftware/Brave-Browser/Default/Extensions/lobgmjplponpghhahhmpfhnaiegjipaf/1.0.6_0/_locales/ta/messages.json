@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "URL இணைப்பை இப்போது புதிய தாவலில் திறக்கவா?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "QR ஐ டிகோட் செய்யவும்"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "பின்னணி நிறம்"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "தரவு"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QR ஐப் பதிவிறக்கவும்"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "பதிவிறக்க அளவு"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "பிழை திருத்தம்"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "முன்புற நிறம்"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "படவுரு"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "ஐகான் மார்ஜின்"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "ஐகான் URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "மிகவும் மண்டலம்"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "மீட்டமை"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "இந்த நீட்டிப்பை விரும்புகிறீர்களா?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "எனக்கு 5-நட்சத்திர மதிப்பாய்வைக் கொடுங்கள்"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "விருப்பங்கள் பக்கம்"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google இணைய அங்காடி"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "நகலெடுக்க"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "இணைப்பை நகலெடு"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QR ஐப் பதிவிறக்கவும்"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "பின்னூட்டம்"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "அமைப்புகள்"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR உள்ளடக்கம்"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "மன்னிக்கவும், QR ஐ குறிநீக்க முடியவில்லை"
+   }
+}

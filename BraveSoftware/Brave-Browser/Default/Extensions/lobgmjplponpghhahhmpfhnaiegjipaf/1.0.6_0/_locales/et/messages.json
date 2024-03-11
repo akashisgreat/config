@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Kas avada URL-i link uuel vahekaardil kohe?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Dekodeerige QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Taustavärvi"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Andmed"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Lae alla QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Laadi alla suurus"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Vigade parandamine"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Esiplaani värv"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikoon"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Ikooni veeris"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Ikooni URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Üsna tsoon"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Lähtesta"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Kas teile meeldib see pikendus?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Andke mulle 5-tärnine ülevaade"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Valikute leht"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google'i veebipood"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kopeeritud"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopeeri link"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Lae alla QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Tagasiside"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Seaded"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR-sisu"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Kahjuks ei saanud QR-i dekodeerida"
+   }
+}

@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Tạo và quét mã QR chỉ với một cú nhấp chuột! Đơn giản hóa trải nghiệm trực tuyến của bạn với tương tác QR Code nhanh chóng và thuận tiện."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Dễ QR"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Mở liên kết URL trong tab mới ngay bây giờ?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Giải mã QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Màu nền"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Dữ liệu"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Tải xuống QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Kích thước tải xuống"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Mức sửa lỗi"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Màu chữ nền"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Biểu tượng"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Lề biểu tượng"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL biểu tượng"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Vùng trống"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Đặt lại"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Yêu thích tiện ích này?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Đánh giá 5 sao cho tôi trong "
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Trang tùy chọn"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Cửa hàng Web Google"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Đã sao chép"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Sao chép liên kết"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Tải xuống QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Phản hồi"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Cài đặt"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Nội dung QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Xin lỗi, không thể giải mã QR"
+   }
+}

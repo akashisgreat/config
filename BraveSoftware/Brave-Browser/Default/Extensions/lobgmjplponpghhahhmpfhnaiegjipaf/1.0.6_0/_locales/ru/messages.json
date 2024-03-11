@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Генерируйте и сканируйте QR-коды одним кликом! Упростите свой онлайн-опыт с быстрыми и удобными взаимодействиями с QR-кодами."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Открыть ссылку URL в новой вкладке сейчас?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Декодировать QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Цвет фона"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Данные"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Скачать QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Размер загрузки"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Уровень коррекции ошибок"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Цвет переднего плана"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Значок"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Отступ значка"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "URL значка"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Зона покоя"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Сброс"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Понравилось расширение?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Поставьте 5 звезд в "
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Страница параметров"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Магазин Google Web"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Скопировано"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Скопировать ссылку"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Скачать QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Отзыв"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Настройки"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "Содержание QR"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Извините, не удалось декодировать QR"
+   }
+}

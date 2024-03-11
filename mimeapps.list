@@ -1,15 +1,15 @@
 [Added Associations]
 text/plain=leafpad.desktop;org.xfce.mousepad.desktop;userapp-feh-JRO1V1.desktop;
 text/javascript=org.xfce.mousepad.desktop;nvim.desktop;
-x-scheme-handler/http=firefox.desktop;
-x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
 text/html=leafpad.desktop;firefox.desktop;
 image/jpeg=sxiv.desktop;gimp.desktop;userapp-sxiv-WJF9W1.desktop;
 application/xml=org.xfce.mousepad.desktop;
 image/png=sxiv.desktop;userapp-sxiv -f-BUX631.desktop;gimp.desktop;swappy.desktop;imv-dir.desktop;google-maps-geo-handler.desktop;imv.desktop;
 application/json=org.xfce.mousepad.desktop;
 application/x-zerosize=org.xfce.mousepad.desktop;com.github.xournalpp.xournalpp.desktop;libreoffice-calc.desktop;userapp-sxiv-WJF9W1.desktop;
-application/x-shellscript=leafpad.desktop;org.xfce.mousepad.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;leafpad.desktop;
 application/pdf=firefox.desktop;com.github.xournalpp.xournalpp.desktop;org.pwmt.zathura-pdf-mupdf.desktop;xpdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;com.github.babluboy.bookworm.desktop;
 text/x-csrc=leafpad.desktop;org.xfce.mousepad.desktop;
 image/webp=userapp-imv-7I9P31.desktop;
@@ -31,10 +31,11 @@ image/vnd.dxf=org.freecadweb.FreeCAD.desktop;librecad.desktop;qcad.desktop;
 application/x-trash=leafpad.desktop;
 application/postscript=nvim.desktop;
 application/gzip=com.github.xournalpp.xournalpp.desktop;
+application/x-theme=leafpad.desktop;
 
 [Default Applications]
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
 x-scheme-handler/chrome=firefox.desktop
 text/html=firefox.desktop
 application/x-extension-htm=firefox.desktop
@@ -56,3 +57,4 @@ x-scheme-handler/discord-492484203435393035=discord-492484203435393035.desktop
 application/octet-stream=code-oss.desktop
 application/x-trash=leafpad.desktop
 image/vnd.dxf=qcad.desktop
+

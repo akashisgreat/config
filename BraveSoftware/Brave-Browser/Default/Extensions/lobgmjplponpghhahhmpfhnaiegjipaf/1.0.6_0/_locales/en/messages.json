@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Open URL link in a new tab now?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Decode the QR"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Backcolor"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Download QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Download Size"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Error Correction"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Forecolor"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Icon"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Icon Margin"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Icon URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Quite Zone"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Reset"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Love this extension?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Give me a 5-stars review in "
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Options page"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Google Web Store"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Copied"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Copy link"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Download QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Feedback"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Settings"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR content"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Sorry, couldn't decode the QR"
+   }
+}

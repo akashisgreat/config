@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "Generate and scan QR Codes with one click! Simplify your online experience with quick and convenient QR Code interactions."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "Easy QR Code"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "Öppna URL-länken i en ny flik nu?"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "Avkoda QR-koden"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "Bakgrundsfärg"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "Data"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "Ladda ner QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "Ladda ner storlek"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "Felkorrigering"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "Förgrundsfärg"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "Ikon"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "Ikon Marginal"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "Ikonens URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "Lugn zon"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "Nollställa"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "Älskar du det här tillägget?"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "Ge mig en 5-stjärnig recension i"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "Sidan Alternativ"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Googles webbutik"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "Kopieras"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "Kopiera länk"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "Ladda ner QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "Feedback"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "Inställningar"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "QR-innehåll"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "Tyvärr, det gick inte att avkoda QR-koden"
+   }
+}

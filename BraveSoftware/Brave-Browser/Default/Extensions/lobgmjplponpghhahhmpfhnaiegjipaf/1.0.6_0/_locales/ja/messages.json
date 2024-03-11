@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "ワンクリックでQRコードを生成し、スキャン！素早く便利なQRコードの操作でオンラインエクスペリエンスを簡素化します。"
+   },
+   "appName": {
+      "description": "application name",
+      "message": "簡単なQR"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "リンクを新しいタブで開きますか？"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "このQRコードをスキャン"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "背景色"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "データ"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "QRコードをダウンロード"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "ダウンロードサイズ"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "誤り訂正レベル"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "前景色"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "アイコン"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "アイコンの余白"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "アイコンのURL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "空白エリア"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "リセット"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "このアプリが好きですか？"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "即座に5つ星の評価をして、他のユーザーに知らせましょう！"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "設定"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "Googleアプリストア"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "コピー成功"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "リンクをコピー"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "QRコードをダウンロード"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "フィードバック"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "設定"
+   },
+   "qrContent": {
+      "description": "scan qr error",
+      "message": "QRコードの内容"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "申し訳ありませんが、このQRコードは認識できません"
+   }
+}

@@ -1,0 +1,32 @@
+2024/03/11-09:28:55.995 1d83 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_zebpay.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/11-09:28:55.995 1d83 Recovering log #12
+2024/03/11-09:28:55.995 1d83 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_zebpay.com_0.indexeddb.leveldb/000012.log 
+2024/03/11-09:28:55.995 1d83 Delete type=2 #11
+2024/03/11-09:28:56.009 1d83 Level-0 table #17: started
+2024/03/11-09:28:56.012 1d83 Level-0 table #17: 9504 bytes OK
+2024/03/11-09:28:56.018 1d83 Delete type=0 #12
+2024/03/11-09:28:56.018 1d83 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 412 : 1
+2024/03/11-09:28:56.019 1d83 Compacting 1@0 + 1@1 files
+2024/03/11-09:28:56.024 1d83 Generated table #18@0: 80 keys, 3607 bytes
+2024/03/11-09:28:56.024 1d83 Compacted 1@0 + 1@1 files => 3607 bytes
+2024/03/11-09:28:56.028 1d83 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-09:28:56.029 1d83 Delete type=2 #17
+2024/03/11-09:28:56.030 1d83 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 412 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/11-09:28:57.052 1d83 Level-0 table #20: started
+2024/03/11-09:28:57.055 1d83 Level-0 table #20: 3185 bytes OK
+2024/03/11-09:28:57.059 1d83 Delete type=2 #14
+2024/03/11-09:28:57.059 1d83 Delete type=0 #16
+2024/03/11-09:28:57.060 1d83 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 469 : 1
+2024/03/11-09:28:57.060 1d83 Compacting 1@0 + 1@1 files
+2024/03/11-09:28:57.062 1d83 Generated table #21@0: 95 keys, 3805 bytes
+2024/03/11-09:28:57.062 1d83 Compacted 1@0 + 1@1 files => 3805 bytes
+2024/03/11-09:28:57.066 1d83 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-09:28:57.067 1d83 Delete type=2 #20
+2024/03/11-09:28:57.067 1d7f Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 469 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/11-09:29:22.108 1d80 Compacting 1@1 + 1@2 files
+2024/03/11-09:29:22.115 1d80 Generated table #22@1: 42 keys, 3026 bytes
+2024/03/11-09:29:22.115 1d80 Compacted 1@1 + 1@2 files => 3026 bytes
+2024/03/11-09:29:22.119 1d80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/11-09:29:22.120 1d80 Delete type=2 #21
+2024/03/11-09:29:22.120 1d80 Delete type=2 #18
+2024/03/11-09:29:22.120 1d80 Delete type=2 #8

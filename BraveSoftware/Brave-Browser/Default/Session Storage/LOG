@@ -1,0 +1,18 @@
+2024/03/11-15:59:36.842 4 Reusing MANIFEST /home/akash/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2024/03/11-15:59:36.844 4 Recovering log #53
+2024/03/11-15:59:36.845 4 Reusing old log /home/akash/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000053.log 
+2024/03/11-16:00:42.884 7 Level-0 table #57: started
+2024/03/11-16:00:42.914 7 Level-0 table #57: 477862 bytes OK
+2024/03/11-16:00:42.921 7 Delete type=0 #53
+2024/03/11-16:00:42.922 7 Compacting 4@0 + 1@1 files
+2024/03/11-16:00:42.960 7 Generated table #58@0: 1495 keys, 503931 bytes
+2024/03/11-16:00:42.960 7 Compacted 4@0 + 1@1 files => 503931 bytes
+2024/03/11-16:00:42.966 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/11-16:00:42.967 7 Delete type=2 #54
+2024/03/11-16:00:42.967 7 Delete type=2 #57
+2024/03/11-16:00:42.967 7 Delete type=2 #50
+2024/03/11-16:00:42.967 7 Delete type=2 #52
+2024/03/11-16:00:42.967 7 Delete type=2 #48
+2024/03/11-19:00:40.402 6 Level-0 table #60: started
+2024/03/11-19:00:40.414 6 Level-0 table #60: 503196 bytes OK
+2024/03/11-19:00:40.418 6 Delete type=0 #56

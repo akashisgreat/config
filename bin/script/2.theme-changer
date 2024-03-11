@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Path to the toggle state file in the .cache folder
+toggle_file="$HOME/.cache/theme.txt"
+
+# Check if the toggle file exists
+if [ -f "$toggle_file" ]; then
+    # If toggle file exists, read its content
+    state=$(cat "$toggle_file")
+else
+    # If toggle file doesn't exist, initialize it with DARK state
+    state="DARK"
+fi
+
+# Toggle the state
+if [ "$state" = "LIGHT" ]; then
+    state="DARK"
+    xfconf-query -c xsettings -p /Net/ThemeName -s "Adwaita-dark"
+    notify-send -r 1 "Dark mode!"
+else
+    xfconf-query -c xsettings -p /Net/ThemeName -s "Adwaita"
+    state="LIGHT"
+
+    notify-send -r 1 "Light mode!"
+fi
+
+# Update the toggle file with the new state
+echo "$state" > "$toggle_file"
+
+# Print the current state
+echo "Toggle state: $state"

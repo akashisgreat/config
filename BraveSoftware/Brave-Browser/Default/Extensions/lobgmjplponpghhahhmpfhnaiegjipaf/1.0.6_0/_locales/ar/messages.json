@@ -1,0 +1,106 @@
+{
+   "appDesc": {
+      "description": "application description",
+      "message": "أنشئ وامسح الرموز الاستجابية بسهولة بنقرة واحدة! قم بتبسيط تجربتك عبر الإنترنت مع التفاعلات السريعة والمريحة لرموز الاستجابة السريعة."
+   },
+   "appName": {
+      "description": "application name",
+      "message": "إيزي QR"
+   },
+   "askOpenUrl": {
+      "description": "open url link now",
+      "message": "افتح رابط URL في علامة تبويب جديدة الآن؟"
+   },
+   "contextMenuScan": {
+      "description": "context menu scan qr",
+      "message": "فك شفرة ال كيو آر"
+   },
+   "optionsLabelBackgroundColor": {
+      "description": "options page label background color",
+      "message": "لون الخلفية"
+   },
+   "optionsLabelData": {
+      "description": "options page label data",
+      "message": "البيانات"
+   },
+   "optionsLabelDownload": {
+      "description": "options page button reset",
+      "message": "تنزيل QR"
+   },
+   "optionsLabelDownloadSize": {
+      "description": "options page label download size",
+      "message": "حجم التنزيل"
+   },
+   "optionsLabelErrorCorrectionLevel": {
+      "description": "options page label error correction level",
+      "message": "تصحيح الخطأ"
+   },
+   "optionsLabelForegroundColor": {
+      "description": "options page label foreground color",
+      "message": "لون الأمامية"
+   },
+   "optionsLabelIcon": {
+      "description": "options page label icon",
+      "message": "الأيقونة"
+   },
+   "optionsLabelIconMargin": {
+      "description": "options page label icon margin",
+      "message": "هامش الأيقونة"
+   },
+   "optionsLabelIconUrl": {
+      "description": "options page label icon url",
+      "message": "الأيقونة URL"
+   },
+   "optionsLabelQuiteZone": {
+      "description": "options page label quite zone",
+      "message": "منطقة تامة"
+   },
+   "optionsLabelReset": {
+      "description": "options page button reset",
+      "message": "إعادة الضبط"
+   },
+   "optionsLoveIt": {
+      "description": "options page label love it",
+      "message": "هل يعجبك هذا الامتداد؟"
+   },
+   "optionsReview": {
+      "description": "options page button reset",
+      "message": "أعطني مراجعة 5 نجوم"
+   },
+   "optionsTitle": {
+      "description": "options page title",
+      "message": "صفحة الخيارات"
+   },
+   "optionsWebstore": {
+      "description": "options page Google Web Store",
+      "message": "متجر جوجل للويب"
+   },
+   "popupCopied": {
+      "description": "copied message",
+      "message": "منسوخ"
+   },
+   "popupCopyBtn": {
+      "description": "copy link button label",
+      "message": "أنسخ الرابط"
+   },
+   "popupDownloadBtn": {
+      "description": "download QR button label",
+      "message": "تنزيل QR"
+   },
+   "popupFeedback": {
+      "description": "feedback",
+      "message": "التغذية المرتدة"
+   },
+   "popupSettings": {
+      "description": "settings",
+      "message": "الإعدادات"
+   },
+   "qrContent": {
+      "description": "decoded QR content",
+      "message": "محتوى الاستجابة السريعة"
+   },
+   "scanQrError": {
+      "description": "scan qr error",
+      "message": "آسف، لم أستطع فك شفرة الاستجابة السريعة"
+   }
+}
